@@ -1,0 +1,1433 @@
+{
+  "corpus_stats": {
+    "n_documents": 50,
+    "n_patients": 25,
+    "n_stays_per_patient": {
+      "0001": 2,
+      "0002": 2,
+      "0003": 2,
+      "0004": 2,
+      "0005": 2,
+      "0006": 2,
+      "0007": 2,
+      "0008": 2,
+      "0009": 2,
+      "0010": 2,
+      "0011": 2,
+      "0012": 2,
+      "0013": 2,
+      "0014": 2,
+      "0015": 2,
+      "0016": 2,
+      "0017": 2,
+      "0018": 2,
+      "0019": 2,
+      "0020": 2,
+      "0021": 2,
+      "0022": 2,
+      "0023": 2,
+      "0024": 2,
+      "0025": 2
+    },
+    "total_lines": 404,
+    "total_chars": 21411,
+    "total_words": 3236,
+    "avg_doc_length_lines": 8.08,
+    "avg_doc_length_chars": 428.22,
+    "vocabulary_size": 535,
+    "medical_term_frequencies": {
+      "disease_names": 59,
+      "serology": 72,
+      "inflammatory_markers": 47,
+      "dmards": 24,
+      "biologics": 24,
+      "jak_inhibitors": 0,
+      "joints": 2
+    },
+    "section_coverage": {
+      "history": 0.74,
+      "exam": 0.76,
+      "labs": 0.94,
+      "conclusion": 0.98,
+      "imaging": 0.38,
+      "treatment": 0.66
+    },
+    "date_patterns": [],
+    "completeness_score": 0.5584
+  },
+  "document_stats": [
+    {
+      "doc_id": "0001_S0001",
+      "n_lines": 10,
+      "n_chars": 1075,
+      "n_words": 151,
+      "n_sentences": 16,
+      "avg_line_length": 107.5,
+      "avg_word_length": 6.119205298013245,
+      "has_dates": false,
+      "n_dates": 0,
+      "n_numeric_values": 6,
+      "sections_detected": [
+        "history",
+        "exam",
+        "labs",
+        "conclusion"
+      ],
+      "medical_terms_count": {
+        "disease_names": 2,
+        "serology": 2,
+        "inflammatory_markers": 1,
+        "dmards": 1,
+        "biologics": 0,
+        "jak_inhibitors": 0,
+        "joints": 0
+      }
+    },
+    {
+      "doc_id": "0001_S0002",
+      "n_lines": 9,
+      "n_chars": 830,
+      "n_words": 114,
+      "n_sentences": 11,
+      "avg_line_length": 92.22222222222223,
+      "avg_word_length": 6.280701754385965,
+      "has_dates": false,
+      "n_dates": 0,
+      "n_numeric_values": 4,
+      "sections_detected": [
+        "history",
+        "labs",
+        "imaging",
+        "conclusion"
+      ],
+      "medical_terms_count": {
+        "disease_names": 1,
+        "serology": 0,
+        "inflammatory_markers": 1,
+        "dmards": 0,
+        "biologics": 2,
+        "jak_inhibitors": 0,
+        "joints": 0
+      }
+    },
+    {
+      "doc_id": "0002_S0003",
+      "n_lines": 11,
+      "n_chars": 798,
+      "n_words": 122,
+      "n_sentences": 14,
+      "avg_line_length": 72.54545454545455,
+      "avg_word_length": 5.540983606557377,
+      "has_dates": false,
+      "n_dates": 0,
+      "n_numeric_values": 6,
+      "sections_detected": [
+        "history",
+        "exam",
+        "labs",
+        "imaging",
+        "conclusion"
+      ],
+      "medical_terms_count": {
+        "disease_names": 2,
+        "serology": 2,
+        "inflammatory_markers": 1,
+        "dmards": 1,
+        "biologics": 0,
+        "jak_inhibitors": 0,
+        "joints": 0
+      }
+    },
+    {
+      "doc_id": "0002_S0004",
+      "n_lines": 9,
+      "n_chars": 696,
+      "n_words": 99,
+      "n_sentences": 10,
+      "avg_line_length": 77.33333333333333,
+      "avg_word_length": 6.03030303030303,
+      "has_dates": false,
+      "n_dates": 0,
+      "n_numeric_values": 5,
+      "sections_detected": [
+        "history",
+        "labs",
+        "conclusion"
+      ],
+      "medical_terms_count": {
+        "disease_names": 1,
+        "serology": 0,
+        "inflammatory_markers": 1,
+        "dmards": 0,
+        "biologics": 2,
+        "jak_inhibitors": 0,
+        "joints": 0
+      }
+    },
+    {
+      "doc_id": "0003_S0005",
+      "n_lines": 10,
+      "n_chars": 648,
+      "n_words": 100,
+      "n_sentences": 12,
+      "avg_line_length": 64.8,
+      "avg_word_length": 5.48,
+      "has_dates": false,
+      "n_dates": 0,
+      "n_numeric_values": 4,
+      "sections_detected": [
+        "history",
+        "exam",
+        "labs",
+        "imaging",
+        "treatment",
+        "conclusion"
+      ],
+      "medical_terms_count": {
+        "disease_names": 1,
+        "serology": 2,
+        "inflammatory_markers": 1,
+        "dmards": 0,
+        "biologics": 0,
+        "jak_inhibitors": 0,
+        "joints": 0
+      }
+    },
+    {
+      "doc_id": "0003_S0006",
+      "n_lines": 7,
+      "n_chars": 350,
+      "n_words": 44,
+      "n_sentences": 6,
+      "avg_line_length": 50.0,
+      "avg_word_length": 6.954545454545454,
+      "has_dates": false,
+      "n_dates": 0,
+      "n_numeric_values": 0,
+      "sections_detected": [
+        "history",
+        "treatment"
+      ],
+      "medical_terms_count": {
+        "disease_names": 1,
+        "serology": 2,
+        "inflammatory_markers": 0,
+        "dmards": 0,
+        "biologics": 0,
+        "jak_inhibitors": 0,
+        "joints": 2
+      }
+    },
+    {
+      "doc_id": "0004_S0007",
+      "n_lines": 8,
+      "n_chars": 580,
+      "n_words": 90,
+      "n_sentences": 8,
+      "avg_line_length": 72.5,
+      "avg_word_length": 5.444444444444445,
+      "has_dates": false,
+      "n_dates": 0,
+      "n_numeric_values": 4,
+      "sections_detected": [
+        "history",
+        "exam",
+        "labs",
+        "imaging",
+        "treatment",
+        "conclusion"
+      ],
+      "medical_terms_count": {
+        "disease_names": 2,
+        "serology": 2,
+        "inflammatory_markers": 1,
+        "dmards": 2,
+        "biologics": 0,
+        "jak_inhibitors": 0,
+        "joints": 0
+      }
+    },
+    {
+      "doc_id": "0004_S0008",
+      "n_lines": 9,
+      "n_chars": 502,
+      "n_words": 79,
+      "n_sentences": 8,
+      "avg_line_length": 55.77777777777778,
+      "avg_word_length": 5.3544303797468356,
+      "has_dates": false,
+      "n_dates": 0,
+      "n_numeric_values": 4,
+      "sections_detected": [
+        "history",
+        "labs",
+        "imaging",
+        "treatment",
+        "conclusion"
+      ],
+      "medical_terms_count": {
+        "disease_names": 2,
+        "serology": 2,
+        "inflammatory_markers": 1,
+        "dmards": 0,
+        "biologics": 1,
+        "jak_inhibitors": 0,
+        "joints": 0
+      }
+    },
+    {
+      "doc_id": "0005_S0009",
+      "n_lines": 8,
+      "n_chars": 531,
+      "n_words": 80,
+      "n_sentences": 8,
+      "avg_line_length": 66.375,
+      "avg_word_length": 5.6375,
+      "has_dates": false,
+      "n_dates": 0,
+      "n_numeric_values": 3,
+      "sections_detected": [
+        "history",
+        "exam",
+        "labs",
+        "treatment",
+        "conclusion"
+      ],
+      "medical_terms_count": {
+        "disease_names": 1,
+        "serology": 2,
+        "inflammatory_markers": 1,
+        "dmards": 0,
+        "biologics": 0,
+        "jak_inhibitors": 0,
+        "joints": 0
+      }
+    },
+    {
+      "doc_id": "0005_S0010",
+      "n_lines": 9,
+      "n_chars": 595,
+      "n_words": 79,
+      "n_sentences": 8,
+      "avg_line_length": 66.11111111111111,
+      "avg_word_length": 6.531645569620253,
+      "has_dates": false,
+      "n_dates": 0,
+      "n_numeric_values": 3,
+      "sections_detected": [
+        "history",
+        "labs",
+        "treatment",
+        "conclusion"
+      ],
+      "medical_terms_count": {
+        "disease_names": 1,
+        "serology": 0,
+        "inflammatory_markers": 1,
+        "dmards": 0,
+        "biologics": 2,
+        "jak_inhibitors": 0,
+        "joints": 0
+      }
+    },
+    {
+      "doc_id": "0006_S0011",
+      "n_lines": 9,
+      "n_chars": 522,
+      "n_words": 83,
+      "n_sentences": 9,
+      "avg_line_length": 58.0,
+      "avg_word_length": 5.289156626506024,
+      "has_dates": false,
+      "n_dates": 0,
+      "n_numeric_values": 4,
+      "sections_detected": [
+        "history",
+        "exam",
+        "labs",
+        "conclusion"
+      ],
+      "medical_terms_count": {
+        "disease_names": 1,
+        "serology": 2,
+        "inflammatory_markers": 1,
+        "dmards": 1,
+        "biologics": 0,
+        "jak_inhibitors": 0,
+        "joints": 0
+      }
+    },
+    {
+      "doc_id": "0006_S0012",
+      "n_lines": 8,
+      "n_chars": 342,
+      "n_words": 53,
+      "n_sentences": 7,
+      "avg_line_length": 42.75,
+      "avg_word_length": 5.452830188679245,
+      "has_dates": false,
+      "n_dates": 0,
+      "n_numeric_values": 3,
+      "sections_detected": [
+        "exam",
+        "labs",
+        "imaging",
+        "conclusion"
+      ],
+      "medical_terms_count": {
+        "disease_names": 1,
+        "serology": 2,
+        "inflammatory_markers": 1,
+        "dmards": 1,
+        "biologics": 0,
+        "jak_inhibitors": 0,
+        "joints": 0
+      }
+    },
+    {
+      "doc_id": "0007_S0013",
+      "n_lines": 9,
+      "n_chars": 520,
+      "n_words": 83,
+      "n_sentences": 9,
+      "avg_line_length": 57.77777777777778,
+      "avg_word_length": 5.265060240963855,
+      "has_dates": false,
+      "n_dates": 0,
+      "n_numeric_values": 4,
+      "sections_detected": [
+        "history",
+        "exam",
+        "labs",
+        "treatment",
+        "conclusion"
+      ],
+      "medical_terms_count": {
+        "disease_names": 1,
+        "serology": 3,
+        "inflammatory_markers": 1,
+        "dmards": 1,
+        "biologics": 0,
+        "jak_inhibitors": 0,
+        "joints": 0
+      }
+    },
+    {
+      "doc_id": "0007_S0014",
+      "n_lines": 7,
+      "n_chars": 276,
+      "n_words": 39,
+      "n_sentences": 6,
+      "avg_line_length": 39.42857142857143,
+      "avg_word_length": 6.076923076923077,
+      "has_dates": false,
+      "n_dates": 0,
+      "n_numeric_values": 2,
+      "sections_detected": [
+        "exam",
+        "labs",
+        "imaging",
+        "treatment",
+        "conclusion"
+      ],
+      "medical_terms_count": {
+        "disease_names": 1,
+        "serology": 1,
+        "inflammatory_markers": 1,
+        "dmards": 0,
+        "biologics": 0,
+        "jak_inhibitors": 0,
+        "joints": 0
+      }
+    },
+    {
+      "doc_id": "0008_S0015",
+      "n_lines": 8,
+      "n_chars": 510,
+      "n_words": 80,
+      "n_sentences": 8,
+      "avg_line_length": 63.75,
+      "avg_word_length": 5.375,
+      "has_dates": false,
+      "n_dates": 0,
+      "n_numeric_values": 3,
+      "sections_detected": [
+        "history",
+        "exam",
+        "labs",
+        "imaging",
+        "treatment",
+        "conclusion"
+      ],
+      "medical_terms_count": {
+        "disease_names": 2,
+        "serology": 2,
+        "inflammatory_markers": 1,
+        "dmards": 2,
+        "biologics": 0,
+        "jak_inhibitors": 0,
+        "joints": 0
+      }
+    },
+    {
+      "doc_id": "0008_S0016",
+      "n_lines": 9,
+      "n_chars": 530,
+      "n_words": 69,
+      "n_sentences": 8,
+      "avg_line_length": 58.888888888888886,
+      "avg_word_length": 6.681159420289855,
+      "has_dates": false,
+      "n_dates": 0,
+      "n_numeric_values": 4,
+      "sections_detected": [
+        "history",
+        "labs",
+        "conclusion"
+      ],
+      "medical_terms_count": {
+        "disease_names": 1,
+        "serology": 0,
+        "inflammatory_markers": 1,
+        "dmards": 0,
+        "biologics": 3,
+        "jak_inhibitors": 0,
+        "joints": 0
+      }
+    },
+    {
+      "doc_id": "0009_S0017",
+      "n_lines": 8,
+      "n_chars": 507,
+      "n_words": 78,
+      "n_sentences": 8,
+      "avg_line_length": 63.375,
+      "avg_word_length": 5.5,
+      "has_dates": false,
+      "n_dates": 0,
+      "n_numeric_values": 3,
+      "sections_detected": [
+        "history",
+        "exam",
+        "labs",
+        "treatment",
+        "conclusion"
+      ],
+      "medical_terms_count": {
+        "disease_names": 2,
+        "serology": 2,
+        "inflammatory_markers": 1,
+        "dmards": 2,
+        "biologics": 0,
+        "jak_inhibitors": 0,
+        "joints": 0
+      }
+    },
+    {
+      "doc_id": "0009_S0018",
+      "n_lines": 8,
+      "n_chars": 260,
+      "n_words": 41,
+      "n_sentences": 7,
+      "avg_line_length": 32.5,
+      "avg_word_length": 5.341463414634147,
+      "has_dates": false,
+      "n_dates": 0,
+      "n_numeric_values": 3,
+      "sections_detected": [
+        "exam",
+        "labs",
+        "imaging",
+        "conclusion"
+      ],
+      "medical_terms_count": {
+        "disease_names": 1,
+        "serology": 2,
+        "inflammatory_markers": 1,
+        "dmards": 0,
+        "biologics": 0,
+        "jak_inhibitors": 0,
+        "joints": 0
+      }
+    },
+    {
+      "doc_id": "0010_S0019",
+      "n_lines": 8,
+      "n_chars": 460,
+      "n_words": 74,
+      "n_sentences": 8,
+      "avg_line_length": 57.5,
+      "avg_word_length": 5.216216216216216,
+      "has_dates": false,
+      "n_dates": 0,
+      "n_numeric_values": 4,
+      "sections_detected": [
+        "history",
+        "exam",
+        "labs",
+        "conclusion"
+      ],
+      "medical_terms_count": {
+        "disease_names": 1,
+        "serology": 2,
+        "inflammatory_markers": 1,
+        "dmards": 1,
+        "biologics": 0,
+        "jak_inhibitors": 0,
+        "joints": 0
+      }
+    },
+    {
+      "doc_id": "0010_S0020",
+      "n_lines": 8,
+      "n_chars": 251,
+      "n_words": 41,
+      "n_sentences": 7,
+      "avg_line_length": 31.375,
+      "avg_word_length": 5.121951219512195,
+      "has_dates": false,
+      "n_dates": 0,
+      "n_numeric_values": 3,
+      "sections_detected": [
+        "exam",
+        "labs",
+        "imaging",
+        "treatment",
+        "conclusion"
+      ],
+      "medical_terms_count": {
+        "disease_names": 1,
+        "serology": 2,
+        "inflammatory_markers": 1,
+        "dmards": 0,
+        "biologics": 0,
+        "jak_inhibitors": 0,
+        "joints": 0
+      }
+    },
+    {
+      "doc_id": "0011_S0021",
+      "n_lines": 8,
+      "n_chars": 441,
+      "n_words": 70,
+      "n_sentences": 8,
+      "avg_line_length": 55.125,
+      "avg_word_length": 5.3,
+      "has_dates": false,
+      "n_dates": 0,
+      "n_numeric_values": 3,
+      "sections_detected": [
+        "history",
+        "exam",
+        "labs",
+        "treatment",
+        "conclusion"
+      ],
+      "medical_terms_count": {
+        "disease_names": 1,
+        "serology": 2,
+        "inflammatory_markers": 1,
+        "dmards": 0,
+        "biologics": 0,
+        "jak_inhibitors": 0,
+        "joints": 0
+      }
+    },
+    {
+      "doc_id": "0011_S0022",
+      "n_lines": 9,
+      "n_chars": 419,
+      "n_words": 58,
+      "n_sentences": 9,
+      "avg_line_length": 46.55555555555556,
+      "avg_word_length": 6.224137931034483,
+      "has_dates": false,
+      "n_dates": 0,
+      "n_numeric_values": 2,
+      "sections_detected": [
+        "history",
+        "labs",
+        "conclusion"
+      ],
+      "medical_terms_count": {
+        "disease_names": 1,
+        "serology": 0,
+        "inflammatory_markers": 1,
+        "dmards": 0,
+        "biologics": 2,
+        "jak_inhibitors": 0,
+        "joints": 0
+      }
+    },
+    {
+      "doc_id": "0012_S0023",
+      "n_lines": 8,
+      "n_chars": 463,
+      "n_words": 74,
+      "n_sentences": 8,
+      "avg_line_length": 57.875,
+      "avg_word_length": 5.256756756756757,
+      "has_dates": false,
+      "n_dates": 0,
+      "n_numeric_values": 3,
+      "sections_detected": [
+        "history",
+        "exam",
+        "labs",
+        "imaging",
+        "treatment",
+        "conclusion"
+      ],
+      "medical_terms_count": {
+        "disease_names": 2,
+        "serology": 2,
+        "inflammatory_markers": 1,
+        "dmards": 1,
+        "biologics": 0,
+        "jak_inhibitors": 0,
+        "joints": 0
+      }
+    },
+    {
+      "doc_id": "0012_S0024",
+      "n_lines": 6,
+      "n_chars": 176,
+      "n_words": 28,
+      "n_sentences": 5,
+      "avg_line_length": 29.333333333333332,
+      "avg_word_length": 5.285714285714286,
+      "has_dates": false,
+      "n_dates": 0,
+      "n_numeric_values": 1,
+      "sections_detected": [
+        "exam",
+        "labs",
+        "treatment",
+        "conclusion"
+      ],
+      "medical_terms_count": {
+        "disease_names": 0,
+        "serology": 0,
+        "inflammatory_markers": 1,
+        "dmards": 0,
+        "biologics": 0,
+        "jak_inhibitors": 0,
+        "joints": 0
+      }
+    },
+    {
+      "doc_id": "0013_S0025",
+      "n_lines": 8,
+      "n_chars": 483,
+      "n_words": 74,
+      "n_sentences": 8,
+      "avg_line_length": 60.375,
+      "avg_word_length": 5.527027027027027,
+      "has_dates": false,
+      "n_dates": 0,
+      "n_numeric_values": 3,
+      "sections_detected": [
+        "history",
+        "exam",
+        "labs",
+        "treatment",
+        "conclusion"
+      ],
+      "medical_terms_count": {
+        "disease_names": 2,
+        "serology": 2,
+        "inflammatory_markers": 1,
+        "dmards": 2,
+        "biologics": 0,
+        "jak_inhibitors": 0,
+        "joints": 0
+      }
+    },
+    {
+      "doc_id": "0013_S0026",
+      "n_lines": 8,
+      "n_chars": 250,
+      "n_words": 39,
+      "n_sentences": 7,
+      "avg_line_length": 31.25,
+      "avg_word_length": 5.410256410256411,
+      "has_dates": false,
+      "n_dates": 0,
+      "n_numeric_values": 3,
+      "sections_detected": [
+        "exam",
+        "labs",
+        "imaging",
+        "treatment",
+        "conclusion"
+      ],
+      "medical_terms_count": {
+        "disease_names": 1,
+        "serology": 2,
+        "inflammatory_markers": 1,
+        "dmards": 0,
+        "biologics": 0,
+        "jak_inhibitors": 0,
+        "joints": 0
+      }
+    },
+    {
+      "doc_id": "0014_S0027",
+      "n_lines": 8,
+      "n_chars": 441,
+      "n_words": 70,
+      "n_sentences": 8,
+      "avg_line_length": 55.125,
+      "avg_word_length": 5.3,
+      "has_dates": false,
+      "n_dates": 0,
+      "n_numeric_values": 3,
+      "sections_detected": [
+        "history",
+        "exam",
+        "labs",
+        "treatment",
+        "conclusion"
+      ],
+      "medical_terms_count": {
+        "disease_names": 1,
+        "serology": 2,
+        "inflammatory_markers": 1,
+        "dmards": 0,
+        "biologics": 0,
+        "jak_inhibitors": 0,
+        "joints": 0
+      }
+    },
+    {
+      "doc_id": "0014_S0028",
+      "n_lines": 8,
+      "n_chars": 281,
+      "n_words": 36,
+      "n_sentences": 7,
+      "avg_line_length": 35.125,
+      "avg_word_length": 6.805555555555555,
+      "has_dates": false,
+      "n_dates": 0,
+      "n_numeric_values": 0,
+      "sections_detected": [
+        "history",
+        "conclusion"
+      ],
+      "medical_terms_count": {
+        "disease_names": 1,
+        "serology": 0,
+        "inflammatory_markers": 0,
+        "dmards": 0,
+        "biologics": 2,
+        "jak_inhibitors": 0,
+        "joints": 0
+      }
+    },
+    {
+      "doc_id": "0015_S0029",
+      "n_lines": 8,
+      "n_chars": 458,
+      "n_words": 73,
+      "n_sentences": 8,
+      "avg_line_length": 57.25,
+      "avg_word_length": 5.273972602739726,
+      "has_dates": false,
+      "n_dates": 0,
+      "n_numeric_values": 3,
+      "sections_detected": [
+        "history",
+        "exam",
+        "labs",
+        "imaging",
+        "treatment",
+        "conclusion"
+      ],
+      "medical_terms_count": {
+        "disease_names": 2,
+        "serology": 2,
+        "inflammatory_markers": 1,
+        "dmards": 1,
+        "biologics": 0,
+        "jak_inhibitors": 0,
+        "joints": 0
+      }
+    },
+    {
+      "doc_id": "0015_S0030",
+      "n_lines": 6,
+      "n_chars": 162,
+      "n_words": 26,
+      "n_sentences": 5,
+      "avg_line_length": 27.0,
+      "avg_word_length": 5.230769230769231,
+      "has_dates": false,
+      "n_dates": 0,
+      "n_numeric_values": 1,
+      "sections_detected": [
+        "exam",
+        "labs",
+        "treatment",
+        "conclusion"
+      ],
+      "medical_terms_count": {
+        "disease_names": 0,
+        "serology": 0,
+        "inflammatory_markers": 1,
+        "dmards": 0,
+        "biologics": 0,
+        "jak_inhibitors": 0,
+        "joints": 0
+      }
+    },
+    {
+      "doc_id": "0016_S0031",
+      "n_lines": 8,
+      "n_chars": 451,
+      "n_words": 73,
+      "n_sentences": 8,
+      "avg_line_length": 56.375,
+      "avg_word_length": 5.178082191780822,
+      "has_dates": false,
+      "n_dates": 0,
+      "n_numeric_values": 4,
+      "sections_detected": [
+        "history",
+        "exam",
+        "labs",
+        "conclusion"
+      ],
+      "medical_terms_count": {
+        "disease_names": 1,
+        "serology": 2,
+        "inflammatory_markers": 1,
+        "dmards": 1,
+        "biologics": 0,
+        "jak_inhibitors": 0,
+        "joints": 0
+      }
+    },
+    {
+      "doc_id": "0016_S0032",
+      "n_lines": 8,
+      "n_chars": 241,
+      "n_words": 39,
+      "n_sentences": 7,
+      "avg_line_length": 30.125,
+      "avg_word_length": 5.17948717948718,
+      "has_dates": false,
+      "n_dates": 0,
+      "n_numeric_values": 3,
+      "sections_detected": [
+        "exam",
+        "labs",
+        "imaging",
+        "treatment",
+        "conclusion"
+      ],
+      "medical_terms_count": {
+        "disease_names": 1,
+        "serology": 2,
+        "inflammatory_markers": 1,
+        "dmards": 0,
+        "biologics": 0,
+        "jak_inhibitors": 0,
+        "joints": 0
+      }
+    },
+    {
+      "doc_id": "0017_S0033",
+      "n_lines": 8,
+      "n_chars": 438,
+      "n_words": 70,
+      "n_sentences": 8,
+      "avg_line_length": 54.75,
+      "avg_word_length": 5.257142857142857,
+      "has_dates": false,
+      "n_dates": 0,
+      "n_numeric_values": 3,
+      "sections_detected": [
+        "history",
+        "exam",
+        "labs",
+        "treatment",
+        "conclusion"
+      ],
+      "medical_terms_count": {
+        "disease_names": 1,
+        "serology": 2,
+        "inflammatory_markers": 1,
+        "dmards": 0,
+        "biologics": 0,
+        "jak_inhibitors": 0,
+        "joints": 0
+      }
+    },
+    {
+      "doc_id": "0017_S0034",
+      "n_lines": 8,
+      "n_chars": 342,
+      "n_words": 46,
+      "n_sentences": 7,
+      "avg_line_length": 42.75,
+      "avg_word_length": 6.434782608695652,
+      "has_dates": false,
+      "n_dates": 0,
+      "n_numeric_values": 2,
+      "sections_detected": [
+        "history",
+        "labs",
+        "conclusion"
+      ],
+      "medical_terms_count": {
+        "disease_names": 1,
+        "serology": 0,
+        "inflammatory_markers": 1,
+        "dmards": 0,
+        "biologics": 3,
+        "jak_inhibitors": 0,
+        "joints": 0
+      }
+    },
+    {
+      "doc_id": "0018_S0035",
+      "n_lines": 8,
+      "n_chars": 439,
+      "n_words": 70,
+      "n_sentences": 8,
+      "avg_line_length": 54.875,
+      "avg_word_length": 5.271428571428571,
+      "has_dates": false,
+      "n_dates": 0,
+      "n_numeric_values": 3,
+      "sections_detected": [
+        "history",
+        "exam",
+        "labs",
+        "imaging",
+        "treatment",
+        "conclusion"
+      ],
+      "medical_terms_count": {
+        "disease_names": 2,
+        "serology": 2,
+        "inflammatory_markers": 1,
+        "dmards": 1,
+        "biologics": 0,
+        "jak_inhibitors": 0,
+        "joints": 0
+      }
+    },
+    {
+      "doc_id": "0018_S0036",
+      "n_lines": 6,
+      "n_chars": 162,
+      "n_words": 26,
+      "n_sentences": 5,
+      "avg_line_length": 27.0,
+      "avg_word_length": 5.230769230769231,
+      "has_dates": false,
+      "n_dates": 0,
+      "n_numeric_values": 1,
+      "sections_detected": [
+        "exam",
+        "labs",
+        "treatment",
+        "conclusion"
+      ],
+      "medical_terms_count": {
+        "disease_names": 0,
+        "serology": 0,
+        "inflammatory_markers": 1,
+        "dmards": 0,
+        "biologics": 0,
+        "jak_inhibitors": 0,
+        "joints": 0
+      }
+    },
+    {
+      "doc_id": "0019_S0037",
+      "n_lines": 8,
+      "n_chars": 476,
+      "n_words": 73,
+      "n_sentences": 8,
+      "avg_line_length": 59.5,
+      "avg_word_length": 5.52054794520548,
+      "has_dates": false,
+      "n_dates": 0,
+      "n_numeric_values": 3,
+      "sections_detected": [
+        "history",
+        "exam",
+        "labs",
+        "treatment",
+        "conclusion"
+      ],
+      "medical_terms_count": {
+        "disease_names": 2,
+        "serology": 2,
+        "inflammatory_markers": 1,
+        "dmards": 2,
+        "biologics": 0,
+        "jak_inhibitors": 0,
+        "joints": 0
+      }
+    },
+    {
+      "doc_id": "0019_S0038",
+      "n_lines": 8,
+      "n_chars": 250,
+      "n_words": 39,
+      "n_sentences": 7,
+      "avg_line_length": 31.25,
+      "avg_word_length": 5.410256410256411,
+      "has_dates": false,
+      "n_dates": 0,
+      "n_numeric_values": 3,
+      "sections_detected": [
+        "exam",
+        "labs",
+        "imaging",
+        "treatment",
+        "conclusion"
+      ],
+      "medical_terms_count": {
+        "disease_names": 1,
+        "serology": 2,
+        "inflammatory_markers": 1,
+        "dmards": 0,
+        "biologics": 0,
+        "jak_inhibitors": 0,
+        "joints": 0
+      }
+    },
+    {
+      "doc_id": "0020_S0039",
+      "n_lines": 8,
+      "n_chars": 441,
+      "n_words": 70,
+      "n_sentences": 8,
+      "avg_line_length": 55.125,
+      "avg_word_length": 5.3,
+      "has_dates": false,
+      "n_dates": 0,
+      "n_numeric_values": 3,
+      "sections_detected": [
+        "history",
+        "exam",
+        "labs",
+        "treatment",
+        "conclusion"
+      ],
+      "medical_terms_count": {
+        "disease_names": 1,
+        "serology": 2,
+        "inflammatory_markers": 1,
+        "dmards": 0,
+        "biologics": 0,
+        "jak_inhibitors": 0,
+        "joints": 0
+      }
+    },
+    {
+      "doc_id": "0020_S0040",
+      "n_lines": 8,
+      "n_chars": 312,
+      "n_words": 43,
+      "n_sentences": 7,
+      "avg_line_length": 39.0,
+      "avg_word_length": 6.255813953488372,
+      "has_dates": false,
+      "n_dates": 0,
+      "n_numeric_values": 2,
+      "sections_detected": [
+        "history",
+        "labs",
+        "conclusion"
+      ],
+      "medical_terms_count": {
+        "disease_names": 1,
+        "serology": 0,
+        "inflammatory_markers": 1,
+        "dmards": 0,
+        "biologics": 2,
+        "jak_inhibitors": 0,
+        "joints": 0
+      }
+    },
+    {
+      "doc_id": "0021_S0041",
+      "n_lines": 8,
+      "n_chars": 451,
+      "n_words": 73,
+      "n_sentences": 8,
+      "avg_line_length": 56.375,
+      "avg_word_length": 5.178082191780822,
+      "has_dates": false,
+      "n_dates": 0,
+      "n_numeric_values": 4,
+      "sections_detected": [
+        "history",
+        "exam",
+        "labs",
+        "conclusion"
+      ],
+      "medical_terms_count": {
+        "disease_names": 1,
+        "serology": 2,
+        "inflammatory_markers": 1,
+        "dmards": 1,
+        "biologics": 0,
+        "jak_inhibitors": 0,
+        "joints": 0
+      }
+    },
+    {
+      "doc_id": "0021_S0042",
+      "n_lines": 8,
+      "n_chars": 241,
+      "n_words": 39,
+      "n_sentences": 7,
+      "avg_line_length": 30.125,
+      "avg_word_length": 5.17948717948718,
+      "has_dates": false,
+      "n_dates": 0,
+      "n_numeric_values": 3,
+      "sections_detected": [
+        "exam",
+        "labs",
+        "imaging",
+        "treatment",
+        "conclusion"
+      ],
+      "medical_terms_count": {
+        "disease_names": 1,
+        "serology": 2,
+        "inflammatory_markers": 1,
+        "dmards": 0,
+        "biologics": 0,
+        "jak_inhibitors": 0,
+        "joints": 0
+      }
+    },
+    {
+      "doc_id": "0022_S0043",
+      "n_lines": 8,
+      "n_chars": 432,
+      "n_words": 69,
+      "n_sentences": 8,
+      "avg_line_length": 54.0,
+      "avg_word_length": 5.260869565217392,
+      "has_dates": false,
+      "n_dates": 0,
+      "n_numeric_values": 3,
+      "sections_detected": [
+        "history",
+        "exam",
+        "labs",
+        "treatment",
+        "conclusion"
+      ],
+      "medical_terms_count": {
+        "disease_names": 1,
+        "serology": 2,
+        "inflammatory_markers": 1,
+        "dmards": 0,
+        "biologics": 0,
+        "jak_inhibitors": 0,
+        "joints": 0
+      }
+    },
+    {
+      "doc_id": "0022_S0044",
+      "n_lines": 8,
+      "n_chars": 342,
+      "n_words": 46,
+      "n_sentences": 7,
+      "avg_line_length": 42.75,
+      "avg_word_length": 6.434782608695652,
+      "has_dates": false,
+      "n_dates": 0,
+      "n_numeric_values": 2,
+      "sections_detected": [
+        "history",
+        "labs",
+        "conclusion"
+      ],
+      "medical_terms_count": {
+        "disease_names": 1,
+        "serology": 0,
+        "inflammatory_markers": 1,
+        "dmards": 0,
+        "biologics": 3,
+        "jak_inhibitors": 0,
+        "joints": 0
+      }
+    },
+    {
+      "doc_id": "0023_S0045",
+      "n_lines": 8,
+      "n_chars": 448,
+      "n_words": 71,
+      "n_sentences": 8,
+      "avg_line_length": 56.0,
+      "avg_word_length": 5.309859154929577,
+      "has_dates": false,
+      "n_dates": 0,
+      "n_numeric_values": 3,
+      "sections_detected": [
+        "history",
+        "exam",
+        "labs",
+        "imaging",
+        "treatment",
+        "conclusion"
+      ],
+      "medical_terms_count": {
+        "disease_names": 2,
+        "serology": 2,
+        "inflammatory_markers": 1,
+        "dmards": 1,
+        "biologics": 0,
+        "jak_inhibitors": 0,
+        "joints": 0
+      }
+    },
+    {
+      "doc_id": "0023_S0046",
+      "n_lines": 6,
+      "n_chars": 162,
+      "n_words": 26,
+      "n_sentences": 5,
+      "avg_line_length": 27.0,
+      "avg_word_length": 5.230769230769231,
+      "has_dates": false,
+      "n_dates": 0,
+      "n_numeric_values": 1,
+      "sections_detected": [
+        "exam",
+        "labs",
+        "treatment",
+        "conclusion"
+      ],
+      "medical_terms_count": {
+        "disease_names": 0,
+        "serology": 0,
+        "inflammatory_markers": 1,
+        "dmards": 0,
+        "biologics": 0,
+        "jak_inhibitors": 0,
+        "joints": 0
+      }
+    },
+    {
+      "doc_id": "0024_S0047",
+      "n_lines": 8,
+      "n_chars": 467,
+      "n_words": 72,
+      "n_sentences": 8,
+      "avg_line_length": 58.375,
+      "avg_word_length": 5.486111111111111,
+      "has_dates": false,
+      "n_dates": 0,
+      "n_numeric_values": 3,
+      "sections_detected": [
+        "history",
+        "exam",
+        "labs",
+        "treatment",
+        "conclusion"
+      ],
+      "medical_terms_count": {
+        "disease_names": 2,
+        "serology": 2,
+        "inflammatory_markers": 1,
+        "dmards": 2,
+        "biologics": 0,
+        "jak_inhibitors": 0,
+        "joints": 0
+      }
+    },
+    {
+      "doc_id": "0024_S0048",
+      "n_lines": 8,
+      "n_chars": 250,
+      "n_words": 39,
+      "n_sentences": 7,
+      "avg_line_length": 31.25,
+      "avg_word_length": 5.410256410256411,
+      "has_dates": false,
+      "n_dates": 0,
+      "n_numeric_values": 3,
+      "sections_detected": [
+        "exam",
+        "labs",
+        "imaging",
+        "treatment",
+        "conclusion"
+      ],
+      "medical_terms_count": {
+        "disease_names": 1,
+        "serology": 2,
+        "inflammatory_markers": 1,
+        "dmards": 0,
+        "biologics": 0,
+        "jak_inhibitors": 0,
+        "joints": 0
+      }
+    },
+    {
+      "doc_id": "0025_S0049",
+      "n_lines": 8,
+      "n_chars": 429,
+      "n_words": 69,
+      "n_sentences": 8,
+      "avg_line_length": 53.625,
+      "avg_word_length": 5.217391304347826,
+      "has_dates": false,
+      "n_dates": 0,
+      "n_numeric_values": 3,
+      "sections_detected": [
+        "history",
+        "exam",
+        "labs",
+        "treatment",
+        "conclusion"
+      ],
+      "medical_terms_count": {
+        "disease_names": 1,
+        "serology": 2,
+        "inflammatory_markers": 1,
+        "dmards": 0,
+        "biologics": 0,
+        "jak_inhibitors": 0,
+        "joints": 0
+      }
+    },
+    {
+      "doc_id": "0025_S0050",
+      "n_lines": 7,
+      "n_chars": 280,
+      "n_words": 36,
+      "n_sentences": 7,
+      "avg_line_length": 40.0,
+      "avg_word_length": 6.805555555555555,
+      "has_dates": false,
+      "n_dates": 0,
+      "n_numeric_values": 0,
+      "sections_detected": [
+        "history",
+        "conclusion"
+      ],
+      "medical_terms_count": {
+        "disease_names": 1,
+        "serology": 0,
+        "inflammatory_markers": 0,
+        "dmards": 0,
+        "biologics": 2,
+        "jak_inhibitors": 0,
+        "joints": 0
+      }
+    }
+  ]
+}

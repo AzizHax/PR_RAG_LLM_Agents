@@ -1,0 +1,132 @@
+{
+  "component_scores": {
+    "joint_involvement": {
+      "score": 3,
+      "justification": "Multiple joint involvement is indicated by the mention of polyarthrite rhumatoïde (PR) and polyarthrite rhumatoïde. Additionally, rituximab, a biologic DMARD, indicates established RA with clear clinical picture."
+    },
+    "serology": {
+      "score": 0,
+      "justification": "Both RF and anti-CCP are negative (négatif). ULN values for these markers are not provided in the patient facts."
+    },
+    "acute_phase": {
+      "score": 1,
+      "justification": "CRP value is unknown, but the presence of rituximab, a biologic DMARD, indicates an acute phase."
+    },
+    "duration": {
+      "score": 0,
+      "justification": "No mention of chronic or long-standing disease. The patient's treatment with rituximab suggests established RA."
+    }
+  },
+  "acr_eular_total": 4,
+  "treatment_context": {
+    "has_dmard": true,
+    "treatment_strength": "strong",
+    "justification": "The patient is on rituximab, which is a bDMARD. This treatment suggests established RA and strengthens the classification."
+  },
+  "final_label": "RA+",
+  "classification_rationale": "The patient has multiple joint involvement as indicated by polyarthrite rhumatoïde mentions and rituximab treatment. Despite negative RF and anti-CCP, combined with clear clinical picture from rituximab use, the score is strong evidence of rheumatoid arthritis (RA). The presence of a biologic DMARD further supports this classification.",
+  "confidence": "high",
+  "patient_id": "0017",
+  "agent": "Agent2_LLM_Reasoning_BALANCED",
+  "retrieved_guidelines": [
+    {
+      "title": "Clinical Context",
+      "content": "Treatment patterns provide additional evidence:\n- Methotrexate (MTX) = first-line csDMARD\n- Biologic DMARDs (anti-TNF, anti-IL6, etc.) = established RA\n- JAK inhibitors = treatment-refractory RA\n\nIn clinical practice:\n- Score ≥6/10 = definite RA\n- Score 4-5/10 + DMARD treatment = probable established RA\n- Score ≥5/10 without treatment = borderline, likely RA",
+      "text": "Clinical Context Treatment patterns provide additional evidence:\n- Methotrexate (MTX) = first-line csDMARD\n- Biologic DMARDs (anti-TNF, anti-IL6, etc.) = established RA\n- JAK inhibitors = treatment-refractory RA\n\nIn clinical practice:\n- Score ≥6/10 = definite RA\n- Score 4-5/10 + DMARD treatment = probable established RA\n- Score ≥5/10 without treatment = borderline, likely RA",
+      "relevance_score": 4.683000883810066
+    },
+    {
+      "title": "Category B: Serology (0-3 points)",
+      "content": "- Negative RF AND negative ACPA: 0 points\n- Low-positive RF OR low-positive ACPA (≤3× ULN): 2 points\n- High-positive RF OR high-positive ACPA (>3× ULN): 3 points\n\nRF = Rheumatoid Factor\nACPA = Anti-citrullinated protein antibody (anti-CCP)\nULN = Upper limit of normal (typically RF: 20 IU/mL, anti-CCP: 10 U/mL)",
+      "text": "Category B: Serology (0-3 points) - Negative RF AND negative ACPA: 0 points\n- Low-positive RF OR low-positive ACPA (≤3× ULN): 2 points\n- High-positive RF OR high-positive ACPA (>3× ULN): 3 points\n\nRF = Rheumatoid Factor\nACPA = Anti-citrullinated protein antibody (anti-CCP)\nULN = Upper limit of normal (typically RF: 20 IU/mL, anti-CCP: 10 U/mL)",
+      "relevance_score": 3.7519987234196357
+    },
+    {
+      "title": "Category A: Joint Involvement (0-5 points)",
+      "content": "- 1 large joint: 0 points\n- 2-10 large joints: 1 point\n- 1-3 small joints (with or without large joints): 2 points\n- 4-10 small joints (with or without large joints): 3 points\n- >10 joints (at least 1 small joint): 5 points\n\nLarge joints: shoulders, elbows, hips, knees, ankles\nSmall joints: MCPs, PIPs, MTPs (2nd-5th), thumb IPs, wrists",
+      "text": "Category A: Joint Involvement (0-5 points) - 1 large joint: 0 points\n- 2-10 large joints: 1 point\n- 1-3 small joints (with or without large joints): 2 points\n- 4-10 small joints (with or without large joints): 3 points\n- >10 joints (at least 1 small joint): 5 points\n\nLarge joints: shoulders, elbows, hips, knees, ankles\nSmall joints: MCPs, PIPs, MTPs (2nd-5th), thumb IPs, wrists",
+      "relevance_score": 2.188326647736484
+    }
+  ],
+  "guideline_citation": "Aletaha D, et al. Arthritis Rheum. 2010;62(9):2569-2581",
+  "evidence_trace": [
+    {
+      "type": "disease_mention",
+      "stay_id": null,
+      "line_no": "005",
+      "snippet": "Diagnostic évoqué : arthrose, pas de PR."
+    },
+    {
+      "type": "disease_mention",
+      "stay_id": "S0033",
+      "line_no": 5,
+      "snippet": "Diagnostic évoqué : arthrose, pas de PR."
+    },
+    {
+      "type": "disease_mention",
+      "stay_id": null,
+      "line_no": "003",
+      "snippet": "Examen : plaques érythémateuses."
+    },
+    {
+      "type": "disease_mention",
+      "stay_id": null,
+      "line_no": "003",
+      "snippet": "Examen : plaques érythémateuses."
+    },
+    {
+      "type": "disease_mention",
+      "stay_id": null,
+      "line_no": "001",
+      "snippet": "Antécédents : PR traitée par rituximab."
+    },
+    {
+      "type": "disease_mention",
+      "stay_id": "S0034",
+      "line_no": 1,
+      "snippet": "Antécédents : PR traitée par rituximab."
+    },
+    {
+      "type": "lab",
+      "test": "CRP",
+      "stay_id": null,
+      "line_no": "003",
+      "snippet": "Laboratoire (J1) : CRP 8 mg/L"
+    },
+    {
+      "type": "lab",
+      "test": "RF",
+      "stay_id": null,
+      "line_no": "003",
+      "snippet": "Laboratoire (J1) : RF : négatif (9 UI/mL)"
+    },
+    {
+      "type": "lab",
+      "test": "anti-CCP",
+      "stay_id": null,
+      "line_no": "003",
+      "snippet": "Laboratoire (J1) : anti-CCP : négatif (<5 U/mL)"
+    },
+    {
+      "type": "lab",
+      "test": "RF",
+      "stay_id": null,
+      "line_no": "001",
+      "snippet": "Antécédents : PR traitée par rituximab."
+    },
+    {
+      "type": "lab",
+      "test": "anti-CCP/ACPA",
+      "stay_id": null,
+      "line_no": "001",
+      "snippet": "Antécédents : PR traitée par rituximab."
+    },
+    {
+      "type": "drug",
+      "name": "rituximab",
+      "stay_id": null,
+      "line_no": "001",
+      "snippet": "Antécédents : PR traitée par rituximab."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+SYSTEM:
+Tu es un extracteur d'information clinique. Tu dois produire UNIQUEMENT un JSON valide.
+Pas de texte autour. Pas d'explication.
+
+USER:
+Tâche: extraire des faits utiles pour phénotypage de polyarthrite rhumatoïde (PR) à partir d'un extrait de dossier.
+Règles:
+- Ne cite que des faits présents dans le texte.
+- Pour chaque fait, ajoute evidence: {stay_id, snippet}.
+- status pour PR: "confirmed" | "suspected" | "negated" | "mentioned".
+- labs: RF, anti-CCP/ACPA avec value: positive|negative|unknown.
+- drugs: methotrexate (MTX) et biologiques si présents.
+- JSON compact, pas plus de 20 faits.
+
+Input:
+stay_id = "{{STAY_ID}}"
+text = """{{TEXT_CHUNK}}"""
+
+Réponds avec:
+{
+  "stay_id": "...",
+  "disease_mentions": [...],
+  "labs": [...],
+  "drugs": [...]
+}

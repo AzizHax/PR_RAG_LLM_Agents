@@ -1,0 +1,158 @@
+{
+  "component_scores": {
+    "joint_involvement": {
+      "score": 5,
+      "justification": "Multiple large and small joints involved (hips, knees, ankles, MCPs, PIPs)"
+    },
+    "serology": {
+      "score": 2,
+      "justification": "Low-positive RF (value: négatif) AND low-positive anti-CCP (value: négatif)"
+    },
+    "acute_phase": {
+      "score": 1,
+      "justification": "CRP positive (value: 80 mg/L)"
+    },
+    "duration": {
+      "score": 0,
+      "justification": "Chronic mentioned, but no specific duration provided"
+    }
+  },
+  "acr_eular_total": 8,
+  "treatment_context": {
+    "has_dmard": false,
+    "treatment_strength": "none",
+    "justification": "No mention of DMARDs or biologic treatment."
+  },
+  "final_label": "RA−",
+  "classification_rationale": "While there is evidence of multiple joint involvement and acute phase markers (high CRP), the absence of confirmatory serology scores (low-positive RF and anti-CCP) leads to a negative classification. Given the clinical history, which includes positive rheumatoid factor and anti-citrullin antibodies, the patient meets the criteria for RA but does not meet the required serological confirmation.",
+  "confidence": "medium",
+  "patient_id": "0020",
+  "agent": "Agent2_LLM_Reasoning_BALANCED",
+  "retrieved_guidelines": [
+    {
+      "title": "Clinical Context",
+      "content": "Treatment patterns provide additional evidence:\n- Methotrexate (MTX) = first-line csDMARD\n- Biologic DMARDs (anti-TNF, anti-IL6, etc.) = established RA\n- JAK inhibitors = treatment-refractory RA\n\nIn clinical practice:\n- Score ≥6/10 = definite RA\n- Score 4-5/10 + DMARD treatment = probable established RA\n- Score ≥5/10 without treatment = borderline, likely RA",
+      "text": "Clinical Context Treatment patterns provide additional evidence:\n- Methotrexate (MTX) = first-line csDMARD\n- Biologic DMARDs (anti-TNF, anti-IL6, etc.) = established RA\n- JAK inhibitors = treatment-refractory RA\n\nIn clinical practice:\n- Score ≥6/10 = definite RA\n- Score 4-5/10 + DMARD treatment = probable established RA\n- Score ≥5/10 without treatment = borderline, likely RA",
+      "relevance_score": 4.683000883810066
+    },
+    {
+      "title": "Category B: Serology (0-3 points)",
+      "content": "- Negative RF AND negative ACPA: 0 points\n- Low-positive RF OR low-positive ACPA (≤3× ULN): 2 points\n- High-positive RF OR high-positive ACPA (>3× ULN): 3 points\n\nRF = Rheumatoid Factor\nACPA = Anti-citrullinated protein antibody (anti-CCP)\nULN = Upper limit of normal (typically RF: 20 IU/mL, anti-CCP: 10 U/mL)",
+      "text": "Category B: Serology (0-3 points) - Negative RF AND negative ACPA: 0 points\n- Low-positive RF OR low-positive ACPA (≤3× ULN): 2 points\n- High-positive RF OR high-positive ACPA (>3× ULN): 3 points\n\nRF = Rheumatoid Factor\nACPA = Anti-citrullinated protein antibody (anti-CCP)\nULN = Upper limit of normal (typically RF: 20 IU/mL, anti-CCP: 10 U/mL)",
+      "relevance_score": 3.7519987234196357
+    },
+    {
+      "title": "Category A: Joint Involvement (0-5 points)",
+      "content": "- 1 large joint: 0 points\n- 2-10 large joints: 1 point\n- 1-3 small joints (with or without large joints): 2 points\n- 4-10 small joints (with or without large joints): 3 points\n- >10 joints (at least 1 small joint): 5 points\n\nLarge joints: shoulders, elbows, hips, knees, ankles\nSmall joints: MCPs, PIPs, MTPs (2nd-5th), thumb IPs, wrists",
+      "text": "Category A: Joint Involvement (0-5 points) - 1 large joint: 0 points\n- 2-10 large joints: 1 point\n- 1-3 small joints (with or without large joints): 2 points\n- 4-10 small joints (with or without large joints): 3 points\n- >10 joints (at least 1 small joint): 5 points\n\nLarge joints: shoulders, elbows, hips, knees, ankles\nSmall joints: MCPs, PIPs, MTPs (2nd-5th), thumb IPs, wrists",
+      "relevance_score": 2.188326647736484
+    }
+  ],
+  "guideline_citation": "Aletaha D, et al. Arthritis Rheum. 2010;62(9):2569-2581",
+  "evidence_trace": [
+    {
+      "type": "disease_mention",
+      "stay_id": "005",
+      "line_no": "005",
+      "snippet": "Diagnostic évoqué : arthrose, pas de PR."
+    },
+    {
+      "type": "disease_mention",
+      "stay_id": "005",
+      "line_no": "005",
+      "snippet": "Diagnostic évoqué : arthrose, pas de PR."
+    },
+    {
+      "type": "disease_mention",
+      "stay_id": "003",
+      "line_no": "003",
+      "snippet": "Laboratoire (J1) : CRP 10 mg/L, VHS 20 mm/h, RF : négatif (10 UI/mL)"
+    },
+    {
+      "type": "disease_mention",
+      "stay_id": "003",
+      "line_no": "003",
+      "snippet": "Laboratoire (J1) : CRP 10 mg/L, VHS 20 mm/h, RF : négatif (10 UI/mL), anti-CCP : négatif (<5 U/mL)"
+    },
+    {
+      "type": "disease_mention",
+      "stay_id": "S0039",
+      "line_no": 5,
+      "snippet": "Diagnostic évoqué : arthrose, pas de PR."
+    },
+    {
+      "type": "disease_mention",
+      "stay_id": "",
+      "line_no": "007",
+      "snippet": ""
+    },
+    {
+      "type": "disease_mention",
+      "stay_id": "",
+      "line_no": "007",
+      "snippet": ""
+    },
+    {
+      "type": "disease_mention",
+      "stay_id": "S0040",
+      "line_no": 1,
+      "snippet": "Antécédents : PR traitée par adalimumab."
+    },
+    {
+      "type": "lab",
+      "test": "CRP",
+      "stay_id": "003",
+      "line_no": "003",
+      "snippet": "Laboratoire (J1) : CRP 10 mg/L, VHS 20 mm/h, RF : négatif (10 UI/mL), anti-CCP : négatif (<5 U/mL)"
+    },
+    {
+      "type": "lab",
+      "test": "VHS",
+      "stay_id": "003",
+      "line_no": "003",
+      "snippet": "Laboratoire (J1) : CRP 10 mg/L, VHS 20 mm/h, RF : négatif (10 UI/mL), anti-CCP : négatif (<5 U/mL)"
+    },
+    {
+      "type": "lab",
+      "test": "RF",
+      "stay_id": "003",
+      "line_no": "003",
+      "snippet": "Laboratoire (J1) : CRP 10 mg/L, VHS 20 mm/h, RF : négatif (10 UI/mL), anti-CCP : négatif (<5 U/mL)"
+    },
+    {
+      "type": "lab",
+      "test": "anti-CCP",
+      "stay_id": "003",
+      "line_no": "003",
+      "snippet": "Laboratoire (J1) : CRP 10 mg/L, VHS 20 mm/h, RF : négatif (10 UI/mL), anti-CCP : négatif (<5 U/mL)"
+    },
+    {
+      "type": "lab",
+      "test": "CRP",
+      "stay_id": "",
+      "line_no": "004",
+      "snippet": ""
+    },
+    {
+      "type": "drug",
+      "name": "paracétamol",
+      "stay_id": "001",
+      "line_no": "001",
+      "snippet": "Antécédents : arthrose, traitement par paracétamol."
+    },
+    {
+      "type": "drug",
+      "name": "adalimumab",
+      "stay_id": "",
+      "line_no": "001",
+      "snippet": ""
+    },
+    {
+      "type": "drug",
+      "name": "antibiotiques",
+      "stay_id": "",
+      "line_no": "006",
+      "snippet": ""
+    }
+  ]
+}

@@ -1,0 +1,1158 @@
+2026-01-29 10:34:35,206 | INFO | START | corpus=phantom_ehr_corpus.txt
+2026-01-29 10:34:35,220 | INFO | Corpus chars=25227 | patients=25
+2026-01-29 10:34:35,222 | INFO | [P1/25] pid=0001 stays=2
+2026-01-29 10:34:35,225 | INFO |   [S1/2] sid=S0001 dm=2 labs=2 drugs=1 t=0.00s
+2026-01-29 10:34:35,226 | INFO |   [S2/2] sid=S0002 dm=1 labs=0 drugs=2 t=0.00s
+2026-01-29 10:34:35,226 | INFO | [P1] done pid=0001 t=0.00s
+2026-01-29 10:34:35,227 | INFO | [P2/25] pid=0002 stays=2
+2026-01-29 10:34:35,228 | INFO |   [S1/2] sid=S0003 dm=2 labs=2 drugs=1 t=0.00s
+2026-01-29 10:34:35,229 | INFO |   [S2/2] sid=S0004 dm=1 labs=0 drugs=2 t=0.00s
+2026-01-29 10:34:35,230 | INFO | [P2] done pid=0002 t=0.00s
+2026-01-29 10:34:35,230 | INFO | [P3/25] pid=0003 stays=2
+2026-01-29 10:34:35,231 | INFO |   [S1/2] sid=S0005 dm=1 labs=2 drugs=0 t=0.00s
+2026-01-29 10:34:35,232 | INFO |   [S2/2] sid=S0006 dm=1 labs=2 drugs=0 t=0.00s
+2026-01-29 10:34:35,232 | INFO | [P3] done pid=0003 t=0.00s
+2026-01-29 10:34:35,232 | INFO | [P4/25] pid=0004 stays=2
+2026-01-29 10:34:35,233 | INFO |   [S1/2] sid=S0007 dm=2 labs=2 drugs=2 t=0.00s
+2026-01-29 10:34:35,234 | INFO |   [S2/2] sid=S0008 dm=1 labs=2 drugs=1 t=0.00s
+2026-01-29 10:34:35,235 | INFO | [P4] done pid=0004 t=0.00s
+2026-01-29 10:34:35,235 | INFO | [P5/25] pid=0005 stays=2
+2026-01-29 10:34:35,236 | INFO |   [S1/2] sid=S0009 dm=0 labs=2 drugs=0 t=0.00s
+2026-01-29 10:34:35,237 | INFO |   [S2/2] sid=S0010 dm=0 labs=0 drugs=2 t=0.00s
+2026-01-29 10:34:35,238 | INFO | [P5] done pid=0005 t=0.00s
+2026-01-29 10:34:35,238 | INFO | [P6/25] pid=0006 stays=2
+2026-01-29 10:34:35,239 | INFO |   [S1/2] sid=S0011 dm=1 labs=2 drugs=1 t=0.00s
+2026-01-29 10:34:35,239 | INFO |   [S2/2] sid=S0012 dm=1 labs=2 drugs=1 t=0.00s
+2026-01-29 10:34:35,240 | INFO | [P6] done pid=0006 t=0.00s
+2026-01-29 10:34:35,240 | INFO | [P7/25] pid=0007 stays=2
+2026-01-29 10:34:35,241 | INFO |   [S1/2] sid=S0013 dm=1 labs=3 drugs=1 t=0.00s
+2026-01-29 10:34:35,242 | INFO |   [S2/2] sid=S0014 dm=1 labs=1 drugs=0 t=0.00s
+2026-01-29 10:34:35,242 | INFO | [P7] done pid=0007 t=0.00s
+2026-01-29 10:34:35,242 | INFO | [P8/25] pid=0008 stays=2
+2026-01-29 10:34:35,243 | INFO |   [S1/2] sid=S0015 dm=1 labs=2 drugs=2 t=0.00s
+2026-01-29 10:34:35,244 | INFO |   [S2/2] sid=S0016 dm=0 labs=0 drugs=3 t=0.00s
+2026-01-29 10:34:35,244 | INFO | [P8] done pid=0008 t=0.00s
+2026-01-29 10:34:35,245 | INFO | [P9/25] pid=0009 stays=2
+2026-01-29 10:34:35,245 | INFO |   [S1/2] sid=S0017 dm=0 labs=2 drugs=2 t=0.00s
+2026-01-29 10:34:35,246 | INFO |   [S2/2] sid=S0018 dm=1 labs=2 drugs=0 t=0.00s
+2026-01-29 10:34:35,246 | INFO | [P9] done pid=0009 t=0.00s
+2026-01-29 10:34:35,247 | INFO | [P10/25] pid=0010 stays=2
+2026-01-29 10:34:35,247 | INFO |   [S1/2] sid=S0019 dm=0 labs=2 drugs=1 t=0.00s
+2026-01-29 10:34:35,248 | INFO |   [S2/2] sid=S0020 dm=1 labs=2 drugs=0 t=0.00s
+2026-01-29 10:34:35,248 | INFO | [P10] done pid=0010 t=0.00s
+2026-01-29 10:34:35,248 | INFO | [P11/25] pid=0011 stays=2
+2026-01-29 10:34:35,250 | INFO |   [S1/2] sid=S0021 dm=0 labs=2 drugs=0 t=0.00s
+2026-01-29 10:34:35,251 | INFO |   [S2/2] sid=S0022 dm=0 labs=0 drugs=2 t=0.00s
+2026-01-29 10:34:35,251 | INFO | [P11] done pid=0011 t=0.00s
+2026-01-29 10:34:35,251 | INFO | [P12/25] pid=0012 stays=2
+2026-01-29 10:34:35,252 | INFO |   [S1/2] sid=S0023 dm=1 labs=2 drugs=1 t=0.00s
+2026-01-29 10:34:35,253 | INFO |   [S2/2] sid=S0024 dm=0 labs=0 drugs=0 t=0.00s
+2026-01-29 10:34:35,253 | INFO | [P12] done pid=0012 t=0.00s
+2026-01-29 10:34:35,253 | INFO | [P13/25] pid=0013 stays=2
+2026-01-29 10:34:35,254 | INFO |   [S1/2] sid=S0025 dm=0 labs=2 drugs=2 t=0.00s
+2026-01-29 10:34:35,255 | INFO |   [S2/2] sid=S0026 dm=1 labs=2 drugs=0 t=0.00s
+2026-01-29 10:34:35,255 | INFO | [P13] done pid=0013 t=0.00s
+2026-01-29 10:34:35,255 | INFO | [P14/25] pid=0014 stays=2
+2026-01-29 10:34:35,256 | INFO |   [S1/2] sid=S0027 dm=0 labs=2 drugs=0 t=0.00s
+2026-01-29 10:34:35,257 | INFO |   [S2/2] sid=S0028 dm=0 labs=0 drugs=2 t=0.00s
+2026-01-29 10:34:35,257 | INFO | [P14] done pid=0014 t=0.00s
+2026-01-29 10:34:35,258 | INFO | [P15/25] pid=0015 stays=2
+2026-01-29 10:34:35,258 | INFO |   [S1/2] sid=S0029 dm=1 labs=2 drugs=1 t=0.00s
+2026-01-29 10:34:35,259 | INFO |   [S2/2] sid=S0030 dm=0 labs=0 drugs=0 t=0.00s
+2026-01-29 10:34:35,259 | INFO | [P15] done pid=0015 t=0.00s
+2026-01-29 10:34:35,259 | INFO | [P16/25] pid=0016 stays=2
+2026-01-29 10:34:35,260 | INFO |   [S1/2] sid=S0031 dm=0 labs=2 drugs=1 t=0.00s
+2026-01-29 10:34:35,261 | INFO |   [S2/2] sid=S0032 dm=1 labs=2 drugs=0 t=0.00s
+2026-01-29 10:34:35,261 | INFO | [P16] done pid=0016 t=0.00s
+2026-01-29 10:34:35,262 | INFO | [P17/25] pid=0017 stays=2
+2026-01-29 10:34:35,262 | INFO |   [S1/2] sid=S0033 dm=0 labs=2 drugs=0 t=0.00s
+2026-01-29 10:34:35,264 | INFO |   [S2/2] sid=S0034 dm=0 labs=0 drugs=3 t=0.00s
+2026-01-29 10:34:35,264 | INFO | [P17] done pid=0017 t=0.00s
+2026-01-29 10:34:35,265 | INFO | [P18/25] pid=0018 stays=2
+2026-01-29 10:34:35,266 | INFO |   [S1/2] sid=S0035 dm=1 labs=2 drugs=1 t=0.00s
+2026-01-29 10:34:35,266 | INFO |   [S2/2] sid=S0036 dm=0 labs=0 drugs=0 t=0.00s
+2026-01-29 10:34:35,267 | INFO | [P18] done pid=0018 t=0.00s
+2026-01-29 10:34:35,267 | INFO | [P19/25] pid=0019 stays=2
+2026-01-29 10:34:35,268 | INFO |   [S1/2] sid=S0037 dm=0 labs=2 drugs=2 t=0.00s
+2026-01-29 10:34:35,268 | INFO |   [S2/2] sid=S0038 dm=1 labs=2 drugs=0 t=0.00s
+2026-01-29 10:34:35,269 | INFO | [P19] done pid=0019 t=0.00s
+2026-01-29 10:34:35,269 | INFO | [P20/25] pid=0020 stays=2
+2026-01-29 10:34:35,270 | INFO |   [S1/2] sid=S0039 dm=0 labs=2 drugs=0 t=0.00s
+2026-01-29 10:34:35,271 | INFO |   [S2/2] sid=S0040 dm=0 labs=0 drugs=2 t=0.00s
+2026-01-29 10:34:35,271 | INFO | [P20] done pid=0020 t=0.00s
+2026-01-29 10:34:35,272 | INFO | [P21/25] pid=0021 stays=2
+2026-01-29 10:34:35,272 | INFO |   [S1/2] sid=S0041 dm=0 labs=2 drugs=1 t=0.00s
+2026-01-29 10:34:35,273 | INFO |   [S2/2] sid=S0042 dm=1 labs=2 drugs=0 t=0.00s
+2026-01-29 10:34:35,273 | INFO | [P21] done pid=0021 t=0.00s
+2026-01-29 10:34:35,273 | INFO | [P22/25] pid=0022 stays=2
+2026-01-29 10:34:35,274 | INFO |   [S1/2] sid=S0043 dm=0 labs=2 drugs=0 t=0.00s
+2026-01-29 10:34:35,275 | INFO |   [S2/2] sid=S0044 dm=0 labs=0 drugs=3 t=0.00s
+2026-01-29 10:34:35,275 | INFO | [P22] done pid=0022 t=0.00s
+2026-01-29 10:34:35,275 | INFO | [P23/25] pid=0023 stays=2
+2026-01-29 10:34:35,276 | INFO |   [S1/2] sid=S0045 dm=1 labs=2 drugs=1 t=0.00s
+2026-01-29 10:34:35,276 | INFO |   [S2/2] sid=S0046 dm=0 labs=0 drugs=0 t=0.00s
+2026-01-29 10:34:35,276 | INFO | [P23] done pid=0023 t=0.00s
+2026-01-29 10:34:35,277 | INFO | [P24/25] pid=0024 stays=2
+2026-01-29 10:34:35,278 | INFO |   [S1/2] sid=S0047 dm=0 labs=2 drugs=2 t=0.00s
+2026-01-29 10:34:35,278 | INFO |   [S2/2] sid=S0048 dm=1 labs=2 drugs=0 t=0.00s
+2026-01-29 10:34:35,278 | INFO | [P24] done pid=0024 t=0.00s
+2026-01-29 10:34:35,279 | INFO | [P25/25] pid=0025 stays=2
+2026-01-29 10:34:35,279 | INFO |   [S1/2] sid=S0049 dm=0 labs=2 drugs=0 t=0.00s
+2026-01-29 10:34:35,280 | INFO |   [S2/2] sid=S0050 dm=0 labs=0 drugs=2 t=0.00s
+2026-01-29 10:34:35,280 | INFO | [P25] done pid=0025 t=0.00s
+2026-01-29 10:34:35,281 | INFO | END | total_t=0.07s
+2026-01-29 10:34:35,281 | INFO | Outputs: facts_agent1_patient.jsonl | facts_agent1_stay.jsonl
+2026-01-29 10:34:35,281 | INFO | Patient bytes=33028 | Stay bytes=38506
+2026-01-29 10:42:10,932 | INFO | START | corpus=phantom_ehr_corpus.txt | use_llm=True
+2026-01-29 10:42:10,932 | INFO | LLM Ollama initialisé: qwen2.5:3b-instruct
+2026-01-29 10:42:10,934 | INFO | Corpus chars=25227 | patients=25
+2026-01-29 10:42:10,937 | INFO | [P1/25] pid=0001 stays=2
+2026-01-29 10:42:14,357 | INFO |   [S1/2] sid=S0001 dm=2 labs=2 drugs=1 t=3.42s
+2026-01-29 10:42:17,572 | INFO |   [S2/2] sid=S0002 dm=1 labs=0 drugs=2 t=3.21s
+2026-01-29 10:42:17,573 | INFO | [P1] done pid=0001 t=6.64s
+2026-01-29 10:42:17,574 | INFO | [P2/25] pid=0002 stays=2
+2026-01-29 10:42:20,869 | INFO |   [S1/2] sid=S0003 dm=2 labs=2 drugs=1 t=3.29s
+2026-01-29 10:42:23,908 | INFO |   [S2/2] sid=S0004 dm=1 labs=0 drugs=2 t=3.04s
+2026-01-29 10:42:23,908 | INFO | [P2] done pid=0002 t=6.33s
+2026-01-29 10:42:23,909 | INFO | [P3/25] pid=0003 stays=2
+2026-01-29 10:42:27,154 | INFO |   [S1/2] sid=S0005 dm=1 labs=2 drugs=0 t=3.24s
+2026-01-29 10:42:30,314 | INFO |   [S2/2] sid=S0006 dm=1 labs=2 drugs=0 t=3.16s
+2026-01-29 10:42:30,314 | INFO | [P3] done pid=0003 t=6.41s
+2026-01-29 10:42:30,314 | INFO | [P4/25] pid=0004 stays=2
+2026-01-29 10:42:33,586 | INFO |   [S1/2] sid=S0007 dm=2 labs=2 drugs=2 t=3.27s
+2026-01-29 10:42:37,606 | INFO |   [S2/2] sid=S0008 dm=1 labs=2 drugs=1 t=4.02s
+2026-01-29 10:42:37,607 | INFO | [P4] done pid=0004 t=7.29s
+2026-01-29 10:42:37,607 | INFO | [P5/25] pid=0005 stays=2
+2026-01-29 10:42:41,108 | INFO |   [S1/2] sid=S0009 dm=0 labs=2 drugs=0 t=3.50s
+2026-01-29 10:42:44,384 | INFO |   [S2/2] sid=S0010 dm=0 labs=0 drugs=2 t=3.28s
+2026-01-29 10:42:44,384 | INFO | [P5] done pid=0005 t=6.78s
+2026-01-29 10:42:44,384 | INFO | [P6/25] pid=0006 stays=2
+2026-01-29 10:42:48,989 | INFO |   [S1/2] sid=S0011 dm=1 labs=2 drugs=1 t=4.60s
+2026-01-29 10:42:52,531 | INFO |   [S2/2] sid=S0012 dm=1 labs=2 drugs=1 t=3.54s
+2026-01-29 10:42:52,531 | INFO | [P6] done pid=0006 t=8.15s
+2026-01-29 10:42:52,531 | INFO | [P7/25] pid=0007 stays=2
+2026-01-29 10:42:55,752 | INFO |   [S1/2] sid=S0013 dm=1 labs=3 drugs=1 t=3.22s
+2026-01-29 10:42:59,280 | INFO |   [S2/2] sid=S0014 dm=1 labs=1 drugs=0 t=3.53s
+2026-01-29 10:42:59,280 | INFO | [P7] done pid=0007 t=6.75s
+2026-01-29 10:42:59,280 | INFO | [P8/25] pid=0008 stays=2
+2026-01-29 10:43:02,928 | INFO |   [S1/2] sid=S0015 dm=1 labs=2 drugs=2 t=3.65s
+2026-01-29 10:43:06,226 | INFO |   [S2/2] sid=S0016 dm=0 labs=0 drugs=3 t=3.30s
+2026-01-29 10:43:06,226 | INFO | [P8] done pid=0008 t=6.95s
+2026-01-29 10:43:06,226 | INFO | [P9/25] pid=0009 stays=2
+2026-01-29 10:43:09,412 | INFO |   [S1/2] sid=S0017 dm=0 labs=2 drugs=2 t=3.19s
+2026-01-29 10:43:12,487 | INFO |   [S2/2] sid=S0018 dm=1 labs=2 drugs=0 t=3.07s
+2026-01-29 10:43:12,487 | INFO | [P9] done pid=0009 t=6.26s
+2026-01-29 10:43:12,487 | INFO | [P10/25] pid=0010 stays=2
+2026-01-29 10:43:16,967 | INFO |   [S1/2] sid=S0019 dm=0 labs=2 drugs=1 t=4.48s
+2026-01-29 10:43:20,683 | INFO |   [S2/2] sid=S0020 dm=1 labs=2 drugs=0 t=3.72s
+2026-01-29 10:43:20,684 | INFO | [P10] done pid=0010 t=8.20s
+2026-01-29 10:43:20,684 | INFO | [P11/25] pid=0011 stays=2
+2026-01-29 10:43:23,848 | INFO |   [S1/2] sid=S0021 dm=0 labs=2 drugs=0 t=3.16s
+2026-01-29 10:43:27,641 | INFO |   [S2/2] sid=S0022 dm=0 labs=0 drugs=2 t=3.79s
+2026-01-29 10:43:27,641 | INFO | [P11] done pid=0011 t=6.96s
+2026-01-29 10:43:27,641 | INFO | [P12/25] pid=0012 stays=2
+2026-01-29 10:43:31,142 | INFO |   [S1/2] sid=S0023 dm=1 labs=2 drugs=1 t=3.50s
+2026-01-29 10:43:31,142 | INFO |   [S2/2] sid=S0024 dm=0 labs=0 drugs=0 t=0.00s
+2026-01-29 10:43:31,143 | INFO | [P12] done pid=0012 t=3.50s
+2026-01-29 10:43:31,143 | INFO | [P13/25] pid=0013 stays=2
+2026-01-29 10:43:34,407 | INFO |   [S1/2] sid=S0025 dm=0 labs=2 drugs=2 t=3.26s
+2026-01-29 10:43:37,932 | INFO |   [S2/2] sid=S0026 dm=1 labs=2 drugs=0 t=3.53s
+2026-01-29 10:43:37,933 | INFO | [P13] done pid=0013 t=6.79s
+2026-01-29 10:43:37,933 | INFO | [P14/25] pid=0014 stays=2
+2026-01-29 10:43:41,173 | INFO |   [S1/2] sid=S0027 dm=0 labs=2 drugs=0 t=3.24s
+2026-01-29 10:43:44,498 | INFO |   [S2/2] sid=S0028 dm=0 labs=0 drugs=2 t=3.32s
+2026-01-29 10:43:44,498 | INFO | [P14] done pid=0014 t=6.57s
+2026-01-29 10:43:44,499 | INFO | [P15/25] pid=0015 stays=2
+2026-01-29 10:43:48,088 | INFO |   [S1/2] sid=S0029 dm=1 labs=2 drugs=1 t=3.59s
+2026-01-29 10:43:48,088 | INFO |   [S2/2] sid=S0030 dm=0 labs=0 drugs=0 t=0.00s
+2026-01-29 10:43:48,088 | INFO | [P15] done pid=0015 t=3.59s
+2026-01-29 10:43:48,088 | INFO | [P16/25] pid=0016 stays=2
+2026-01-29 10:43:51,286 | INFO |   [S1/2] sid=S0031 dm=0 labs=2 drugs=1 t=3.20s
+2026-01-29 10:43:54,432 | INFO |   [S2/2] sid=S0032 dm=1 labs=2 drugs=0 t=3.15s
+2026-01-29 10:43:54,433 | INFO | [P16] done pid=0016 t=6.34s
+2026-01-29 10:43:54,433 | INFO | [P17/25] pid=0017 stays=2
+2026-01-29 10:43:57,542 | INFO |   [S1/2] sid=S0033 dm=0 labs=2 drugs=0 t=3.11s
+2026-01-29 10:44:01,529 | INFO |   [S2/2] sid=S0034 dm=0 labs=0 drugs=3 t=3.99s
+2026-01-29 10:44:01,529 | INFO | [P17] done pid=0017 t=7.10s
+2026-01-29 10:44:01,529 | INFO | [P18/25] pid=0018 stays=2
+2026-01-29 10:44:05,085 | INFO |   [S1/2] sid=S0035 dm=1 labs=2 drugs=1 t=3.56s
+2026-01-29 10:44:05,086 | INFO |   [S2/2] sid=S0036 dm=0 labs=0 drugs=0 t=0.00s
+2026-01-29 10:44:05,087 | INFO | [P18] done pid=0018 t=3.56s
+2026-01-29 10:44:05,087 | INFO | [P19/25] pid=0019 stays=2
+2026-01-29 10:44:08,348 | INFO |   [S1/2] sid=S0037 dm=0 labs=2 drugs=2 t=3.26s
+2026-01-29 10:44:11,877 | INFO |   [S2/2] sid=S0038 dm=1 labs=2 drugs=0 t=3.53s
+2026-01-29 10:44:11,877 | INFO | [P19] done pid=0019 t=6.79s
+2026-01-29 10:44:11,877 | INFO | [P20/25] pid=0020 stays=2
+2026-01-29 10:44:15,153 | INFO |   [S1/2] sid=S0039 dm=0 labs=2 drugs=0 t=3.28s
+2026-01-29 10:44:18,334 | INFO |   [S2/2] sid=S0040 dm=0 labs=0 drugs=2 t=3.18s
+2026-01-29 10:44:18,334 | INFO | [P20] done pid=0020 t=6.46s
+2026-01-29 10:44:18,335 | INFO | [P21/25] pid=0021 stays=2
+2026-01-29 10:44:21,549 | INFO |   [S1/2] sid=S0041 dm=0 labs=2 drugs=1 t=3.21s
+2026-01-29 10:44:24,653 | INFO |   [S2/2] sid=S0042 dm=1 labs=2 drugs=0 t=3.10s
+2026-01-29 10:44:24,653 | INFO | [P21] done pid=0021 t=6.32s
+2026-01-29 10:44:24,654 | INFO | [P22/25] pid=0022 stays=2
+2026-01-29 10:44:27,765 | INFO |   [S1/2] sid=S0043 dm=0 labs=2 drugs=0 t=3.11s
+2026-01-29 10:44:30,945 | INFO |   [S2/2] sid=S0044 dm=0 labs=0 drugs=3 t=3.18s
+2026-01-29 10:44:30,945 | INFO | [P22] done pid=0022 t=6.29s
+2026-01-29 10:44:30,946 | INFO | [P23/25] pid=0023 stays=2
+2026-01-29 10:44:34,503 | INFO |   [S1/2] sid=S0045 dm=1 labs=2 drugs=1 t=3.56s
+2026-01-29 10:44:34,504 | INFO |   [S2/2] sid=S0046 dm=0 labs=0 drugs=0 t=0.00s
+2026-01-29 10:44:34,504 | INFO | [P23] done pid=0023 t=3.56s
+2026-01-29 10:44:34,504 | INFO | [P24/25] pid=0024 stays=2
+2026-01-29 10:44:37,765 | INFO |   [S1/2] sid=S0047 dm=0 labs=2 drugs=2 t=3.26s
+2026-01-29 10:44:40,853 | INFO |   [S2/2] sid=S0048 dm=1 labs=2 drugs=0 t=3.09s
+2026-01-29 10:44:40,853 | INFO | [P24] done pid=0024 t=6.35s
+2026-01-29 10:44:40,853 | INFO | [P25/25] pid=0025 stays=2
+2026-01-29 10:44:43,964 | INFO |   [S1/2] sid=S0049 dm=0 labs=2 drugs=0 t=3.11s
+2026-01-29 10:44:47,244 | INFO |   [S2/2] sid=S0050 dm=0 labs=0 drugs=2 t=3.28s
+2026-01-29 10:44:47,244 | INFO | [P25] done pid=0025 t=6.39s
+2026-01-29 10:44:47,244 | INFO | END | total_t=156.31s
+2026-01-29 10:44:47,244 | INFO | Outputs: facts_agent1_patient.jsonl | facts_agent1_stay.jsonl
+2026-01-29 10:44:47,245 | INFO | Patient bytes=32828 | Stay bytes=46899
+2026-01-29 11:01:41,547 | INFO | START | corpus=phantom_ehr_corpus.txt
+2026-01-29 11:01:41,548 | INFO | OUT patient=facts_agent1_patient.jsonl
+2026-01-29 11:01:41,548 | INFO | OUT stay   =facts_agent1_stay.jsonl
+2026-01-29 11:01:41,549 | INFO | patients_found=25 | corpus_chars=25227
+2026-01-29 11:01:41,550 | INFO | [P1/25] pid=0001 stays=2
+2026-01-29 11:01:41,550 | INFO |   [S1/2] sid=S0001
+2026-01-29 11:01:41,550 | INFO |     prefilter_lines=10 (anchor_window=2)
+2026-01-29 11:01:41,552 | INFO |     bm25_topk=3 | rag_score_max=0.31 | sum_top3=0.11
+2026-01-29 11:01:49,411 | INFO |     LLM ok attempt=1 | llm_t=7.86s
+2026-01-29 11:01:49,411 | INFO |     extracted dm=1 labs=0 drugs=1 | rag_max=0.31 | stay_t=7.861s
+2026-01-29 11:01:49,462 | INFO |   [S2/2] sid=S0002
+2026-01-29 11:01:49,463 | INFO |     prefilter_lines=8 (anchor_window=2)
+2026-01-29 11:01:49,463 | INFO |     bm25_topk=2 | rag_score_max=0.00 | sum_top3=0.00
+2026-01-29 11:01:54,407 | INFO |     LLM ok attempt=1 | llm_t=4.94s
+2026-01-29 11:01:54,407 | INFO |     extracted dm=1 labs=0 drugs=1 | rag_max=0.0 | stay_t=4.945s
+2026-01-29 11:01:54,458 | INFO | [P1] done pid=0001 t=12.91s
+2026-01-29 11:01:54,458 | INFO | [P2/25] pid=0002 stays=2
+2026-01-29 11:01:54,459 | INFO |   [S1/2] sid=S0003
+2026-01-29 11:01:54,459 | INFO |     prefilter_lines=11 (anchor_window=2)
+2026-01-29 11:01:54,460 | INFO |     bm25_topk=3 | rag_score_max=0.27 | sum_top3=-0.42
+2026-01-29 11:01:58,924 | INFO |     LLM ok attempt=1 | llm_t=4.46s
+2026-01-29 11:01:58,924 | INFO |     extracted dm=1 labs=0 drugs=1 | rag_max=0.268 | stay_t=4.466s
+2026-01-29 11:01:58,975 | INFO |   [S2/2] sid=S0004
+2026-01-29 11:01:58,975 | INFO |     prefilter_lines=8 (anchor_window=2)
+2026-01-29 11:01:58,975 | INFO |     bm25_topk=2 | rag_score_max=0.00 | sum_top3=0.00
+2026-01-29 11:02:03,392 | INFO |     LLM ok attempt=1 | llm_t=4.42s
+2026-01-29 11:02:03,392 | INFO |     extracted dm=1 labs=0 drugs=1 | rag_max=0.0 | stay_t=4.417s
+2026-01-29 11:02:03,443 | INFO | [P2] done pid=0002 t=8.99s
+2026-01-29 11:02:03,467 | INFO | [P3/25] pid=0003 stays=2
+2026-01-29 11:02:03,469 | INFO |   [S1/2] sid=S0005
+2026-01-29 11:02:03,470 | INFO |     prefilter_lines=7 (anchor_window=2)
+2026-01-29 11:02:03,471 | INFO |     bm25_topk=2 | rag_score_max=-0.75 | sum_top3=-1.75
+2026-01-29 11:02:08,911 | WARNING |     LLM fail attempt=1 | llm_t=5.44s | err=Expecting ',' delimiter: line 10 column 107 (char 484)
+2026-01-29 11:02:14,374 | WARNING |     LLM fail attempt=2 | llm_t=5.36s | err=Expecting ',' delimiter: line 10 column 107 (char 484)
+2026-01-29 11:02:14,475 | INFO |     extracted dm=1 labs=2 drugs=0 | rag_max=-0.749 | stay_t=11.005s
+2026-01-29 11:02:14,526 | INFO |   [S2/2] sid=S0006
+2026-01-29 11:02:14,526 | INFO |     prefilter_lines=6 (anchor_window=2)
+2026-01-29 11:02:14,529 | INFO |     bm25_topk=1 | rag_score_max=-1.65 | sum_top3=-1.65
+2026-01-29 11:02:18,097 | INFO |     LLM ok attempt=1 | llm_t=3.57s
+2026-01-29 11:02:18,097 | INFO |     extracted dm=1 labs=0 drugs=0 | rag_max=-1.648 | stay_t=3.571s
+2026-01-29 11:02:18,149 | INFO | [P3] done pid=0003 t=14.68s
+2026-01-29 11:02:18,149 | INFO | [P4/25] pid=0004 stays=2
+2026-01-29 11:02:18,150 | INFO |   [S1/2] sid=S0007
+2026-01-29 11:02:18,150 | INFO |     prefilter_lines=8 (anchor_window=2)
+2026-01-29 11:02:18,151 | INFO |     bm25_topk=2 | rag_score_max=-1.21 | sum_top3=-2.63
+2026-01-29 11:02:23,276 | INFO |     LLM ok attempt=1 | llm_t=5.13s
+2026-01-29 11:02:23,276 | INFO |     extracted dm=1 labs=0 drugs=2 | rag_max=-1.205 | stay_t=5.127s
+2026-01-29 11:02:23,328 | INFO |   [S2/2] sid=S0008
+2026-01-29 11:02:23,328 | INFO |     prefilter_lines=8 (anchor_window=2)
+2026-01-29 11:02:23,329 | INFO |     bm25_topk=2 | rag_score_max=-0.51 | sum_top3=-1.11
+2026-01-29 11:02:26,920 | INFO |     LLM ok attempt=1 | llm_t=3.59s
+2026-01-29 11:02:26,920 | INFO |     extracted dm=1 labs=0 drugs=0 | rag_max=-0.513 | stay_t=3.592s
+2026-01-29 11:02:26,971 | INFO | [P4] done pid=0004 t=8.82s
+2026-01-29 11:02:26,972 | INFO | [P5/25] pid=0005 stays=2
+2026-01-29 11:02:26,972 | INFO |   [S1/2] sid=S0009
+2026-01-29 11:02:26,972 | INFO |     prefilter_lines=5 (anchor_window=2)
+2026-01-29 11:02:26,973 | INFO |     bm25_topk=1 | rag_score_max=-1.10 | sum_top3=-1.10
+2026-01-29 11:02:30,598 | INFO |     LLM ok attempt=1 | llm_t=3.63s
+2026-01-29 11:02:30,599 | INFO |     extracted dm=1 labs=0 drugs=0 | rag_max=-1.099 | stay_t=3.627s
+2026-01-29 11:02:30,650 | INFO |   [S2/2] sid=S0010
+2026-01-29 11:02:30,650 | INFO |     prefilter_lines=8 (anchor_window=2)
+2026-01-29 11:02:30,652 | INFO |     bm25_topk=2 | rag_score_max=0.00 | sum_top3=0.00
+2026-01-29 11:02:35,221 | INFO |     LLM ok attempt=1 | llm_t=4.57s
+2026-01-29 11:02:35,222 | INFO |     extracted dm=1 labs=0 drugs=1 | rag_max=0.0 | stay_t=4.572s
+2026-01-29 11:02:35,273 | INFO | [P5] done pid=0005 t=8.30s
+2026-01-29 11:02:35,273 | INFO | [P6/25] pid=0006 stays=2
+2026-01-29 11:02:35,273 | INFO |   [S1/2] sid=S0011
+2026-01-29 11:02:35,274 | INFO |     prefilter_lines=7 (anchor_window=2)
+2026-01-29 11:02:35,274 | INFO |     bm25_topk=2 | rag_score_max=-0.65 | sum_top3=-1.55
+2026-01-29 11:02:39,661 | INFO |     LLM ok attempt=1 | llm_t=4.39s
+2026-01-29 11:02:39,662 | INFO |     extracted dm=1 labs=0 drugs=1 | rag_max=-0.652 | stay_t=4.388s
+2026-01-29 11:02:39,713 | INFO |   [S2/2] sid=S0012
+2026-01-29 11:02:39,713 | INFO |     prefilter_lines=6 (anchor_window=2)
+2026-01-29 11:02:39,714 | INFO |     bm25_topk=1 | rag_score_max=-1.65 | sum_top3=-1.65
+2026-01-29 11:02:44,495 | INFO |     LLM ok attempt=1 | llm_t=4.78s
+2026-01-29 11:02:44,495 | INFO |     extracted dm=1 labs=0 drugs=2 | rag_max=-1.648 | stay_t=4.782s
+2026-01-29 11:02:44,546 | INFO | [P6] done pid=0006 t=9.27s
+2026-01-29 11:02:44,546 | INFO | [P7/25] pid=0007 stays=2
+2026-01-29 11:02:44,546 | INFO |   [S1/2] sid=S0013
+2026-01-29 11:02:44,547 | INFO |     prefilter_lines=7 (anchor_window=2)
+2026-01-29 11:02:44,548 | INFO |     bm25_topk=2 | rag_score_max=-1.10 | sum_top3=-2.42
+2026-01-29 11:02:49,040 | INFO |     LLM ok attempt=1 | llm_t=4.49s
+2026-01-29 11:02:49,040 | INFO |     extracted dm=1 labs=0 drugs=1 | rag_max=-1.099 | stay_t=4.493s
+2026-01-29 11:02:49,091 | INFO |   [S2/2] sid=S0014
+2026-01-29 11:02:49,091 | INFO |     prefilter_lines=5 (anchor_window=2)
+2026-01-29 11:02:49,091 | INFO |     bm25_topk=1 | rag_score_max=-1.37 | sum_top3=-1.37
+2026-01-29 11:02:52,616 | INFO |     LLM ok attempt=1 | llm_t=3.52s
+2026-01-29 11:02:52,616 | INFO |     extracted dm=1 labs=0 drugs=0 | rag_max=-1.373 | stay_t=3.526s
+2026-01-29 11:02:52,668 | INFO | [P7] done pid=0007 t=8.12s
+2026-01-29 11:02:52,668 | INFO | [P8/25] pid=0008 stays=2
+2026-01-29 11:02:52,668 | INFO |   [S1/2] sid=S0015
+2026-01-29 11:02:52,669 | INFO |     prefilter_lines=8 (anchor_window=2)
+2026-01-29 11:02:52,669 | INFO |     bm25_topk=2 | rag_score_max=-0.69 | sum_top3=-1.49
+2026-01-29 11:02:57,523 | INFO |     LLM ok attempt=1 | llm_t=4.85s
+2026-01-29 11:02:57,523 | INFO |     extracted dm=1 labs=0 drugs=2 | rag_max=-0.69 | stay_t=4.854s
+2026-01-29 11:02:57,574 | INFO |   [S2/2] sid=S0016
+2026-01-29 11:02:57,574 | INFO |     prefilter_lines=9 (anchor_window=2)
+2026-01-29 11:02:57,575 | INFO |     bm25_topk=2 | rag_score_max=0.00 | sum_top3=0.00
+2026-01-29 11:03:03,083 | WARNING |     LLM fail attempt=1 | llm_t=5.51s | err=Expecting ',' delimiter: line 10 column 118 (char 479)
+2026-01-29 11:03:08,624 | WARNING |     LLM fail attempt=2 | llm_t=5.44s | err=Expecting ',' delimiter: line 10 column 118 (char 479)
+2026-01-29 11:03:08,725 | INFO |     extracted dm=0 labs=0 drugs=3 | rag_max=0.0 | stay_t=11.151s
+2026-01-29 11:03:08,776 | INFO | [P8] done pid=0008 t=16.11s
+2026-01-29 11:03:08,776 | INFO | [P9/25] pid=0009 stays=2
+2026-01-29 11:03:08,776 | INFO |   [S1/2] sid=S0017
+2026-01-29 11:03:08,776 | INFO |     prefilter_lines=8 (anchor_window=2)
+2026-01-29 11:03:08,777 | INFO |     bm25_topk=2 | rag_score_max=-0.76 | sum_top3=-1.67
+2026-01-29 11:03:13,685 | INFO |     LLM ok attempt=1 | llm_t=4.91s
+2026-01-29 11:03:13,685 | INFO |     extracted dm=1 labs=0 drugs=2 | rag_max=-0.765 | stay_t=4.908s
+2026-01-29 11:03:13,736 | INFO |   [S2/2] sid=S0018
+2026-01-29 11:03:13,736 | INFO |     prefilter_lines=6 (anchor_window=2)
+2026-01-29 11:03:13,736 | INFO |     bm25_topk=1 | rag_score_max=-1.65 | sum_top3=-1.65
+2026-01-29 11:03:17,808 | INFO |     LLM ok attempt=1 | llm_t=4.07s
+2026-01-29 11:03:17,809 | INFO |     extracted dm=1 labs=0 drugs=1 | rag_max=-1.648 | stay_t=4.073s
+2026-01-29 11:03:17,860 | INFO | [P9] done pid=0009 t=9.08s
+2026-01-29 11:03:17,860 | INFO | [P10/25] pid=0010 stays=2
+2026-01-29 11:03:17,860 | INFO |   [S1/2] sid=S0019
+2026-01-29 11:03:17,860 | INFO |     prefilter_lines=6 (anchor_window=2)
+2026-01-29 11:03:17,861 | INFO |     bm25_topk=1 | rag_score_max=-1.37 | sum_top3=-1.37
+2026-01-29 11:03:22,263 | INFO |     LLM ok attempt=1 | llm_t=4.40s
+2026-01-29 11:03:22,264 | INFO |     extracted dm=1 labs=0 drugs=1 | rag_max=-1.373 | stay_t=4.403s
+2026-01-29 11:03:22,315 | INFO |   [S2/2] sid=S0020
+2026-01-29 11:03:22,315 | INFO |     prefilter_lines=6 (anchor_window=2)
+2026-01-29 11:03:22,316 | INFO |     bm25_topk=1 | rag_score_max=-1.65 | sum_top3=-1.65
+2026-01-29 11:03:26,755 | INFO |     LLM ok attempt=1 | llm_t=4.44s
+2026-01-29 11:03:26,755 | INFO |     extracted dm=1 labs=0 drugs=2 | rag_max=-1.648 | stay_t=4.44s
+2026-01-29 11:03:26,806 | INFO | [P10] done pid=0010 t=8.95s
+2026-01-29 11:03:26,806 | INFO | [P11/25] pid=0011 stays=2
+2026-01-29 11:03:26,806 | INFO |   [S1/2] sid=S0021
+2026-01-29 11:03:26,806 | INFO |     prefilter_lines=5 (anchor_window=2)
+2026-01-29 11:03:26,807 | INFO |     bm25_topk=1 | rag_score_max=-1.10 | sum_top3=-1.10
+2026-01-29 11:03:30,437 | INFO |     LLM ok attempt=1 | llm_t=3.63s
+2026-01-29 11:03:30,437 | INFO |     extracted dm=1 labs=0 drugs=0 | rag_max=-1.099 | stay_t=3.631s
+2026-01-29 11:03:30,488 | INFO |   [S2/2] sid=S0022
+2026-01-29 11:03:30,488 | INFO |     prefilter_lines=8 (anchor_window=2)
+2026-01-29 11:03:30,489 | INFO |     bm25_topk=2 | rag_score_max=0.00 | sum_top3=0.00
+2026-01-29 11:03:34,809 | INFO |     LLM ok attempt=1 | llm_t=4.32s
+2026-01-29 11:03:34,810 | INFO |     extracted dm=1 labs=0 drugs=1 | rag_max=0.0 | stay_t=4.322s
+2026-01-29 11:03:34,860 | INFO | [P11] done pid=0011 t=8.05s
+2026-01-29 11:03:34,861 | INFO | [P12/25] pid=0012 stays=2
+2026-01-29 11:03:34,861 | INFO |   [S1/2] sid=S0023
+2026-01-29 11:03:34,861 | INFO |     prefilter_lines=8 (anchor_window=2)
+2026-01-29 11:03:34,862 | INFO |     bm25_topk=2 | rag_score_max=-0.63 | sum_top3=-1.39
+2026-01-29 11:03:40,308 | WARNING |     LLM fail attempt=1 | llm_t=5.45s | err=Expecting ',' delimiter: line 10 column 154 (char 483)
+2026-01-29 11:03:45,840 | WARNING |     LLM fail attempt=2 | llm_t=5.43s | err=Expecting ',' delimiter: line 10 column 154 (char 483)
+2026-01-29 11:03:45,941 | INFO |     extracted dm=1 labs=2 drugs=1 | rag_max=-0.626 | stay_t=11.079s
+2026-01-29 11:03:45,992 | INFO |   [S2/2] sid=S0024
+2026-01-29 11:03:45,992 | INFO |     prefilter_lines=6 (anchor_window=2)
+2026-01-29 11:03:45,992 | INFO |     bm25_topk=1 | rag_score_max=-0.27 | sum_top3=-0.27
+2026-01-29 11:03:50,198 | INFO |     LLM ok attempt=1 | llm_t=4.21s
+2026-01-29 11:03:50,199 | INFO |     extracted dm=1 labs=0 drugs=1 | rag_max=-0.275 | stay_t=4.207s
+2026-01-29 11:03:50,249 | INFO | [P12] done pid=0012 t=15.39s
+2026-01-29 11:03:50,250 | INFO | [P13/25] pid=0013 stays=2
+2026-01-29 11:03:50,250 | INFO |   [S1/2] sid=S0025
+2026-01-29 11:03:50,251 | INFO |     prefilter_lines=8 (anchor_window=2)
+2026-01-29 11:03:50,251 | INFO |     bm25_topk=2 | rag_score_max=-0.71 | sum_top3=-1.56
+2026-01-29 11:03:55,326 | INFO |     LLM ok attempt=1 | llm_t=5.07s
+2026-01-29 11:03:55,326 | INFO |     extracted dm=1 labs=0 drugs=2 | rag_max=-0.711 | stay_t=5.076s
+2026-01-29 11:03:55,377 | INFO |   [S2/2] sid=S0026
+2026-01-29 11:03:55,377 | INFO |     prefilter_lines=6 (anchor_window=2)
+2026-01-29 11:03:55,377 | INFO |     bm25_topk=1 | rag_score_max=-1.65 | sum_top3=-1.65
+2026-01-29 11:03:59,937 | INFO |     LLM ok attempt=1 | llm_t=4.56s
+2026-01-29 11:03:59,937 | INFO |     extracted dm=1 labs=0 drugs=2 | rag_max=-1.648 | stay_t=4.56s
+2026-01-29 11:03:59,988 | INFO | [P13] done pid=0013 t=9.74s
+2026-01-29 11:03:59,988 | INFO | [P14/25] pid=0014 stays=2
+2026-01-29 11:03:59,989 | INFO |   [S1/2] sid=S0027
+2026-01-29 11:03:59,989 | INFO |     prefilter_lines=5 (anchor_window=2)
+2026-01-29 11:03:59,990 | INFO |     bm25_topk=1 | rag_score_max=-1.10 | sum_top3=-1.10
+2026-01-29 11:04:03,646 | INFO |     LLM ok attempt=1 | llm_t=3.66s
+2026-01-29 11:04:03,647 | INFO |     extracted dm=1 labs=0 drugs=0 | rag_max=-1.099 | stay_t=3.658s
+2026-01-29 11:04:03,697 | INFO |   [S2/2] sid=S0028
+2026-01-29 11:04:03,697 | INFO |     prefilter_lines=8 (anchor_window=2)
+2026-01-29 11:04:03,697 | INFO |     bm25_topk=2 | rag_score_max=0.00 | sum_top3=0.00
+2026-01-29 11:04:07,940 | INFO |     LLM ok attempt=1 | llm_t=4.24s
+2026-01-29 11:04:07,940 | INFO |     extracted dm=1 labs=0 drugs=1 | rag_max=0.0 | stay_t=4.242s
+2026-01-29 11:04:07,991 | INFO | [P14] done pid=0014 t=8.00s
+2026-01-29 11:04:07,991 | INFO | [P15/25] pid=0015 stays=2
+2026-01-29 11:04:07,991 | INFO |   [S1/2] sid=S0029
+2026-01-29 11:04:07,992 | INFO |     prefilter_lines=8 (anchor_window=2)
+2026-01-29 11:04:07,992 | INFO |     bm25_topk=2 | rag_score_max=-0.65 | sum_top3=-1.44
+2026-01-29 11:04:12,808 | INFO |     LLM ok attempt=1 | llm_t=4.82s
+2026-01-29 11:04:12,808 | INFO |     extracted dm=1 labs=0 drugs=2 | rag_max=-0.649 | stay_t=4.817s
+2026-01-29 11:04:12,859 | INFO |   [S2/2] sid=S0030
+2026-01-29 11:04:12,860 | INFO |     prefilter_lines=6 (anchor_window=2)
+2026-01-29 11:04:12,860 | INFO |     bm25_topk=1 | rag_score_max=-0.27 | sum_top3=-0.27
+2026-01-29 11:04:16,984 | INFO |     LLM ok attempt=1 | llm_t=4.12s
+2026-01-29 11:04:16,984 | INFO |     extracted dm=1 labs=0 drugs=1 | rag_max=-0.275 | stay_t=4.125s
+2026-01-29 11:04:17,035 | INFO | [P15] done pid=0015 t=9.04s
+2026-01-29 11:04:17,035 | INFO | [P16/25] pid=0016 stays=2
+2026-01-29 11:04:17,035 | INFO |   [S1/2] sid=S0031
+2026-01-29 11:04:17,035 | INFO |     prefilter_lines=6 (anchor_window=2)
+2026-01-29 11:04:17,036 | INFO |     bm25_topk=1 | rag_score_max=-1.37 | sum_top3=-1.37
+2026-01-29 11:04:22,504 | WARNING |     LLM fail attempt=1 | llm_t=5.47s | err=Expecting ',' delimiter: line 7 column 113 (char 441)
+2026-01-29 11:04:26,837 | INFO |     LLM ok attempt=2 | llm_t=4.23s
+2026-01-29 11:04:26,837 | INFO |     extracted dm=1 labs=0 drugs=1 | rag_max=-1.373 | stay_t=9.801s
+2026-01-29 11:04:26,887 | INFO |   [S2/2] sid=S0032
+2026-01-29 11:04:26,887 | INFO |     prefilter_lines=6 (anchor_window=2)
+2026-01-29 11:04:26,888 | INFO |     bm25_topk=1 | rag_score_max=-1.65 | sum_top3=-1.65
+2026-01-29 11:04:31,934 | INFO |     LLM ok attempt=1 | llm_t=5.05s
+2026-01-29 11:04:31,934 | INFO |     extracted dm=1 labs=0 drugs=3 | rag_max=-1.648 | stay_t=5.047s
+2026-01-29 11:04:31,985 | INFO | [P16] done pid=0016 t=14.95s
+2026-01-29 11:04:31,985 | INFO | [P17/25] pid=0017 stays=2
+2026-01-29 11:04:31,985 | INFO |   [S1/2] sid=S0033
+2026-01-29 11:04:31,986 | INFO |     prefilter_lines=5 (anchor_window=2)
+2026-01-29 11:04:31,986 | INFO |     bm25_topk=1 | rag_score_max=-1.10 | sum_top3=-1.10
+2026-01-29 11:04:35,646 | INFO |     LLM ok attempt=1 | llm_t=3.66s
+2026-01-29 11:04:35,647 | INFO |     extracted dm=1 labs=0 drugs=0 | rag_max=-1.099 | stay_t=3.661s
+2026-01-29 11:04:35,699 | INFO |   [S2/2] sid=S0034
+2026-01-29 11:04:35,699 | INFO |     prefilter_lines=8 (anchor_window=2)
+2026-01-29 11:04:35,700 | INFO |     bm25_topk=2 | rag_score_max=0.00 | sum_top3=0.00
+2026-01-29 11:04:40,556 | INFO |     LLM ok attempt=1 | llm_t=4.86s
+2026-01-29 11:04:40,556 | INFO |     extracted dm=1 labs=0 drugs=2 | rag_max=0.0 | stay_t=4.858s
+2026-01-29 11:04:40,607 | INFO | [P17] done pid=0017 t=8.62s
+2026-01-29 11:04:40,607 | INFO | [P18/25] pid=0018 stays=2
+2026-01-29 11:04:40,607 | INFO |   [S1/2] sid=S0035
+2026-01-29 11:04:40,608 | INFO |     prefilter_lines=8 (anchor_window=2)
+2026-01-29 11:04:40,608 | INFO |     bm25_topk=2 | rag_score_max=-0.58 | sum_top3=-1.30
+2026-01-29 11:04:46,089 | WARNING |     LLM fail attempt=1 | llm_t=5.48s | err=Expecting ',' delimiter: line 10 column 154 (char 459)
+2026-01-29 11:04:51,600 | WARNING |     LLM fail attempt=2 | llm_t=5.41s | err=Expecting ',' delimiter: line 10 column 154 (char 459)
+2026-01-29 11:04:51,701 | INFO |     extracted dm=1 labs=2 drugs=1 | rag_max=-0.581 | stay_t=11.093s
+2026-01-29 11:04:51,752 | INFO |   [S2/2] sid=S0036
+2026-01-29 11:04:51,752 | INFO |     prefilter_lines=6 (anchor_window=2)
+2026-01-29 11:04:51,753 | INFO |     bm25_topk=1 | rag_score_max=-0.27 | sum_top3=-0.27
+2026-01-29 11:04:55,405 | INFO |     LLM ok attempt=1 | llm_t=3.65s
+2026-01-29 11:04:55,406 | INFO |     extracted dm=1 labs=0 drugs=0 | rag_max=-0.275 | stay_t=3.653s
+2026-01-29 11:04:55,457 | INFO | [P18] done pid=0018 t=14.85s
+2026-01-29 11:04:55,457 | INFO | [P19/25] pid=0019 stays=2
+2026-01-29 11:04:55,457 | INFO |   [S1/2] sid=S0037
+2026-01-29 11:04:55,457 | INFO |     prefilter_lines=8 (anchor_window=2)
+2026-01-29 11:04:55,458 | INFO |     bm25_topk=2 | rag_score_max=-0.72 | sum_top3=-1.58
+2026-01-29 11:05:00,945 | WARNING |     LLM fail attempt=1 | llm_t=5.49s | err=Expecting ',' delimiter: line 10 column 85 (char 418)
+2026-01-29 11:05:06,005 | INFO |     LLM ok attempt=2 | llm_t=4.96s
+2026-01-29 11:05:06,006 | INFO |     extracted dm=1 labs=0 drugs=2 | rag_max=-0.725 | stay_t=10.549s
+2026-01-29 11:05:06,057 | INFO |   [S2/2] sid=S0038
+2026-01-29 11:05:06,057 | INFO |     prefilter_lines=6 (anchor_window=2)
+2026-01-29 11:05:06,058 | INFO |     bm25_topk=1 | rag_score_max=-1.65 | sum_top3=-1.65
+2026-01-29 11:05:11,477 | WARNING |     LLM fail attempt=1 | llm_t=5.42s | err=Expecting ',' delimiter: line 9 column 98 (char 486)
+2026-01-29 11:05:16,694 | INFO |     LLM ok attempt=2 | llm_t=5.12s
+2026-01-29 11:05:16,694 | INFO |     extracted dm=1 labs=0 drugs=3 | rag_max=-1.648 | stay_t=10.637s
+2026-01-29 11:05:16,745 | INFO | [P19] done pid=0019 t=21.29s
+2026-01-29 11:05:16,745 | INFO | [P20/25] pid=0020 stays=2
+2026-01-29 11:05:16,745 | INFO |   [S1/2] sid=S0039
+2026-01-29 11:05:16,745 | INFO |     prefilter_lines=5 (anchor_window=2)
+2026-01-29 11:05:16,747 | INFO |     bm25_topk=1 | rag_score_max=-1.10 | sum_top3=-1.10
+2026-01-29 11:05:20,388 | INFO |     LLM ok attempt=1 | llm_t=3.64s
+2026-01-29 11:05:20,388 | INFO |     extracted dm=1 labs=0 drugs=0 | rag_max=-1.099 | stay_t=3.643s
+2026-01-29 11:05:20,439 | INFO |   [S2/2] sid=S0040
+2026-01-29 11:05:20,439 | INFO |     prefilter_lines=8 (anchor_window=2)
+2026-01-29 11:05:20,441 | INFO |     bm25_topk=2 | rag_score_max=0.00 | sum_top3=0.00
+2026-01-29 11:05:24,762 | INFO |     LLM ok attempt=1 | llm_t=4.32s
+2026-01-29 11:05:24,762 | INFO |     extracted dm=1 labs=0 drugs=1 | rag_max=0.0 | stay_t=4.323s
+2026-01-29 11:05:24,814 | INFO | [P20] done pid=0020 t=8.07s
+2026-01-29 11:05:24,814 | INFO | [P21/25] pid=0021 stays=2
+2026-01-29 11:05:24,814 | INFO |   [S1/2] sid=S0041
+2026-01-29 11:05:24,815 | INFO |     prefilter_lines=6 (anchor_window=2)
+2026-01-29 11:05:24,815 | INFO |     bm25_topk=1 | rag_score_max=-1.37 | sum_top3=-1.37
+2026-01-29 11:05:29,106 | INFO |     LLM ok attempt=1 | llm_t=4.29s
+2026-01-29 11:05:29,106 | INFO |     extracted dm=1 labs=0 drugs=1 | rag_max=-1.373 | stay_t=4.292s
+2026-01-29 11:05:29,157 | INFO |   [S2/2] sid=S0042
+2026-01-29 11:05:29,157 | INFO |     prefilter_lines=6 (anchor_window=2)
+2026-01-29 11:05:29,157 | INFO |     bm25_topk=1 | rag_score_max=-1.65 | sum_top3=-1.65
+2026-01-29 11:05:33,235 | INFO |     LLM ok attempt=1 | llm_t=4.08s
+2026-01-29 11:05:33,235 | INFO |     extracted dm=1 labs=0 drugs=1 | rag_max=-1.648 | stay_t=4.078s
+2026-01-29 11:05:33,286 | INFO | [P21] done pid=0021 t=8.47s
+2026-01-29 11:05:33,286 | INFO | [P22/25] pid=0022 stays=2
+2026-01-29 11:05:33,286 | INFO |   [S1/2] sid=S0043
+2026-01-29 11:05:33,287 | INFO |     prefilter_lines=5 (anchor_window=2)
+2026-01-29 11:05:33,287 | INFO |     bm25_topk=1 | rag_score_max=-1.10 | sum_top3=-1.10
+2026-01-29 11:05:36,835 | INFO |     LLM ok attempt=1 | llm_t=3.55s
+2026-01-29 11:05:36,835 | INFO |     extracted dm=1 labs=0 drugs=0 | rag_max=-1.099 | stay_t=3.548s
+2026-01-29 11:05:36,886 | INFO |   [S2/2] sid=S0044
+2026-01-29 11:05:36,886 | INFO |     prefilter_lines=8 (anchor_window=2)
+2026-01-29 11:05:36,887 | INFO |     bm25_topk=2 | rag_score_max=0.00 | sum_top3=0.00
+2026-01-29 11:05:42,290 | WARNING |     LLM fail attempt=1 | llm_t=5.40s | err=Expecting ',' delimiter: line 13 column 93 (char 552)
+2026-01-29 11:05:47,789 | WARNING |     LLM fail attempt=2 | llm_t=5.40s | err=Expecting ',' delimiter: line 13 column 93 (char 552)
+2026-01-29 11:05:47,891 | INFO |     extracted dm=0 labs=0 drugs=3 | rag_max=0.0 | stay_t=11.005s
+2026-01-29 11:05:47,942 | INFO | [P22] done pid=0022 t=14.66s
+2026-01-29 11:05:47,942 | INFO | [P23/25] pid=0023 stays=2
+2026-01-29 11:05:47,942 | INFO |   [S1/2] sid=S0045
+2026-01-29 11:05:47,943 | INFO |     prefilter_lines=8 (anchor_window=2)
+2026-01-29 11:05:47,943 | INFO |     bm25_topk=2 | rag_score_max=-0.59 | sum_top3=-1.31
+2026-01-29 11:05:53,525 | WARNING |     LLM fail attempt=1 | llm_t=5.58s | err=Expecting ',' delimiter: line 10 column 154 (char 467)
+2026-01-29 11:05:59,054 | WARNING |     LLM fail attempt=2 | llm_t=5.43s | err=Expecting ',' delimiter: line 10 column 154 (char 467)
+2026-01-29 11:05:59,155 | INFO |     extracted dm=1 labs=2 drugs=1 | rag_max=-0.587 | stay_t=11.213s
+2026-01-29 11:05:59,206 | INFO |   [S2/2] sid=S0046
+2026-01-29 11:05:59,206 | INFO |     prefilter_lines=6 (anchor_window=2)
+2026-01-29 11:05:59,207 | INFO |     bm25_topk=1 | rag_score_max=-0.27 | sum_top3=-0.27
+2026-01-29 11:06:02,781 | INFO |     LLM ok attempt=1 | llm_t=3.57s
+2026-01-29 11:06:02,781 | INFO |     extracted dm=1 labs=0 drugs=0 | rag_max=-0.275 | stay_t=3.575s
+2026-01-29 11:06:02,832 | INFO | [P23] done pid=0023 t=14.89s
+2026-01-29 11:06:02,832 | INFO | [P24/25] pid=0024 stays=2
+2026-01-29 11:06:02,832 | INFO |   [S1/2] sid=S0047
+2026-01-29 11:06:02,833 | INFO |     prefilter_lines=8 (anchor_window=2)
+2026-01-29 11:06:02,833 | INFO |     bm25_topk=2 | rag_score_max=-0.72 | sum_top3=-1.57
+2026-01-29 11:06:08,274 | WARNING |     LLM fail attempt=1 | llm_t=5.44s | err=Expecting ',' delimiter: line 10 column 153 (char 470)
+2026-01-29 11:06:13,105 | INFO |     LLM ok attempt=2 | llm_t=4.73s
+2026-01-29 11:06:13,105 | INFO |     extracted dm=1 labs=0 drugs=2 | rag_max=-0.717 | stay_t=10.272s
+2026-01-29 11:06:13,156 | INFO |   [S2/2] sid=S0048
+2026-01-29 11:06:13,156 | INFO |     prefilter_lines=6 (anchor_window=2)
+2026-01-29 11:06:13,157 | INFO |     bm25_topk=1 | rag_score_max=-1.65 | sum_top3=-1.65
+2026-01-29 11:06:17,657 | INFO |     LLM ok attempt=1 | llm_t=4.50s
+2026-01-29 11:06:17,657 | INFO |     extracted dm=1 labs=0 drugs=2 | rag_max=-1.648 | stay_t=4.501s
+2026-01-29 11:06:17,708 | INFO | [P24] done pid=0024 t=14.88s
+2026-01-29 11:06:17,708 | INFO | [P25/25] pid=0025 stays=2
+2026-01-29 11:06:17,708 | INFO |   [S1/2] sid=S0049
+2026-01-29 11:06:17,708 | INFO |     prefilter_lines=5 (anchor_window=2)
+2026-01-29 11:06:17,709 | INFO |     bm25_topk=1 | rag_score_max=-1.10 | sum_top3=-1.10
+2026-01-29 11:06:21,371 | INFO |     LLM ok attempt=1 | llm_t=3.66s
+2026-01-29 11:06:21,372 | INFO |     extracted dm=1 labs=0 drugs=0 | rag_max=-1.099 | stay_t=3.663s
+2026-01-29 11:06:21,422 | INFO |   [S2/2] sid=S0050
+2026-01-29 11:06:21,422 | INFO |     prefilter_lines=8 (anchor_window=2)
+2026-01-29 11:06:21,423 | INFO |     bm25_topk=2 | rag_score_max=0.00 | sum_top3=0.00
+2026-01-29 11:06:26,860 | WARNING |     LLM fail attempt=1 | llm_t=5.44s | err=Expecting ',' delimiter: line 22 column 6 (char 461)
+2026-01-29 11:06:32,330 | WARNING |     LLM fail attempt=2 | llm_t=5.37s | err=Expecting ',' delimiter: line 22 column 6 (char 461)
+2026-01-29 11:06:32,431 | INFO |     extracted dm=0 labs=0 drugs=2 | rag_max=0.0 | stay_t=11.009s
+2026-01-29 11:06:32,483 | INFO | [P25] done pid=0025 t=14.77s
+2026-01-29 11:06:32,483 | INFO | END | stays=50 fallback=7 total_t=290.94s
+2026-01-29 11:06:32,483 | INFO | BYTES patient=18689 stay=62832
+2026-01-29 11:44:03,992 | INFO | START | corpus=phantom_ehr_corpus.txt
+2026-01-29 11:44:03,992 | INFO | OUT patient=facts_agent1_patient.jsonl
+2026-01-29 11:44:03,993 | INFO | OUT stay   =facts_agent1_stay.jsonl
+2026-01-29 11:44:03,994 | INFO | patients_found=25 | corpus_chars=25227
+2026-01-29 11:44:03,994 | INFO | [P1/25] pid=0001 stays=2
+2026-01-29 11:44:03,994 | INFO |   [S1/2] sid=S0001
+2026-01-29 11:44:03,995 | INFO |     prefilter_lines=10 (anchor_window=2)
+2026-01-29 11:44:03,996 | INFO |     bm25_topk=3 | bm25_max=0.31 | sem_rag_max=1.00 | top=['7-10 sem=1.00 bm25=-0.07', '4-9 sem=1.00 bm25=-0.13', '1-6 sem=-6.00 bm25=0.31']
+2026-01-29 11:44:12,654 | WARNING |     LLM fail attempt=1 | llm_t=8.66s | err=Expecting ',' delimiter: line 17 column 6 (char 427)
+2026-01-29 11:44:18,149 | WARNING |     LLM fail attempt=2 | llm_t=5.39s | err=Expecting ',' delimiter: line 17 column 6 (char 427)
+2026-01-29 11:44:18,251 | INFO |     extracted dm=2 labs=2 drugs=1 | sem_rag_max=1.0 bm25_max=0.31 | stay_t=14.256s
+2026-01-29 11:44:18,302 | INFO |   [S2/2] sid=S0002
+2026-01-29 11:44:18,302 | INFO |     prefilter_lines=8 (anchor_window=2)
+2026-01-29 11:44:18,303 | INFO |     bm25_topk=2 | bm25_max=0.00 | sem_rag_max=1.00 | top=['1-7 sem=1.00 bm25=0.00', '4-9 sem=1.00 bm25=0.00']
+2026-01-29 11:44:23,313 | INFO |     LLM ok attempt=1 | llm_t=5.01s
+2026-01-29 11:44:23,313 | INFO |     extracted dm=1 labs=0 drugs=1 | sem_rag_max=1.0 bm25_max=0.0 | stay_t=5.011s
+2026-01-29 11:44:23,364 | INFO | [P1] done pid=0001 t=19.37s
+2026-01-29 11:44:23,364 | INFO | [P2/25] pid=0002 stays=2
+2026-01-29 11:44:23,364 | INFO |   [S1/2] sid=S0003
+2026-01-29 11:44:23,366 | INFO |     prefilter_lines=11 (anchor_window=2)
+2026-01-29 11:44:23,367 | INFO |     bm25_topk=3 | bm25_max=0.27 | sem_rag_max=6.00 | top=['7-11 sem=6.00 bm25=-0.34', '4-9 sem=1.00 bm25=-0.35', '1-6 sem=-4.00 bm25=0.27']
+2026-01-29 11:44:27,899 | INFO |     LLM ok attempt=1 | llm_t=4.53s
+2026-01-29 11:44:27,899 | INFO |     extracted dm=1 labs=0 drugs=1 | sem_rag_max=6.0 bm25_max=0.268 | stay_t=4.534s
+2026-01-29 11:44:27,950 | INFO |   [S2/2] sid=S0004
+2026-01-29 11:44:27,950 | INFO |     prefilter_lines=8 (anchor_window=2)
+2026-01-29 11:44:27,951 | INFO |     bm25_topk=2 | bm25_max=0.00 | sem_rag_max=1.00 | top=['1-7 sem=1.00 bm25=0.00', '4-9 sem=1.00 bm25=0.00']
+2026-01-29 11:44:32,327 | INFO |     LLM ok attempt=1 | llm_t=4.38s
+2026-01-29 11:44:32,327 | INFO |     extracted dm=1 labs=0 drugs=1 | sem_rag_max=1.0 bm25_max=0.0 | stay_t=4.377s
+2026-01-29 11:44:32,378 | INFO | [P2] done pid=0002 t=9.01s
+2026-01-29 11:44:32,378 | INFO | [P3/25] pid=0003 stays=2
+2026-01-29 11:44:32,378 | INFO |   [S1/2] sid=S0005
+2026-01-29 11:44:32,379 | INFO |     prefilter_lines=7 (anchor_window=2)
+2026-01-29 11:44:32,380 | INFO |     bm25_topk=2 | bm25_max=-0.75 | sem_rag_max=-4.00 | top=['4-9 sem=-4.00 bm25=-0.75', '7-10 sem=-4.00 bm25=-1.00']
+2026-01-29 11:44:37,965 | WARNING |     LLM fail attempt=1 | llm_t=5.59s | err=Expecting ',' delimiter: line 10 column 107 (char 484)
+2026-01-29 11:44:43,435 | WARNING |     LLM fail attempt=2 | llm_t=5.37s | err=Expecting ',' delimiter: line 10 column 107 (char 484)
+2026-01-29 11:44:43,536 | INFO |     extracted dm=1 labs=2 drugs=0 | sem_rag_max=-4.0 bm25_max=-0.749 | stay_t=11.158s
+2026-01-29 11:44:43,588 | INFO |   [S2/2] sid=S0006
+2026-01-29 11:44:43,588 | INFO |     prefilter_lines=6 (anchor_window=2)
+2026-01-29 11:44:43,589 | INFO |     bm25_topk=1 | bm25_max=-1.65 | sem_rag_max=-4.00 | top=['2-7 sem=-4.00 bm25=-1.65']
+2026-01-29 11:44:47,226 | INFO |     LLM ok attempt=1 | llm_t=3.64s
+2026-01-29 11:44:47,227 | INFO |     extracted dm=1 labs=0 drugs=0 | sem_rag_max=-4.0 bm25_max=-1.648 | stay_t=3.639s
+2026-01-29 11:44:47,278 | INFO | [P3] done pid=0003 t=14.90s
+2026-01-29 11:44:47,278 | INFO | [P4/25] pid=0004 stays=2
+2026-01-29 11:44:47,278 | INFO |   [S1/2] sid=S0007
+2026-01-29 11:44:47,278 | INFO |     prefilter_lines=8 (anchor_window=2)
+2026-01-29 11:44:47,279 | INFO |     bm25_topk=2 | bm25_max=-1.21 | sem_rag_max=8.00 | top=['4-8 sem=8.00 bm25=-1.43', '1-6 sem=6.00 bm25=-1.21']
+2026-01-29 11:44:51,610 | INFO |     LLM ok attempt=1 | llm_t=4.33s
+2026-01-29 11:44:51,610 | INFO |     extracted dm=1 labs=0 drugs=1 | sem_rag_max=8.0 bm25_max=-1.205 | stay_t=4.332s
+2026-01-29 11:44:51,661 | INFO |   [S2/2] sid=S0008
+2026-01-29 11:44:51,661 | INFO |     prefilter_lines=8 (anchor_window=2)
+2026-01-29 11:44:51,662 | INFO |     bm25_topk=2 | bm25_max=-0.51 | sem_rag_max=6.00 | top=['1-6 sem=6.00 bm25=-0.51', '4-8 sem=5.00 bm25=-0.59']
+2026-01-29 11:44:55,298 | INFO |     LLM ok attempt=1 | llm_t=3.64s
+2026-01-29 11:44:55,298 | INFO |     extracted dm=1 labs=0 drugs=0 | sem_rag_max=6.0 bm25_max=-0.513 | stay_t=3.637s
+2026-01-29 11:44:55,349 | INFO | [P4] done pid=0004 t=8.07s
+2026-01-29 11:44:55,349 | INFO | [P5/25] pid=0005 stays=2
+2026-01-29 11:44:55,350 | INFO |   [S1/2] sid=S0009
+2026-01-29 11:44:55,350 | INFO |     prefilter_lines=5 (anchor_window=2)
+2026-01-29 11:44:55,351 | INFO |     bm25_topk=1 | bm25_max=-1.10 | sem_rag_max=-4.00 | top=['3-7 sem=-4.00 bm25=-1.10']
+2026-01-29 11:44:58,876 | INFO |     LLM ok attempt=1 | llm_t=3.53s
+2026-01-29 11:44:58,877 | INFO |     extracted dm=1 labs=0 drugs=0 | sem_rag_max=-4.0 bm25_max=-1.099 | stay_t=3.527s
+2026-01-29 11:44:58,928 | INFO |   [S2/2] sid=S0010
+2026-01-29 11:44:58,928 | INFO |     prefilter_lines=8 (anchor_window=2)
+2026-01-29 11:44:58,929 | INFO |     bm25_topk=2 | bm25_max=0.00 | sem_rag_max=1.00 | top=['1-7 sem=1.00 bm25=0.00', '4-9 sem=1.00 bm25=0.00']
+2026-01-29 11:45:03,426 | INFO |     LLM ok attempt=1 | llm_t=4.50s
+2026-01-29 11:45:03,426 | INFO |     extracted dm=1 labs=0 drugs=1 | sem_rag_max=1.0 bm25_max=0.0 | stay_t=4.498s
+2026-01-29 11:45:03,477 | INFO | [P5] done pid=0005 t=8.13s
+2026-01-29 11:45:03,477 | INFO | [P6/25] pid=0006 stays=2
+2026-01-29 11:45:03,477 | INFO |   [S1/2] sid=S0011
+2026-01-29 11:45:03,477 | INFO |     prefilter_lines=7 (anchor_window=2)
+2026-01-29 11:45:03,478 | INFO |     bm25_topk=2 | bm25_max=-0.65 | sem_rag_max=1.00 | top=['6-9 sem=1.00 bm25=-0.90', '3-8 sem=-3.00 bm25=-0.65']
+2026-01-29 11:45:07,991 | INFO |     LLM ok attempt=1 | llm_t=4.51s
+2026-01-29 11:45:07,991 | INFO |     extracted dm=1 labs=0 drugs=1 | sem_rag_max=1.0 bm25_max=-0.652 | stay_t=4.514s
+2026-01-29 11:45:08,042 | INFO |   [S2/2] sid=S0012
+2026-01-29 11:45:08,042 | INFO |     prefilter_lines=6 (anchor_window=2)
+2026-01-29 11:45:08,043 | INFO |     bm25_topk=1 | bm25_max=-1.65 | sem_rag_max=8.00 | top=['3-8 sem=8.00 bm25=-1.65']
+2026-01-29 11:45:12,853 | INFO |     LLM ok attempt=1 | llm_t=4.81s
+2026-01-29 11:45:12,854 | INFO |     extracted dm=1 labs=0 drugs=2 | sem_rag_max=8.0 bm25_max=-1.648 | stay_t=4.811s
+2026-01-29 11:45:12,905 | INFO | [P6] done pid=0006 t=9.43s
+2026-01-29 11:45:12,905 | INFO | [P7/25] pid=0007 stays=2
+2026-01-29 11:45:12,905 | INFO |   [S1/2] sid=S0013
+2026-01-29 11:45:12,905 | INFO |     prefilter_lines=7 (anchor_window=2)
+2026-01-29 11:45:12,906 | INFO |     bm25_topk=2 | bm25_max=-1.10 | sem_rag_max=1.00 | top=['3-8 sem=1.00 bm25=-1.10', '6-9 sem=1.00 bm25=-1.32']
+2026-01-29 11:45:17,250 | INFO |     LLM ok attempt=1 | llm_t=4.34s
+2026-01-29 11:45:17,250 | INFO |     extracted dm=1 labs=0 drugs=1 | sem_rag_max=1.0 bm25_max=-1.099 | stay_t=4.345s
+2026-01-29 11:45:17,301 | INFO |   [S2/2] sid=S0014
+2026-01-29 11:45:17,301 | INFO |     prefilter_lines=5 (anchor_window=2)
+2026-01-29 11:45:17,303 | INFO |     bm25_topk=1 | bm25_max=-1.37 | sem_rag_max=5.00 | top=['3-7 sem=5.00 bm25=-1.37']
+2026-01-29 11:45:20,799 | INFO |     LLM ok attempt=1 | llm_t=3.50s
+2026-01-29 11:45:20,800 | INFO |     extracted dm=1 labs=0 drugs=0 | sem_rag_max=5.0 bm25_max=-1.373 | stay_t=3.498s
+2026-01-29 11:45:20,851 | INFO | [P7] done pid=0007 t=7.95s
+2026-01-29 11:45:20,851 | INFO | [P8/25] pid=0008 stays=2
+2026-01-29 11:45:20,851 | INFO |   [S1/2] sid=S0015
+2026-01-29 11:45:20,852 | INFO |     prefilter_lines=8 (anchor_window=2)
+2026-01-29 11:45:20,853 | INFO |     bm25_topk=2 | bm25_max=-0.69 | sem_rag_max=8.00 | top=['4-8 sem=8.00 bm25=-0.80', '1-6 sem=6.00 bm25=-0.69']
+2026-01-29 11:45:25,236 | INFO |     LLM ok attempt=1 | llm_t=4.38s
+2026-01-29 11:45:25,237 | INFO |     extracted dm=1 labs=0 drugs=1 | sem_rag_max=8.0 bm25_max=-0.69 | stay_t=4.385s
+2026-01-29 11:45:25,287 | INFO |   [S2/2] sid=S0016
+2026-01-29 11:45:25,288 | INFO |     prefilter_lines=9 (anchor_window=2)
+2026-01-29 11:45:25,289 | INFO |     bm25_topk=2 | bm25_max=0.00 | sem_rag_max=1.00 | top=['1-6 sem=1.00 bm25=0.00', '4-9 sem=1.00 bm25=0.00']
+2026-01-29 11:45:30,715 | WARNING |     LLM fail attempt=1 | llm_t=5.43s | err=Expecting ',' delimiter: line 10 column 118 (char 479)
+2026-01-29 11:45:36,167 | WARNING |     LLM fail attempt=2 | llm_t=5.35s | err=Expecting ',' delimiter: line 10 column 118 (char 479)
+2026-01-29 11:45:36,268 | INFO |     extracted dm=0 labs=0 drugs=3 | sem_rag_max=1.0 bm25_max=0.0 | stay_t=10.98s
+2026-01-29 11:45:36,319 | INFO | [P8] done pid=0008 t=15.47s
+2026-01-29 11:45:36,319 | INFO | [P9/25] pid=0009 stays=2
+2026-01-29 11:45:36,319 | INFO |   [S1/2] sid=S0017
+2026-01-29 11:45:36,319 | INFO |     prefilter_lines=8 (anchor_window=2)
+2026-01-29 11:45:36,321 | INFO |     bm25_topk=2 | bm25_max=-0.76 | sem_rag_max=1.00 | top=['1-6 sem=1.00 bm25=-0.76', '4-8 sem=1.00 bm25=-0.90']
+2026-01-29 11:45:41,110 | INFO |     LLM ok attempt=1 | llm_t=4.79s
+2026-01-29 11:45:41,110 | INFO |     extracted dm=1 labs=0 drugs=2 | sem_rag_max=1.0 bm25_max=-0.765 | stay_t=4.79s
+2026-01-29 11:45:41,161 | INFO |   [S2/2] sid=S0018
+2026-01-29 11:45:41,161 | INFO |     prefilter_lines=6 (anchor_window=2)
+2026-01-29 11:45:41,162 | INFO |     bm25_topk=1 | bm25_max=-1.65 | sem_rag_max=7.00 | top=['3-8 sem=7.00 bm25=-1.65']
+2026-01-29 11:45:45,236 | INFO |     LLM ok attempt=1 | llm_t=4.07s
+2026-01-29 11:45:45,236 | INFO |     extracted dm=1 labs=0 drugs=1 | sem_rag_max=7.0 bm25_max=-1.648 | stay_t=4.075s
+2026-01-29 11:45:45,287 | INFO | [P9] done pid=0009 t=8.97s
+2026-01-29 11:45:45,287 | INFO | [P10/25] pid=0010 stays=2
+2026-01-29 11:45:45,287 | INFO |   [S1/2] sid=S0019
+2026-01-29 11:45:45,288 | INFO |     prefilter_lines=6 (anchor_window=2)
+2026-01-29 11:45:45,288 | INFO |     bm25_topk=1 | bm25_max=-1.37 | sem_rag_max=-3.00 | top=['3-8 sem=-3.00 bm25=-1.37']
+2026-01-29 11:45:49,675 | INFO |     LLM ok attempt=1 | llm_t=4.39s
+2026-01-29 11:45:49,675 | INFO |     extracted dm=1 labs=0 drugs=1 | sem_rag_max=-3.0 bm25_max=-1.373 | stay_t=4.387s
+2026-01-29 11:45:49,725 | INFO |   [S2/2] sid=S0020
+2026-01-29 11:45:49,725 | INFO |     prefilter_lines=6 (anchor_window=2)
+2026-01-29 11:45:49,726 | INFO |     bm25_topk=1 | bm25_max=-1.65 | sem_rag_max=7.00 | top=['3-8 sem=7.00 bm25=-1.65']
+2026-01-29 11:45:54,143 | INFO |     LLM ok attempt=1 | llm_t=4.42s
+2026-01-29 11:45:54,144 | INFO |     extracted dm=1 labs=0 drugs=2 | sem_rag_max=7.0 bm25_max=-1.648 | stay_t=4.418s
+2026-01-29 11:45:54,194 | INFO | [P10] done pid=0010 t=8.91s
+2026-01-29 11:45:54,194 | INFO | [P11/25] pid=0011 stays=2
+2026-01-29 11:45:54,194 | INFO |   [S1/2] sid=S0021
+2026-01-29 11:45:54,194 | INFO |     prefilter_lines=5 (anchor_window=2)
+2026-01-29 11:45:54,196 | INFO |     bm25_topk=1 | bm25_max=-1.10 | sem_rag_max=-4.00 | top=['3-7 sem=-4.00 bm25=-1.10']
+2026-01-29 11:45:57,820 | INFO |     LLM ok attempt=1 | llm_t=3.62s
+2026-01-29 11:45:57,820 | INFO |     extracted dm=1 labs=0 drugs=0 | sem_rag_max=-4.0 bm25_max=-1.099 | stay_t=3.625s
+2026-01-29 11:45:57,871 | INFO |   [S2/2] sid=S0022
+2026-01-29 11:45:57,871 | INFO |     prefilter_lines=8 (anchor_window=2)
+2026-01-29 11:45:57,872 | INFO |     bm25_topk=2 | bm25_max=0.00 | sem_rag_max=1.00 | top=['1-7 sem=1.00 bm25=0.00', '4-9 sem=1.00 bm25=0.00']
+2026-01-29 11:46:02,200 | INFO |     LLM ok attempt=1 | llm_t=4.33s
+2026-01-29 11:46:02,201 | INFO |     extracted dm=1 labs=0 drugs=1 | sem_rag_max=1.0 bm25_max=0.0 | stay_t=4.329s
+2026-01-29 11:46:02,251 | INFO | [P11] done pid=0011 t=8.06s
+2026-01-29 11:46:02,251 | INFO | [P12/25] pid=0012 stays=2
+2026-01-29 11:46:02,251 | INFO |   [S1/2] sid=S0023
+2026-01-29 11:46:02,253 | INFO |     prefilter_lines=8 (anchor_window=2)
+2026-01-29 11:46:02,253 | INFO |     bm25_topk=2 | bm25_max=-0.63 | sem_rag_max=7.00 | top=['4-8 sem=7.00 bm25=-0.77', '1-6 sem=6.00 bm25=-0.63']
+2026-01-29 11:46:06,812 | INFO |     LLM ok attempt=1 | llm_t=4.56s
+2026-01-29 11:46:06,812 | INFO |     extracted dm=1 labs=0 drugs=2 | sem_rag_max=7.0 bm25_max=-0.626 | stay_t=4.56s
+2026-01-29 11:46:06,863 | INFO |   [S2/2] sid=S0024
+2026-01-29 11:46:06,863 | INFO |     prefilter_lines=6 (anchor_window=2)
+2026-01-29 11:46:06,863 | INFO |     bm25_topk=1 | bm25_max=-0.27 | sem_rag_max=0.00 | top=['1-6 sem=0.00 bm25=-0.27']
+2026-01-29 11:46:10,974 | INFO |     LLM ok attempt=1 | llm_t=4.11s
+2026-01-29 11:46:10,974 | INFO |     extracted dm=1 labs=0 drugs=1 | sem_rag_max=0.0 bm25_max=-0.275 | stay_t=4.111s
+2026-01-29 11:46:11,025 | INFO | [P12] done pid=0012 t=8.77s
+2026-01-29 11:46:11,026 | INFO | [P13/25] pid=0013 stays=2
+2026-01-29 11:46:11,026 | INFO |   [S1/2] sid=S0025
+2026-01-29 11:46:11,026 | INFO |     prefilter_lines=8 (anchor_window=2)
+2026-01-29 11:46:11,027 | INFO |     bm25_topk=2 | bm25_max=-0.71 | sem_rag_max=1.00 | top=['1-6 sem=1.00 bm25=-0.71', '4-8 sem=1.00 bm25=-0.85']
+2026-01-29 11:46:16,090 | INFO |     LLM ok attempt=1 | llm_t=5.06s
+2026-01-29 11:46:16,090 | INFO |     extracted dm=1 labs=0 drugs=2 | sem_rag_max=1.0 bm25_max=-0.711 | stay_t=5.064s
+2026-01-29 11:46:16,141 | INFO |   [S2/2] sid=S0026
+2026-01-29 11:46:16,141 | INFO |     prefilter_lines=6 (anchor_window=2)
+2026-01-29 11:46:16,142 | INFO |     bm25_topk=1 | bm25_max=-1.65 | sem_rag_max=7.00 | top=['3-8 sem=7.00 bm25=-1.65']
+2026-01-29 11:46:20,697 | INFO |     LLM ok attempt=1 | llm_t=4.56s
+2026-01-29 11:46:20,698 | INFO |     extracted dm=1 labs=0 drugs=2 | sem_rag_max=7.0 bm25_max=-1.648 | stay_t=4.557s
+2026-01-29 11:46:20,749 | INFO | [P13] done pid=0013 t=9.72s
+2026-01-29 11:46:20,749 | INFO | [P14/25] pid=0014 stays=2
+2026-01-29 11:46:20,749 | INFO |   [S1/2] sid=S0027
+2026-01-29 11:46:20,750 | INFO |     prefilter_lines=5 (anchor_window=2)
+2026-01-29 11:46:20,750 | INFO |     bm25_topk=1 | bm25_max=-1.10 | sem_rag_max=-4.00 | top=['3-7 sem=-4.00 bm25=-1.10']
+2026-01-29 11:46:24,360 | INFO |     LLM ok attempt=1 | llm_t=3.61s
+2026-01-29 11:46:24,360 | INFO |     extracted dm=1 labs=0 drugs=0 | sem_rag_max=-4.0 bm25_max=-1.099 | stay_t=3.611s
+2026-01-29 11:46:24,411 | INFO |   [S2/2] sid=S0028
+2026-01-29 11:46:24,411 | INFO |     prefilter_lines=8 (anchor_window=2)
+2026-01-29 11:46:24,412 | INFO |     bm25_topk=2 | bm25_max=0.00 | sem_rag_max=1.00 | top=['1-6 sem=1.00 bm25=0.00', '4-8 sem=1.00 bm25=0.00']
+2026-01-29 11:46:28,717 | INFO |     LLM ok attempt=1 | llm_t=4.30s
+2026-01-29 11:46:28,718 | INFO |     extracted dm=1 labs=0 drugs=1 | sem_rag_max=1.0 bm25_max=0.0 | stay_t=4.306s
+2026-01-29 11:46:28,768 | INFO | [P14] done pid=0014 t=8.02s
+2026-01-29 11:46:28,768 | INFO | [P15/25] pid=0015 stays=2
+2026-01-29 11:46:28,768 | INFO |   [S1/2] sid=S0029
+2026-01-29 11:46:28,769 | INFO |     prefilter_lines=8 (anchor_window=2)
+2026-01-29 11:46:28,769 | INFO |     bm25_topk=2 | bm25_max=-0.65 | sem_rag_max=7.00 | top=['4-8 sem=7.00 bm25=-0.79', '1-6 sem=6.00 bm25=-0.65']
+2026-01-29 11:46:33,108 | INFO |     LLM ok attempt=1 | llm_t=4.34s
+2026-01-29 11:46:33,109 | INFO |     extracted dm=1 labs=0 drugs=1 | sem_rag_max=7.0 bm25_max=-0.649 | stay_t=4.34s
+2026-01-29 11:46:33,160 | INFO |   [S2/2] sid=S0030
+2026-01-29 11:46:33,160 | INFO |     prefilter_lines=6 (anchor_window=2)
+2026-01-29 11:46:33,161 | INFO |     bm25_topk=1 | bm25_max=-0.27 | sem_rag_max=0.00 | top=['1-6 sem=0.00 bm25=-0.27']
+2026-01-29 11:46:37,326 | INFO |     LLM ok attempt=1 | llm_t=4.16s
+2026-01-29 11:46:37,326 | INFO |     extracted dm=1 labs=0 drugs=1 | sem_rag_max=0.0 bm25_max=-0.275 | stay_t=4.166s
+2026-01-29 11:46:37,377 | INFO | [P15] done pid=0015 t=8.61s
+2026-01-29 11:46:37,378 | INFO | [P16/25] pid=0016 stays=2
+2026-01-29 11:46:37,378 | INFO |   [S1/2] sid=S0031
+2026-01-29 11:46:37,378 | INFO |     prefilter_lines=6 (anchor_window=2)
+2026-01-29 11:46:37,379 | INFO |     bm25_topk=1 | bm25_max=-1.37 | sem_rag_max=-3.00 | top=['3-8 sem=-3.00 bm25=-1.37']
+2026-01-29 11:46:42,838 | WARNING |     LLM fail attempt=1 | llm_t=5.46s | err=Expecting ',' delimiter: line 7 column 113 (char 441)
+2026-01-29 11:46:47,167 | INFO |     LLM ok attempt=2 | llm_t=4.23s
+2026-01-29 11:46:47,168 | INFO |     extracted dm=1 labs=0 drugs=1 | sem_rag_max=-3.0 bm25_max=-1.373 | stay_t=9.79s
+2026-01-29 11:46:47,219 | INFO |   [S2/2] sid=S0032
+2026-01-29 11:46:47,219 | INFO |     prefilter_lines=6 (anchor_window=2)
+2026-01-29 11:46:47,220 | INFO |     bm25_topk=1 | bm25_max=-1.65 | sem_rag_max=7.00 | top=['3-8 sem=7.00 bm25=-1.65']
+2026-01-29 11:46:52,302 | INFO |     LLM ok attempt=1 | llm_t=5.08s
+2026-01-29 11:46:52,303 | INFO |     extracted dm=1 labs=0 drugs=3 | sem_rag_max=7.0 bm25_max=-1.648 | stay_t=5.084s
+2026-01-29 11:46:52,354 | INFO | [P16] done pid=0016 t=14.98s
+2026-01-29 11:46:52,354 | INFO | [P17/25] pid=0017 stays=2
+2026-01-29 11:46:52,354 | INFO |   [S1/2] sid=S0033
+2026-01-29 11:46:52,354 | INFO |     prefilter_lines=5 (anchor_window=2)
+2026-01-29 11:46:52,355 | INFO |     bm25_topk=1 | bm25_max=-1.10 | sem_rag_max=-4.00 | top=['3-7 sem=-4.00 bm25=-1.10']
+2026-01-29 11:46:55,990 | INFO |     LLM ok attempt=1 | llm_t=3.63s
+2026-01-29 11:46:55,990 | INFO |     extracted dm=1 labs=0 drugs=0 | sem_rag_max=-4.0 bm25_max=-1.099 | stay_t=3.635s
+2026-01-29 11:46:56,041 | INFO |   [S2/2] sid=S0034
+2026-01-29 11:46:56,041 | INFO |     prefilter_lines=8 (anchor_window=2)
+2026-01-29 11:46:56,042 | INFO |     bm25_topk=2 | bm25_max=0.00 | sem_rag_max=1.00 | top=['1-6 sem=1.00 bm25=0.00', '4-8 sem=1.00 bm25=0.00']
+2026-01-29 11:47:00,775 | INFO |     LLM ok attempt=1 | llm_t=4.73s
+2026-01-29 11:47:00,776 | INFO |     extracted dm=1 labs=0 drugs=2 | sem_rag_max=1.0 bm25_max=0.0 | stay_t=4.734s
+2026-01-29 11:47:00,826 | INFO | [P17] done pid=0017 t=8.47s
+2026-01-29 11:47:00,826 | INFO | [P18/25] pid=0018 stays=2
+2026-01-29 11:47:00,826 | INFO |   [S1/2] sid=S0035
+2026-01-29 11:47:00,826 | INFO |     prefilter_lines=8 (anchor_window=2)
+2026-01-29 11:47:00,827 | INFO |     bm25_topk=2 | bm25_max=-0.58 | sem_rag_max=7.00 | top=['4-8 sem=7.00 bm25=-0.72', '1-6 sem=6.00 bm25=-0.58']
+2026-01-29 11:47:05,391 | INFO |     LLM ok attempt=1 | llm_t=4.56s
+2026-01-29 11:47:05,391 | INFO |     extracted dm=1 labs=0 drugs=2 | sem_rag_max=7.0 bm25_max=-0.581 | stay_t=4.564s
+2026-01-29 11:47:05,442 | INFO |   [S2/2] sid=S0036
+2026-01-29 11:47:05,442 | INFO |     prefilter_lines=6 (anchor_window=2)
+2026-01-29 11:47:05,443 | INFO |     bm25_topk=1 | bm25_max=-0.27 | sem_rag_max=0.00 | top=['1-6 sem=0.00 bm25=-0.27']
+2026-01-29 11:47:08,996 | INFO |     LLM ok attempt=1 | llm_t=3.55s
+2026-01-29 11:47:08,997 | INFO |     extracted dm=1 labs=0 drugs=0 | sem_rag_max=0.0 bm25_max=-0.275 | stay_t=3.555s
+2026-01-29 11:47:09,048 | INFO | [P18] done pid=0018 t=8.22s
+2026-01-29 11:47:09,048 | INFO | [P19/25] pid=0019 stays=2
+2026-01-29 11:47:09,048 | INFO |   [S1/2] sid=S0037
+2026-01-29 11:47:09,049 | INFO |     prefilter_lines=8 (anchor_window=2)
+2026-01-29 11:47:09,050 | INFO |     bm25_topk=2 | bm25_max=-0.72 | sem_rag_max=1.00 | top=['1-6 sem=1.00 bm25=-0.72', '4-8 sem=1.00 bm25=-0.86']
+2026-01-29 11:47:14,491 | WARNING |     LLM fail attempt=1 | llm_t=5.44s | err=Expecting ',' delimiter: line 10 column 85 (char 418)
+2026-01-29 11:47:19,561 | INFO |     LLM ok attempt=2 | llm_t=4.97s
+2026-01-29 11:47:19,561 | INFO |     extracted dm=1 labs=0 drugs=2 | sem_rag_max=1.0 bm25_max=-0.725 | stay_t=10.512s
+2026-01-29 11:47:19,612 | INFO |   [S2/2] sid=S0038
+2026-01-29 11:47:19,612 | INFO |     prefilter_lines=6 (anchor_window=2)
+2026-01-29 11:47:19,613 | INFO |     bm25_topk=1 | bm25_max=-1.65 | sem_rag_max=7.00 | top=['3-8 sem=7.00 bm25=-1.65']
+2026-01-29 11:47:25,049 | WARNING |     LLM fail attempt=1 | llm_t=5.44s | err=Expecting ',' delimiter: line 9 column 98 (char 486)
+2026-01-29 11:47:30,173 | INFO |     LLM ok attempt=2 | llm_t=5.02s
+2026-01-29 11:47:30,173 | INFO |     extracted dm=1 labs=0 drugs=3 | sem_rag_max=7.0 bm25_max=-1.648 | stay_t=10.561s
+2026-01-29 11:47:30,224 | INFO | [P19] done pid=0019 t=21.18s
+2026-01-29 11:47:30,224 | INFO | [P20/25] pid=0020 stays=2
+2026-01-29 11:47:30,225 | INFO |   [S1/2] sid=S0039
+2026-01-29 11:47:30,225 | INFO |     prefilter_lines=5 (anchor_window=2)
+2026-01-29 11:47:30,226 | INFO |     bm25_topk=1 | bm25_max=-1.10 | sem_rag_max=-4.00 | top=['3-7 sem=-4.00 bm25=-1.10']
+2026-01-29 11:47:33,827 | INFO |     LLM ok attempt=1 | llm_t=3.60s
+2026-01-29 11:47:33,827 | INFO |     extracted dm=1 labs=0 drugs=0 | sem_rag_max=-4.0 bm25_max=-1.099 | stay_t=3.602s
+2026-01-29 11:47:33,878 | INFO |   [S2/2] sid=S0040
+2026-01-29 11:47:33,878 | INFO |     prefilter_lines=8 (anchor_window=2)
+2026-01-29 11:47:33,879 | INFO |     bm25_topk=2 | bm25_max=0.00 | sem_rag_max=1.00 | top=['1-6 sem=1.00 bm25=0.00', '4-8 sem=1.00 bm25=0.00']
+2026-01-29 11:47:38,154 | INFO |     LLM ok attempt=1 | llm_t=4.27s
+2026-01-29 11:47:38,154 | INFO |     extracted dm=1 labs=0 drugs=1 | sem_rag_max=1.0 bm25_max=0.0 | stay_t=4.276s
+2026-01-29 11:47:38,205 | INFO | [P20] done pid=0020 t=7.98s
+2026-01-29 11:47:38,205 | INFO | [P21/25] pid=0021 stays=2
+2026-01-29 11:47:38,205 | INFO |   [S1/2] sid=S0041
+2026-01-29 11:47:38,206 | INFO |     prefilter_lines=6 (anchor_window=2)
+2026-01-29 11:47:38,206 | INFO |     bm25_topk=1 | bm25_max=-1.37 | sem_rag_max=-3.00 | top=['3-8 sem=-3.00 bm25=-1.37']
+2026-01-29 11:47:42,488 | INFO |     LLM ok attempt=1 | llm_t=4.28s
+2026-01-29 11:47:42,488 | INFO |     extracted dm=1 labs=0 drugs=1 | sem_rag_max=-3.0 bm25_max=-1.373 | stay_t=4.282s
+2026-01-29 11:47:42,539 | INFO |   [S2/2] sid=S0042
+2026-01-29 11:47:42,539 | INFO |     prefilter_lines=6 (anchor_window=2)
+2026-01-29 11:47:42,540 | INFO |     bm25_topk=1 | bm25_max=-1.65 | sem_rag_max=7.00 | top=['3-8 sem=7.00 bm25=-1.65']
+2026-01-29 11:47:46,638 | INFO |     LLM ok attempt=1 | llm_t=4.10s
+2026-01-29 11:47:46,638 | INFO |     extracted dm=1 labs=0 drugs=1 | sem_rag_max=7.0 bm25_max=-1.648 | stay_t=4.099s
+2026-01-29 11:47:46,689 | INFO | [P21] done pid=0021 t=8.48s
+2026-01-29 11:47:46,689 | INFO | [P22/25] pid=0022 stays=2
+2026-01-29 11:47:46,689 | INFO |   [S1/2] sid=S0043
+2026-01-29 11:47:46,689 | INFO |     prefilter_lines=5 (anchor_window=2)
+2026-01-29 11:47:46,690 | INFO |     bm25_topk=1 | bm25_max=-1.10 | sem_rag_max=-4.00 | top=['3-7 sem=-4.00 bm25=-1.10']
+2026-01-29 11:47:50,397 | INFO |     LLM ok attempt=1 | llm_t=3.71s
+2026-01-29 11:47:50,398 | INFO |     extracted dm=1 labs=0 drugs=0 | sem_rag_max=-4.0 bm25_max=-1.099 | stay_t=3.708s
+2026-01-29 11:47:50,449 | INFO |   [S2/2] sid=S0044
+2026-01-29 11:47:50,449 | INFO |     prefilter_lines=8 (anchor_window=2)
+2026-01-29 11:47:50,450 | INFO |     bm25_topk=2 | bm25_max=0.00 | sem_rag_max=1.00 | top=['1-6 sem=1.00 bm25=0.00', '4-8 sem=1.00 bm25=0.00']
+2026-01-29 11:47:55,855 | WARNING |     LLM fail attempt=1 | llm_t=5.41s | err=Expecting ',' delimiter: line 13 column 93 (char 552)
+2026-01-29 11:48:01,314 | WARNING |     LLM fail attempt=2 | llm_t=5.36s | err=Expecting ',' delimiter: line 13 column 93 (char 552)
+2026-01-29 11:48:01,415 | INFO |     extracted dm=0 labs=0 drugs=3 | sem_rag_max=1.0 bm25_max=0.0 | stay_t=10.966s
+2026-01-29 11:48:01,466 | INFO | [P22] done pid=0022 t=14.78s
+2026-01-29 11:48:01,466 | INFO | [P23/25] pid=0023 stays=2
+2026-01-29 11:48:01,466 | INFO |   [S1/2] sid=S0045
+2026-01-29 11:48:01,466 | INFO |     prefilter_lines=8 (anchor_window=2)
+2026-01-29 11:48:01,467 | INFO |     bm25_topk=2 | bm25_max=-0.59 | sem_rag_max=7.00 | top=['4-8 sem=7.00 bm25=-0.73', '1-6 sem=6.00 bm25=-0.59']
+2026-01-29 11:48:05,822 | INFO |     LLM ok attempt=1 | llm_t=4.35s
+2026-01-29 11:48:05,823 | INFO |     extracted dm=1 labs=0 drugs=1 | sem_rag_max=7.0 bm25_max=-0.587 | stay_t=4.356s
+2026-01-29 11:48:05,874 | INFO |   [S2/2] sid=S0046
+2026-01-29 11:48:05,874 | INFO |     prefilter_lines=6 (anchor_window=2)
+2026-01-29 11:48:05,875 | INFO |     bm25_topk=1 | bm25_max=-0.27 | sem_rag_max=0.00 | top=['1-6 sem=0.00 bm25=-0.27']
+2026-01-29 11:48:09,545 | INFO |     LLM ok attempt=1 | llm_t=3.67s
+2026-01-29 11:48:09,545 | INFO |     extracted dm=1 labs=0 drugs=0 | sem_rag_max=0.0 bm25_max=-0.275 | stay_t=3.671s
+2026-01-29 11:48:09,596 | INFO | [P23] done pid=0023 t=8.13s
+2026-01-29 11:48:09,596 | INFO | [P24/25] pid=0024 stays=2
+2026-01-29 11:48:09,596 | INFO |   [S1/2] sid=S0047
+2026-01-29 11:48:09,596 | INFO |     prefilter_lines=8 (anchor_window=2)
+2026-01-29 11:48:09,598 | INFO |     bm25_topk=2 | bm25_max=-0.72 | sem_rag_max=1.00 | top=['1-6 sem=1.00 bm25=-0.72', '4-8 sem=1.00 bm25=-0.85']
+2026-01-29 11:48:15,055 | WARNING |     LLM fail attempt=1 | llm_t=5.46s | err=Expecting ',' delimiter: line 10 column 153 (char 470)
+2026-01-29 11:48:19,893 | INFO |     LLM ok attempt=2 | llm_t=4.74s
+2026-01-29 11:48:19,893 | INFO |     extracted dm=1 labs=0 drugs=2 | sem_rag_max=1.0 bm25_max=-0.717 | stay_t=10.296s
+2026-01-29 11:48:19,944 | INFO |   [S2/2] sid=S0048
+2026-01-29 11:48:19,944 | INFO |     prefilter_lines=6 (anchor_window=2)
+2026-01-29 11:48:19,946 | INFO |     bm25_topk=1 | bm25_max=-1.65 | sem_rag_max=7.00 | top=['3-8 sem=7.00 bm25=-1.65']
+2026-01-29 11:48:24,443 | INFO |     LLM ok attempt=1 | llm_t=4.50s
+2026-01-29 11:48:24,443 | INFO |     extracted dm=1 labs=0 drugs=2 | sem_rag_max=7.0 bm25_max=-1.648 | stay_t=4.499s
+2026-01-29 11:48:24,494 | INFO | [P24] done pid=0024 t=14.90s
+2026-01-29 11:48:24,494 | INFO | [P25/25] pid=0025 stays=2
+2026-01-29 11:48:24,494 | INFO |   [S1/2] sid=S0049
+2026-01-29 11:48:24,495 | INFO |     prefilter_lines=5 (anchor_window=2)
+2026-01-29 11:48:24,496 | INFO |     bm25_topk=1 | bm25_max=-1.10 | sem_rag_max=-4.00 | top=['3-7 sem=-4.00 bm25=-1.10']
+2026-01-29 11:48:28,195 | INFO |     LLM ok attempt=1 | llm_t=3.70s
+2026-01-29 11:48:28,195 | INFO |     extracted dm=1 labs=0 drugs=0 | sem_rag_max=-4.0 bm25_max=-1.099 | stay_t=3.701s
+2026-01-29 11:48:28,247 | INFO |   [S2/2] sid=S0050
+2026-01-29 11:48:28,247 | INFO |     prefilter_lines=8 (anchor_window=2)
+2026-01-29 11:48:28,247 | INFO |     bm25_topk=2 | bm25_max=0.00 | sem_rag_max=1.00 | top=['1-6 sem=1.00 bm25=0.00', '4-8 sem=1.00 bm25=0.00']
+2026-01-29 11:48:33,632 | WARNING |     LLM fail attempt=1 | llm_t=5.38s | err=Expecting ',' delimiter: line 22 column 6 (char 461)
+2026-01-29 11:48:39,106 | WARNING |     LLM fail attempt=2 | llm_t=5.37s | err=Expecting ',' delimiter: line 22 column 6 (char 461)
+2026-01-29 11:48:39,207 | INFO |     extracted dm=0 labs=0 drugs=2 | sem_rag_max=1.0 bm25_max=0.0 | stay_t=10.96s
+2026-01-29 11:48:39,258 | INFO | [P25] done pid=0025 t=14.76s
+2026-01-29 11:48:39,258 | INFO | END | stays=50 fallback=5 total_t=275.27s
+2026-01-29 11:48:39,258 | INFO | BYTES patient=18271 stay=71313
+2026-01-29 12:56:42,554 | INFO | START | corpus=phantom_ehr_corpus.txt
+2026-01-29 12:56:42,555 | INFO | OUT patient=facts_agent1_patient.jsonl
+2026-01-29 12:56:42,555 | INFO | OUT stay   =facts_agent1_stay.jsonl
+2026-01-29 12:56:42,556 | INFO | patients_found=25 | corpus_chars=25227
+2026-01-29 12:56:42,557 | INFO | [P1/25] pid=0001 stays=2
+2026-01-29 12:56:42,558 | INFO |   [S1/2] sid=S0001
+2026-01-29 12:56:42,558 | INFO |     prefilter_lines=10 (anchor_window=2)
+2026-01-29 12:56:42,559 | INFO |     bm25_topk=3 | bm25_max=0.31 | sem_rag_max=1.00 | top=['7-10 sem=1.00 bm25=-0.07', '4-9 sem=1.00 bm25=-0.13', '1-6 sem=-6.00 bm25=0.31']
+2026-01-29 12:56:51,601 | WARNING |     LLM fail attempt=1 | llm_t=9.04s | err=Expecting ',' delimiter: line 17 column 6 (char 427)
+2026-01-29 12:56:57,215 | WARNING |     LLM fail attempt=2 | llm_t=5.51s | err=Expecting ',' delimiter: line 17 column 6 (char 427)
+2026-01-29 12:56:57,317 | INFO |     extracted dm=2 labs=2 drugs=1 | v3_added dm=2 labs=2 drugs=1 | sem_rag_max=1.0 bm25_max=0.31 | stay_t=14.759s
+2026-01-29 12:56:57,368 | INFO |   [S2/2] sid=S0002
+2026-01-29 12:56:57,369 | INFO |     prefilter_lines=8 (anchor_window=2)
+2026-01-29 12:56:57,372 | INFO |     bm25_topk=2 | bm25_max=0.00 | sem_rag_max=1.00 | top=['1-7 sem=1.00 bm25=0.00', '4-9 sem=1.00 bm25=0.00']
+2026-01-29 12:57:02,435 | INFO |     LLM ok attempt=1 | llm_t=5.06s
+2026-01-29 12:57:02,435 | INFO |     extracted dm=2 labs=0 drugs=3 | v3_added dm=1 labs=0 drugs=2 | sem_rag_max=1.0 bm25_max=0.0 | stay_t=5.067s
+2026-01-29 12:57:02,487 | INFO | [P1] done pid=0001 t=19.93s
+2026-01-29 12:57:02,487 | INFO | [P2/25] pid=0002 stays=2
+2026-01-29 12:57:02,487 | INFO |   [S1/2] sid=S0003
+2026-01-29 12:57:02,488 | INFO |     prefilter_lines=11 (anchor_window=2)
+2026-01-29 12:57:02,489 | INFO |     bm25_topk=3 | bm25_max=0.27 | sem_rag_max=6.00 | top=['7-11 sem=6.00 bm25=-0.34', '4-9 sem=1.00 bm25=-0.35', '1-6 sem=-4.00 bm25=0.27']
+2026-01-29 12:57:06,997 | INFO |     LLM ok attempt=1 | llm_t=4.51s
+2026-01-29 12:57:06,998 | INFO |     extracted dm=3 labs=2 drugs=2 | v3_added dm=2 labs=2 drugs=1 | sem_rag_max=6.0 bm25_max=0.268 | stay_t=4.51s
+2026-01-29 12:57:07,049 | INFO |   [S2/2] sid=S0004
+2026-01-29 12:57:07,050 | INFO |     prefilter_lines=8 (anchor_window=2)
+2026-01-29 12:57:07,051 | INFO |     bm25_topk=2 | bm25_max=0.00 | sem_rag_max=1.00 | top=['1-7 sem=1.00 bm25=0.00', '4-9 sem=1.00 bm25=0.00']
+2026-01-29 12:57:11,482 | INFO |     LLM ok attempt=1 | llm_t=4.43s
+2026-01-29 12:57:11,483 | INFO |     extracted dm=2 labs=0 drugs=3 | v3_added dm=1 labs=0 drugs=2 | sem_rag_max=1.0 bm25_max=0.0 | stay_t=4.433s
+2026-01-29 12:57:11,534 | INFO | [P2] done pid=0002 t=9.05s
+2026-01-29 12:57:11,534 | INFO | [P3/25] pid=0003 stays=2
+2026-01-29 12:57:11,534 | INFO |   [S1/2] sid=S0005
+2026-01-29 12:57:11,534 | INFO |     prefilter_lines=7 (anchor_window=2)
+2026-01-29 12:57:11,535 | INFO |     bm25_topk=2 | bm25_max=-0.75 | sem_rag_max=-4.00 | top=['4-9 sem=-4.00 bm25=-0.75', '7-10 sem=-4.00 bm25=-1.00']
+2026-01-29 12:57:17,013 | WARNING |     LLM fail attempt=1 | llm_t=5.48s | err=Expecting ',' delimiter: line 10 column 107 (char 484)
+2026-01-29 12:57:22,518 | WARNING |     LLM fail attempt=2 | llm_t=5.40s | err=Expecting ',' delimiter: line 10 column 107 (char 484)
+2026-01-29 12:57:22,619 | INFO |     extracted dm=1 labs=2 drugs=0 | v3_added dm=1 labs=2 drugs=0 | sem_rag_max=-4.0 bm25_max=-0.749 | stay_t=11.085s
+2026-01-29 12:57:22,670 | INFO |   [S2/2] sid=S0006
+2026-01-29 12:57:22,671 | INFO |     prefilter_lines=6 (anchor_window=2)
+2026-01-29 12:57:22,672 | INFO |     bm25_topk=1 | bm25_max=-1.65 | sem_rag_max=-4.00 | top=['2-7 sem=-4.00 bm25=-1.65']
+2026-01-29 12:57:26,371 | INFO |     LLM ok attempt=1 | llm_t=3.70s
+2026-01-29 12:57:26,374 | INFO |     extracted dm=2 labs=2 drugs=0 | v3_added dm=1 labs=2 drugs=0 | sem_rag_max=-4.0 bm25_max=-1.648 | stay_t=3.704s
+2026-01-29 12:57:26,427 | INFO | [P3] done pid=0003 t=14.89s
+2026-01-29 12:57:26,428 | INFO | [P4/25] pid=0004 stays=2
+2026-01-29 12:57:26,428 | INFO |   [S1/2] sid=S0007
+2026-01-29 12:57:26,429 | INFO |     prefilter_lines=8 (anchor_window=2)
+2026-01-29 12:57:26,431 | INFO |     bm25_topk=2 | bm25_max=-1.21 | sem_rag_max=8.00 | top=['4-8 sem=8.00 bm25=-1.43', '1-6 sem=6.00 bm25=-1.21']
+2026-01-29 12:57:30,980 | INFO |     LLM ok attempt=1 | llm_t=4.55s
+2026-01-29 12:57:30,982 | INFO |     extracted dm=3 labs=2 drugs=3 | v3_added dm=2 labs=2 drugs=2 | sem_rag_max=8.0 bm25_max=-1.205 | stay_t=4.552s
+2026-01-29 12:57:31,033 | INFO |   [S2/2] sid=S0008
+2026-01-29 12:57:31,033 | INFO |     prefilter_lines=8 (anchor_window=2)
+2026-01-29 12:57:31,033 | INFO |     bm25_topk=2 | bm25_max=-0.51 | sem_rag_max=6.00 | top=['1-6 sem=6.00 bm25=-0.51', '4-8 sem=5.00 bm25=-0.59']
+2026-01-29 12:57:34,791 | INFO |     LLM ok attempt=1 | llm_t=3.76s
+2026-01-29 12:57:34,792 | INFO |     extracted dm=3 labs=2 drugs=1 | v3_added dm=2 labs=2 drugs=1 | sem_rag_max=6.0 bm25_max=-0.513 | stay_t=3.758s
+2026-01-29 12:57:34,842 | INFO | [P4] done pid=0004 t=8.41s
+2026-01-29 12:57:34,843 | INFO | [P5/25] pid=0005 stays=2
+2026-01-29 12:57:34,843 | INFO |   [S1/2] sid=S0009
+2026-01-29 12:57:34,843 | INFO |     prefilter_lines=5 (anchor_window=2)
+2026-01-29 12:57:34,844 | INFO |     bm25_topk=1 | bm25_max=-1.10 | sem_rag_max=-4.00 | top=['3-7 sem=-4.00 bm25=-1.10']
+2026-01-29 12:57:38,543 | INFO |     LLM ok attempt=1 | llm_t=3.70s
+2026-01-29 12:57:38,543 | INFO |     extracted dm=2 labs=2 drugs=0 | v3_added dm=1 labs=2 drugs=0 | sem_rag_max=-4.0 bm25_max=-1.099 | stay_t=3.7s
+2026-01-29 12:57:38,594 | INFO |   [S2/2] sid=S0010
+2026-01-29 12:57:38,595 | INFO |     prefilter_lines=8 (anchor_window=2)
+2026-01-29 12:57:38,596 | INFO |     bm25_topk=2 | bm25_max=0.00 | sem_rag_max=1.00 | top=['1-7 sem=1.00 bm25=0.00', '4-9 sem=1.00 bm25=0.00']
+2026-01-29 12:57:43,233 | INFO |     LLM ok attempt=1 | llm_t=4.64s
+2026-01-29 12:57:43,233 | INFO |     extracted dm=2 labs=0 drugs=3 | v3_added dm=1 labs=0 drugs=2 | sem_rag_max=1.0 bm25_max=0.0 | stay_t=4.64s
+2026-01-29 12:57:43,285 | INFO | [P5] done pid=0005 t=8.44s
+2026-01-29 12:57:43,285 | INFO | [P6/25] pid=0006 stays=2
+2026-01-29 12:57:43,285 | INFO |   [S1/2] sid=S0011
+2026-01-29 12:57:43,285 | INFO |     prefilter_lines=7 (anchor_window=2)
+2026-01-29 12:57:43,286 | INFO |     bm25_topk=2 | bm25_max=-0.65 | sem_rag_max=1.00 | top=['6-9 sem=1.00 bm25=-0.90', '3-8 sem=-3.00 bm25=-0.65']
+2026-01-29 12:57:47,865 | INFO |     LLM ok attempt=1 | llm_t=4.58s
+2026-01-29 12:57:47,866 | INFO |     extracted dm=2 labs=2 drugs=2 | v3_added dm=1 labs=2 drugs=1 | sem_rag_max=1.0 bm25_max=-0.652 | stay_t=4.58s
+2026-01-29 12:57:47,917 | INFO |   [S2/2] sid=S0012
+2026-01-29 12:57:47,917 | INFO |     prefilter_lines=6 (anchor_window=2)
+2026-01-29 12:57:47,918 | INFO |     bm25_topk=1 | bm25_max=-1.65 | sem_rag_max=8.00 | top=['3-8 sem=8.00 bm25=-1.65']
+2026-01-29 12:57:52,756 | INFO |     LLM ok attempt=1 | llm_t=4.84s
+2026-01-29 12:57:52,756 | INFO |     extracted dm=2 labs=2 drugs=2 | v3_added dm=1 labs=2 drugs=1 | sem_rag_max=8.0 bm25_max=-1.648 | stay_t=4.839s
+2026-01-29 12:57:52,807 | INFO | [P6] done pid=0006 t=9.52s
+2026-01-29 12:57:52,807 | INFO | [P7/25] pid=0007 stays=2
+2026-01-29 12:57:52,807 | INFO |   [S1/2] sid=S0013
+2026-01-29 12:57:52,808 | INFO |     prefilter_lines=7 (anchor_window=2)
+2026-01-29 12:57:52,809 | INFO |     bm25_topk=2 | bm25_max=-1.10 | sem_rag_max=1.00 | top=['3-8 sem=1.00 bm25=-1.10', '6-9 sem=1.00 bm25=-1.32']
+2026-01-29 12:57:57,225 | INFO |     LLM ok attempt=1 | llm_t=4.42s
+2026-01-29 12:57:57,226 | INFO |     extracted dm=2 labs=3 drugs=2 | v3_added dm=1 labs=3 drugs=1 | sem_rag_max=1.0 bm25_max=-1.099 | stay_t=4.418s
+2026-01-29 12:57:57,276 | INFO |   [S2/2] sid=S0014
+2026-01-29 12:57:57,276 | INFO |     prefilter_lines=5 (anchor_window=2)
+2026-01-29 12:57:57,277 | INFO |     bm25_topk=1 | bm25_max=-1.37 | sem_rag_max=5.00 | top=['3-7 sem=5.00 bm25=-1.37']
+2026-01-29 12:58:00,872 | INFO |     LLM ok attempt=1 | llm_t=3.59s
+2026-01-29 12:58:00,873 | INFO |     extracted dm=2 labs=1 drugs=0 | v3_added dm=1 labs=1 drugs=0 | sem_rag_max=5.0 bm25_max=-1.373 | stay_t=3.596s
+2026-01-29 12:58:00,924 | INFO | [P7] done pid=0007 t=8.12s
+2026-01-29 12:58:00,924 | INFO | [P8/25] pid=0008 stays=2
+2026-01-29 12:58:00,925 | INFO |   [S1/2] sid=S0015
+2026-01-29 12:58:00,925 | INFO |     prefilter_lines=8 (anchor_window=2)
+2026-01-29 12:58:00,926 | INFO |     bm25_topk=2 | bm25_max=-0.69 | sem_rag_max=8.00 | top=['4-8 sem=8.00 bm25=-0.80', '1-6 sem=6.00 bm25=-0.69']
+2026-01-29 12:58:05,333 | INFO |     LLM ok attempt=1 | llm_t=4.41s
+2026-01-29 12:58:05,334 | INFO |     extracted dm=3 labs=2 drugs=3 | v3_added dm=2 labs=2 drugs=2 | sem_rag_max=8.0 bm25_max=-0.69 | stay_t=4.409s
+2026-01-29 12:58:05,384 | INFO |   [S2/2] sid=S0016
+2026-01-29 12:58:05,385 | INFO |     prefilter_lines=9 (anchor_window=2)
+2026-01-29 12:58:05,386 | INFO |     bm25_topk=2 | bm25_max=0.00 | sem_rag_max=1.00 | top=['1-6 sem=1.00 bm25=0.00', '4-9 sem=1.00 bm25=0.00']
+2026-01-29 12:58:10,811 | WARNING |     LLM fail attempt=1 | llm_t=5.42s | err=Expecting ',' delimiter: line 10 column 118 (char 479)
+2026-01-29 12:58:16,293 | WARNING |     LLM fail attempt=2 | llm_t=5.38s | err=Expecting ',' delimiter: line 10 column 118 (char 479)
+2026-01-29 12:58:16,394 | INFO |     extracted dm=1 labs=0 drugs=3 | v3_added dm=1 labs=0 drugs=3 | sem_rag_max=1.0 bm25_max=0.0 | stay_t=11.009s
+2026-01-29 12:58:16,445 | INFO | [P8] done pid=0008 t=15.52s
+2026-01-29 12:58:16,445 | INFO | [P9/25] pid=0009 stays=2
+2026-01-29 12:58:16,445 | INFO |   [S1/2] sid=S0017
+2026-01-29 12:58:16,446 | INFO |     prefilter_lines=8 (anchor_window=2)
+2026-01-29 12:58:16,447 | INFO |     bm25_topk=2 | bm25_max=-0.76 | sem_rag_max=1.00 | top=['1-6 sem=1.00 bm25=-0.76', '4-8 sem=1.00 bm25=-0.90']
+2026-01-29 12:58:21,356 | INFO |     LLM ok attempt=1 | llm_t=4.91s
+2026-01-29 12:58:21,356 | INFO |     extracted dm=3 labs=2 drugs=3 | v3_added dm=2 labs=2 drugs=2 | sem_rag_max=1.0 bm25_max=-0.765 | stay_t=4.91s
+2026-01-29 12:58:21,407 | INFO |   [S2/2] sid=S0018
+2026-01-29 12:58:21,407 | INFO |     prefilter_lines=6 (anchor_window=2)
+2026-01-29 12:58:21,407 | INFO |     bm25_topk=1 | bm25_max=-1.65 | sem_rag_max=7.00 | top=['3-8 sem=7.00 bm25=-1.65']
+2026-01-29 12:58:25,570 | INFO |     LLM ok attempt=1 | llm_t=4.16s
+2026-01-29 12:58:25,570 | INFO |     extracted dm=2 labs=2 drugs=1 | v3_added dm=1 labs=2 drugs=0 | sem_rag_max=7.0 bm25_max=-1.648 | stay_t=4.163s
+2026-01-29 12:58:25,622 | INFO | [P9] done pid=0009 t=9.18s
+2026-01-29 12:58:25,622 | INFO | [P10/25] pid=0010 stays=2
+2026-01-29 12:58:25,623 | INFO |   [S1/2] sid=S0019
+2026-01-29 12:58:25,623 | INFO |     prefilter_lines=6 (anchor_window=2)
+2026-01-29 12:58:25,624 | INFO |     bm25_topk=1 | bm25_max=-1.37 | sem_rag_max=-3.00 | top=['3-8 sem=-3.00 bm25=-1.37']
+2026-01-29 12:58:30,133 | INFO |     LLM ok attempt=1 | llm_t=4.51s
+2026-01-29 12:58:30,134 | INFO |     extracted dm=2 labs=2 drugs=2 | v3_added dm=1 labs=2 drugs=1 | sem_rag_max=-3.0 bm25_max=-1.373 | stay_t=4.511s
+2026-01-29 12:58:30,185 | INFO |   [S2/2] sid=S0020
+2026-01-29 12:58:30,185 | INFO |     prefilter_lines=6 (anchor_window=2)
+2026-01-29 12:58:30,186 | INFO |     bm25_topk=1 | bm25_max=-1.65 | sem_rag_max=7.00 | top=['3-8 sem=7.00 bm25=-1.65']
+2026-01-29 12:58:34,620 | INFO |     LLM ok attempt=1 | llm_t=4.43s
+2026-01-29 12:58:34,620 | INFO |     extracted dm=2 labs=2 drugs=1 | v3_added dm=1 labs=2 drugs=0 | sem_rag_max=7.0 bm25_max=-1.648 | stay_t=4.435s
+2026-01-29 12:58:34,671 | INFO | [P10] done pid=0010 t=9.05s
+2026-01-29 12:58:34,671 | INFO | [P11/25] pid=0011 stays=2
+2026-01-29 12:58:34,671 | INFO |   [S1/2] sid=S0021
+2026-01-29 12:58:34,672 | INFO |     prefilter_lines=5 (anchor_window=2)
+2026-01-29 12:58:34,673 | INFO |     bm25_topk=1 | bm25_max=-1.10 | sem_rag_max=-4.00 | top=['3-7 sem=-4.00 bm25=-1.10']
+2026-01-29 12:58:38,294 | INFO |     LLM ok attempt=1 | llm_t=3.62s
+2026-01-29 12:58:38,295 | INFO |     extracted dm=2 labs=2 drugs=0 | v3_added dm=1 labs=2 drugs=0 | sem_rag_max=-4.0 bm25_max=-1.099 | stay_t=3.623s
+2026-01-29 12:58:38,346 | INFO |   [S2/2] sid=S0022
+2026-01-29 12:58:38,346 | INFO |     prefilter_lines=8 (anchor_window=2)
+2026-01-29 12:58:38,347 | INFO |     bm25_topk=2 | bm25_max=0.00 | sem_rag_max=1.00 | top=['1-7 sem=1.00 bm25=0.00', '4-9 sem=1.00 bm25=0.00']
+2026-01-29 12:58:42,681 | INFO |     LLM ok attempt=1 | llm_t=4.33s
+2026-01-29 12:58:42,681 | INFO |     extracted dm=2 labs=0 drugs=3 | v3_added dm=1 labs=0 drugs=2 | sem_rag_max=1.0 bm25_max=0.0 | stay_t=4.335s
+2026-01-29 12:58:42,732 | INFO | [P11] done pid=0011 t=8.06s
+2026-01-29 12:58:42,732 | INFO | [P12/25] pid=0012 stays=2
+2026-01-29 12:58:42,732 | INFO |   [S1/2] sid=S0023
+2026-01-29 12:58:42,734 | INFO |     prefilter_lines=8 (anchor_window=2)
+2026-01-29 12:58:42,734 | INFO |     bm25_topk=2 | bm25_max=-0.63 | sem_rag_max=7.00 | top=['4-8 sem=7.00 bm25=-0.77', '1-6 sem=6.00 bm25=-0.63']
+2026-01-29 12:58:47,300 | INFO |     LLM ok attempt=1 | llm_t=4.57s
+2026-01-29 12:58:47,300 | INFO |     extracted dm=3 labs=2 drugs=2 | v3_added dm=2 labs=2 drugs=1 | sem_rag_max=7.0 bm25_max=-0.626 | stay_t=4.567s
+2026-01-29 12:58:47,351 | INFO |   [S2/2] sid=S0024
+2026-01-29 12:58:47,351 | INFO |     prefilter_lines=6 (anchor_window=2)
+2026-01-29 12:58:47,352 | INFO |     bm25_topk=1 | bm25_max=-0.27 | sem_rag_max=0.00 | top=['1-6 sem=0.00 bm25=-0.27']
+2026-01-29 12:58:51,456 | INFO |     LLM ok attempt=1 | llm_t=4.10s
+2026-01-29 12:58:51,456 | INFO |     extracted dm=1 labs=0 drugs=1 | v3_added dm=0 labs=0 drugs=0 | sem_rag_max=0.0 bm25_max=-0.275 | stay_t=4.105s
+2026-01-29 12:58:51,507 | INFO | [P12] done pid=0012 t=8.77s
+2026-01-29 12:58:51,507 | INFO | [P13/25] pid=0013 stays=2
+2026-01-29 12:58:51,507 | INFO |   [S1/2] sid=S0025
+2026-01-29 12:58:51,508 | INFO |     prefilter_lines=8 (anchor_window=2)
+2026-01-29 12:58:51,509 | INFO |     bm25_topk=2 | bm25_max=-0.71 | sem_rag_max=1.00 | top=['1-6 sem=1.00 bm25=-0.71', '4-8 sem=1.00 bm25=-0.85']
+2026-01-29 12:58:56,584 | INFO |     LLM ok attempt=1 | llm_t=5.07s
+2026-01-29 12:58:56,585 | INFO |     extracted dm=3 labs=2 drugs=3 | v3_added dm=2 labs=2 drugs=2 | sem_rag_max=1.0 bm25_max=-0.711 | stay_t=5.076s
+2026-01-29 12:58:56,635 | INFO |   [S2/2] sid=S0026
+2026-01-29 12:58:56,635 | INFO |     prefilter_lines=6 (anchor_window=2)
+2026-01-29 12:58:56,636 | INFO |     bm25_topk=1 | bm25_max=-1.65 | sem_rag_max=7.00 | top=['3-8 sem=7.00 bm25=-1.65']
+2026-01-29 12:59:01,158 | INFO |     LLM ok attempt=1 | llm_t=4.52s
+2026-01-29 12:59:01,158 | INFO |     extracted dm=2 labs=2 drugs=1 | v3_added dm=1 labs=2 drugs=0 | sem_rag_max=7.0 bm25_max=-1.648 | stay_t=4.522s
+2026-01-29 12:59:01,208 | INFO | [P13] done pid=0013 t=9.70s
+2026-01-29 12:59:01,208 | INFO | [P14/25] pid=0014 stays=2
+2026-01-29 12:59:01,208 | INFO |   [S1/2] sid=S0027
+2026-01-29 12:59:01,210 | INFO |     prefilter_lines=5 (anchor_window=2)
+2026-01-29 12:59:01,210 | INFO |     bm25_topk=1 | bm25_max=-1.10 | sem_rag_max=-4.00 | top=['3-7 sem=-4.00 bm25=-1.10']
+2026-01-29 12:59:04,809 | INFO |     LLM ok attempt=1 | llm_t=3.60s
+2026-01-29 12:59:04,809 | INFO |     extracted dm=2 labs=2 drugs=0 | v3_added dm=1 labs=2 drugs=0 | sem_rag_max=-4.0 bm25_max=-1.099 | stay_t=3.6s
+2026-01-29 12:59:04,860 | INFO |   [S2/2] sid=S0028
+2026-01-29 12:59:04,860 | INFO |     prefilter_lines=8 (anchor_window=2)
+2026-01-29 12:59:04,861 | INFO |     bm25_topk=2 | bm25_max=0.00 | sem_rag_max=1.00 | top=['1-6 sem=1.00 bm25=0.00', '4-8 sem=1.00 bm25=0.00']
+2026-01-29 12:59:09,198 | INFO |     LLM ok attempt=1 | llm_t=4.34s
+2026-01-29 12:59:09,199 | INFO |     extracted dm=2 labs=0 drugs=3 | v3_added dm=1 labs=0 drugs=2 | sem_rag_max=1.0 bm25_max=0.0 | stay_t=4.339s
+2026-01-29 12:59:09,249 | INFO | [P14] done pid=0014 t=8.04s
+2026-01-29 12:59:09,249 | INFO | [P15/25] pid=0015 stays=2
+2026-01-29 12:59:09,249 | INFO |   [S1/2] sid=S0029
+2026-01-29 12:59:09,250 | INFO |     prefilter_lines=8 (anchor_window=2)
+2026-01-29 12:59:09,250 | INFO |     bm25_topk=2 | bm25_max=-0.65 | sem_rag_max=7.00 | top=['4-8 sem=7.00 bm25=-0.79', '1-6 sem=6.00 bm25=-0.65']
+2026-01-29 12:59:13,569 | INFO |     LLM ok attempt=1 | llm_t=4.32s
+2026-01-29 12:59:13,569 | INFO |     extracted dm=3 labs=2 drugs=2 | v3_added dm=2 labs=2 drugs=1 | sem_rag_max=7.0 bm25_max=-0.649 | stay_t=4.319s
+2026-01-29 12:59:13,620 | INFO |   [S2/2] sid=S0030
+2026-01-29 12:59:13,620 | INFO |     prefilter_lines=6 (anchor_window=2)
+2026-01-29 12:59:13,620 | INFO |     bm25_topk=1 | bm25_max=-0.27 | sem_rag_max=0.00 | top=['1-6 sem=0.00 bm25=-0.27']
+2026-01-29 12:59:17,841 | INFO |     LLM ok attempt=1 | llm_t=4.22s
+2026-01-29 12:59:17,841 | INFO |     extracted dm=1 labs=0 drugs=1 | v3_added dm=0 labs=0 drugs=0 | sem_rag_max=0.0 bm25_max=-0.275 | stay_t=4.221s
+2026-01-29 12:59:17,892 | INFO | [P15] done pid=0015 t=8.64s
+2026-01-29 12:59:17,892 | INFO | [P16/25] pid=0016 stays=2
+2026-01-29 12:59:17,892 | INFO |   [S1/2] sid=S0031
+2026-01-29 12:59:17,893 | INFO |     prefilter_lines=6 (anchor_window=2)
+2026-01-29 12:59:17,894 | INFO |     bm25_topk=1 | bm25_max=-1.37 | sem_rag_max=-3.00 | top=['3-8 sem=-3.00 bm25=-1.37']
+2026-01-29 12:59:23,339 | WARNING |     LLM fail attempt=1 | llm_t=5.45s | err=Expecting ',' delimiter: line 7 column 113 (char 441)
+2026-01-29 12:59:27,663 | INFO |     LLM ok attempt=2 | llm_t=4.22s
+2026-01-29 12:59:27,664 | INFO |     extracted dm=2 labs=2 drugs=2 | v3_added dm=1 labs=2 drugs=1 | sem_rag_max=-3.0 bm25_max=-1.373 | stay_t=9.771s
+2026-01-29 12:59:27,715 | INFO |   [S2/2] sid=S0032
+2026-01-29 12:59:27,715 | INFO |     prefilter_lines=6 (anchor_window=2)
+2026-01-29 12:59:27,715 | INFO |     bm25_topk=1 | bm25_max=-1.65 | sem_rag_max=7.00 | top=['3-8 sem=7.00 bm25=-1.65']
+2026-01-29 12:59:32,807 | INFO |     LLM ok attempt=1 | llm_t=5.09s
+2026-01-29 12:59:32,807 | INFO |     extracted dm=2 labs=2 drugs=1 | v3_added dm=1 labs=2 drugs=0 | sem_rag_max=7.0 bm25_max=-1.648 | stay_t=5.092s
+2026-01-29 12:59:32,858 | INFO | [P16] done pid=0016 t=14.97s
+2026-01-29 12:59:32,859 | INFO | [P17/25] pid=0017 stays=2
+2026-01-29 12:59:32,859 | INFO |   [S1/2] sid=S0033
+2026-01-29 12:59:32,859 | INFO |     prefilter_lines=5 (anchor_window=2)
+2026-01-29 12:59:32,860 | INFO |     bm25_topk=1 | bm25_max=-1.10 | sem_rag_max=-4.00 | top=['3-7 sem=-4.00 bm25=-1.10']
+2026-01-29 12:59:36,494 | INFO |     LLM ok attempt=1 | llm_t=3.63s
+2026-01-29 12:59:36,494 | INFO |     extracted dm=2 labs=2 drugs=0 | v3_added dm=1 labs=2 drugs=0 | sem_rag_max=-4.0 bm25_max=-1.099 | stay_t=3.635s
+2026-01-29 12:59:36,545 | INFO |   [S2/2] sid=S0034
+2026-01-29 12:59:36,545 | INFO |     prefilter_lines=8 (anchor_window=2)
+2026-01-29 12:59:36,546 | INFO |     bm25_topk=2 | bm25_max=0.00 | sem_rag_max=1.00 | top=['1-6 sem=1.00 bm25=0.00', '4-8 sem=1.00 bm25=0.00']
+2026-01-29 12:59:41,258 | INFO |     LLM ok attempt=1 | llm_t=4.71s
+2026-01-29 12:59:41,258 | INFO |     extracted dm=2 labs=0 drugs=4 | v3_added dm=1 labs=0 drugs=3 | sem_rag_max=1.0 bm25_max=0.0 | stay_t=4.713s
+2026-01-29 12:59:41,309 | INFO | [P17] done pid=0017 t=8.45s
+2026-01-29 12:59:41,309 | INFO | [P18/25] pid=0018 stays=2
+2026-01-29 12:59:41,309 | INFO |   [S1/2] sid=S0035
+2026-01-29 12:59:41,310 | INFO |     prefilter_lines=8 (anchor_window=2)
+2026-01-29 12:59:41,311 | INFO |     bm25_topk=2 | bm25_max=-0.58 | sem_rag_max=7.00 | top=['4-8 sem=7.00 bm25=-0.72', '1-6 sem=6.00 bm25=-0.58']
+2026-01-29 12:59:45,883 | INFO |     LLM ok attempt=1 | llm_t=4.57s
+2026-01-29 12:59:45,883 | INFO |     extracted dm=3 labs=2 drugs=2 | v3_added dm=2 labs=2 drugs=1 | sem_rag_max=7.0 bm25_max=-0.581 | stay_t=4.573s
+2026-01-29 12:59:45,934 | INFO |   [S2/2] sid=S0036
+2026-01-29 12:59:45,934 | INFO |     prefilter_lines=6 (anchor_window=2)
+2026-01-29 12:59:45,935 | INFO |     bm25_topk=1 | bm25_max=-0.27 | sem_rag_max=0.00 | top=['1-6 sem=0.00 bm25=-0.27']
+2026-01-29 12:59:49,472 | INFO |     LLM ok attempt=1 | llm_t=3.54s
+2026-01-29 12:59:49,473 | INFO |     extracted dm=1 labs=0 drugs=0 | v3_added dm=0 labs=0 drugs=0 | sem_rag_max=0.0 bm25_max=-0.275 | stay_t=3.539s
+2026-01-29 12:59:49,524 | INFO | [P18] done pid=0018 t=8.21s
+2026-01-29 12:59:49,524 | INFO | [P19/25] pid=0019 stays=2
+2026-01-29 12:59:49,524 | INFO |   [S1/2] sid=S0037
+2026-01-29 12:59:49,525 | INFO |     prefilter_lines=8 (anchor_window=2)
+2026-01-29 12:59:49,525 | INFO |     bm25_topk=2 | bm25_max=-0.72 | sem_rag_max=1.00 | top=['1-6 sem=1.00 bm25=-0.72', '4-8 sem=1.00 bm25=-0.86']
+2026-01-29 12:59:54,977 | WARNING |     LLM fail attempt=1 | llm_t=5.45s | err=Expecting ',' delimiter: line 10 column 85 (char 418)
+2026-01-29 13:00:00,074 | INFO |     LLM ok attempt=2 | llm_t=5.00s
+2026-01-29 13:00:00,074 | INFO |     extracted dm=3 labs=2 drugs=3 | v3_added dm=2 labs=2 drugs=2 | sem_rag_max=1.0 bm25_max=-0.725 | stay_t=10.55s
+2026-01-29 13:00:00,126 | INFO |   [S2/2] sid=S0038
+2026-01-29 13:00:00,126 | INFO |     prefilter_lines=6 (anchor_window=2)
+2026-01-29 13:00:00,126 | INFO |     bm25_topk=1 | bm25_max=-1.65 | sem_rag_max=7.00 | top=['3-8 sem=7.00 bm25=-1.65']
+2026-01-29 13:00:05,514 | WARNING |     LLM fail attempt=1 | llm_t=5.39s | err=Expecting ',' delimiter: line 9 column 98 (char 486)
+2026-01-29 13:00:10,666 | INFO |     LLM ok attempt=2 | llm_t=5.05s
+2026-01-29 13:00:10,666 | INFO |     extracted dm=2 labs=2 drugs=1 | v3_added dm=1 labs=2 drugs=0 | sem_rag_max=7.0 bm25_max=-1.648 | stay_t=10.54s
+2026-01-29 13:00:10,717 | INFO | [P19] done pid=0019 t=21.19s
+2026-01-29 13:00:10,717 | INFO | [P20/25] pid=0020 stays=2
+2026-01-29 13:00:10,717 | INFO |   [S1/2] sid=S0039
+2026-01-29 13:00:10,718 | INFO |     prefilter_lines=5 (anchor_window=2)
+2026-01-29 13:00:10,719 | INFO |     bm25_topk=1 | bm25_max=-1.10 | sem_rag_max=-4.00 | top=['3-7 sem=-4.00 bm25=-1.10']
+2026-01-29 13:00:14,302 | INFO |     LLM ok attempt=1 | llm_t=3.58s
+2026-01-29 13:00:14,303 | INFO |     extracted dm=2 labs=2 drugs=0 | v3_added dm=1 labs=2 drugs=0 | sem_rag_max=-4.0 bm25_max=-1.099 | stay_t=3.585s
+2026-01-29 13:00:14,354 | INFO |   [S2/2] sid=S0040
+2026-01-29 13:00:14,354 | INFO |     prefilter_lines=8 (anchor_window=2)
+2026-01-29 13:00:14,355 | INFO |     bm25_topk=2 | bm25_max=0.00 | sem_rag_max=1.00 | top=['1-6 sem=1.00 bm25=0.00', '4-8 sem=1.00 bm25=0.00']
+2026-01-29 13:00:18,717 | INFO |     LLM ok attempt=1 | llm_t=4.36s
+2026-01-29 13:00:18,718 | INFO |     extracted dm=2 labs=0 drugs=3 | v3_added dm=1 labs=0 drugs=2 | sem_rag_max=1.0 bm25_max=0.0 | stay_t=4.364s
+2026-01-29 13:00:18,768 | INFO | [P20] done pid=0020 t=8.05s
+2026-01-29 13:00:18,768 | INFO | [P21/25] pid=0021 stays=2
+2026-01-29 13:00:18,768 | INFO |   [S1/2] sid=S0041
+2026-01-29 13:00:18,769 | INFO |     prefilter_lines=6 (anchor_window=2)
+2026-01-29 13:00:18,769 | INFO |     bm25_topk=1 | bm25_max=-1.37 | sem_rag_max=-3.00 | top=['3-8 sem=-3.00 bm25=-1.37']
+2026-01-29 13:00:23,098 | INFO |     LLM ok attempt=1 | llm_t=4.33s
+2026-01-29 13:00:23,098 | INFO |     extracted dm=2 labs=2 drugs=2 | v3_added dm=1 labs=2 drugs=1 | sem_rag_max=-3.0 bm25_max=-1.373 | stay_t=4.329s
+2026-01-29 13:00:23,149 | INFO |   [S2/2] sid=S0042
+2026-01-29 13:00:23,150 | INFO |     prefilter_lines=6 (anchor_window=2)
+2026-01-29 13:00:23,150 | INFO |     bm25_topk=1 | bm25_max=-1.65 | sem_rag_max=7.00 | top=['3-8 sem=7.00 bm25=-1.65']
+2026-01-29 13:00:27,307 | INFO |     LLM ok attempt=1 | llm_t=4.16s
+2026-01-29 13:00:27,307 | INFO |     extracted dm=2 labs=2 drugs=1 | v3_added dm=1 labs=2 drugs=0 | sem_rag_max=7.0 bm25_max=-1.648 | stay_t=4.157s
+2026-01-29 13:00:27,358 | INFO | [P21] done pid=0021 t=8.59s
+2026-01-29 13:00:27,358 | INFO | [P22/25] pid=0022 stays=2
+2026-01-29 13:00:27,358 | INFO |   [S1/2] sid=S0043
+2026-01-29 13:00:27,359 | INFO |     prefilter_lines=5 (anchor_window=2)
+2026-01-29 13:00:27,359 | INFO |     bm25_topk=1 | bm25_max=-1.10 | sem_rag_max=-4.00 | top=['3-7 sem=-4.00 bm25=-1.10']
+2026-01-29 13:00:31,070 | INFO |     LLM ok attempt=1 | llm_t=3.71s
+2026-01-29 13:00:31,071 | INFO |     extracted dm=2 labs=2 drugs=0 | v3_added dm=1 labs=2 drugs=0 | sem_rag_max=-4.0 bm25_max=-1.099 | stay_t=3.712s
+2026-01-29 13:00:31,122 | INFO |   [S2/2] sid=S0044
+2026-01-29 13:00:31,122 | INFO |     prefilter_lines=8 (anchor_window=2)
+2026-01-29 13:00:31,123 | INFO |     bm25_topk=2 | bm25_max=0.00 | sem_rag_max=1.00 | top=['1-6 sem=1.00 bm25=0.00', '4-8 sem=1.00 bm25=0.00']
+2026-01-29 13:00:36,732 | WARNING |     LLM fail attempt=1 | llm_t=5.61s | err=Expecting ',' delimiter: line 13 column 93 (char 552)
+2026-01-29 13:00:42,263 | WARNING |     LLM fail attempt=2 | llm_t=5.43s | err=Expecting ',' delimiter: line 13 column 93 (char 552)
+2026-01-29 13:00:42,364 | INFO |     extracted dm=1 labs=0 drugs=3 | v3_added dm=1 labs=0 drugs=3 | sem_rag_max=1.0 bm25_max=0.0 | stay_t=11.242s
+2026-01-29 13:00:42,415 | INFO | [P22] done pid=0022 t=15.06s
+2026-01-29 13:00:42,415 | INFO | [P23/25] pid=0023 stays=2
+2026-01-29 13:00:42,415 | INFO |   [S1/2] sid=S0045
+2026-01-29 13:00:42,415 | INFO |     prefilter_lines=8 (anchor_window=2)
+2026-01-29 13:00:42,416 | INFO |     bm25_topk=2 | bm25_max=-0.59 | sem_rag_max=7.00 | top=['4-8 sem=7.00 bm25=-0.73', '1-6 sem=6.00 bm25=-0.59']
+2026-01-29 13:00:46,946 | INFO |     LLM ok attempt=1 | llm_t=4.53s
+2026-01-29 13:00:46,946 | INFO |     extracted dm=3 labs=2 drugs=2 | v3_added dm=2 labs=2 drugs=1 | sem_rag_max=7.0 bm25_max=-0.587 | stay_t=4.531s
+2026-01-29 13:00:46,998 | INFO |   [S2/2] sid=S0046
+2026-01-29 13:00:46,998 | INFO |     prefilter_lines=6 (anchor_window=2)
+2026-01-29 13:00:46,999 | INFO |     bm25_topk=1 | bm25_max=-0.27 | sem_rag_max=0.00 | top=['1-6 sem=0.00 bm25=-0.27']
+2026-01-29 13:00:50,610 | INFO |     LLM ok attempt=1 | llm_t=3.61s
+2026-01-29 13:00:50,611 | INFO |     extracted dm=1 labs=0 drugs=0 | v3_added dm=0 labs=0 drugs=0 | sem_rag_max=0.0 bm25_max=-0.275 | stay_t=3.612s
+2026-01-29 13:00:50,661 | INFO | [P23] done pid=0023 t=8.25s
+2026-01-29 13:00:50,661 | INFO | [P24/25] pid=0024 stays=2
+2026-01-29 13:00:50,661 | INFO |   [S1/2] sid=S0047
+2026-01-29 13:00:50,662 | INFO |     prefilter_lines=8 (anchor_window=2)
+2026-01-29 13:00:50,662 | INFO |     bm25_topk=2 | bm25_max=-0.72 | sem_rag_max=1.00 | top=['1-6 sem=1.00 bm25=-0.72', '4-8 sem=1.00 bm25=-0.85']
+2026-01-29 13:00:56,155 | WARNING |     LLM fail attempt=1 | llm_t=5.49s | err=Expecting ',' delimiter: line 10 column 153 (char 470)
+2026-01-29 13:01:01,075 | INFO |     LLM ok attempt=2 | llm_t=4.82s
+2026-01-29 13:01:01,075 | INFO |     extracted dm=3 labs=2 drugs=3 | v3_added dm=2 labs=2 drugs=2 | sem_rag_max=1.0 bm25_max=-0.717 | stay_t=10.413s
+2026-01-29 13:01:01,126 | INFO |   [S2/2] sid=S0048
+2026-01-29 13:01:01,126 | INFO |     prefilter_lines=6 (anchor_window=2)
+2026-01-29 13:01:01,127 | INFO |     bm25_topk=1 | bm25_max=-1.65 | sem_rag_max=7.00 | top=['3-8 sem=7.00 bm25=-1.65']
+2026-01-29 13:01:05,595 | INFO |     LLM ok attempt=1 | llm_t=4.47s
+2026-01-29 13:01:05,595 | INFO |     extracted dm=2 labs=2 drugs=1 | v3_added dm=1 labs=2 drugs=0 | sem_rag_max=7.0 bm25_max=-1.648 | stay_t=4.468s
+2026-01-29 13:01:05,646 | INFO | [P24] done pid=0024 t=14.98s
+2026-01-29 13:01:05,646 | INFO | [P25/25] pid=0025 stays=2
+2026-01-29 13:01:05,646 | INFO |   [S1/2] sid=S0049
+2026-01-29 13:01:05,647 | INFO |     prefilter_lines=5 (anchor_window=2)
+2026-01-29 13:01:05,647 | INFO |     bm25_topk=1 | bm25_max=-1.10 | sem_rag_max=-4.00 | top=['3-7 sem=-4.00 bm25=-1.10']
+2026-01-29 13:01:09,281 | INFO |     LLM ok attempt=1 | llm_t=3.63s
+2026-01-29 13:01:09,282 | INFO |     extracted dm=2 labs=2 drugs=0 | v3_added dm=1 labs=2 drugs=0 | sem_rag_max=-4.0 bm25_max=-1.099 | stay_t=3.635s
+2026-01-29 13:01:09,333 | INFO |   [S2/2] sid=S0050
+2026-01-29 13:01:09,333 | INFO |     prefilter_lines=8 (anchor_window=2)
+2026-01-29 13:01:09,333 | INFO |     bm25_topk=2 | bm25_max=0.00 | sem_rag_max=1.00 | top=['1-6 sem=1.00 bm25=0.00', '4-8 sem=1.00 bm25=0.00']
+2026-01-29 13:01:14,733 | WARNING |     LLM fail attempt=1 | llm_t=5.40s | err=Expecting ',' delimiter: line 22 column 6 (char 461)
+2026-01-29 13:01:20,306 | WARNING |     LLM fail attempt=2 | llm_t=5.47s | err=Expecting ',' delimiter: line 22 column 6 (char 461)
+2026-01-29 13:01:20,407 | INFO |     extracted dm=1 labs=0 drugs=2 | v3_added dm=1 labs=0 drugs=2 | sem_rag_max=1.0 bm25_max=0.0 | stay_t=11.074s
+2026-01-29 13:01:20,458 | INFO | [P25] done pid=0025 t=14.81s
+2026-01-29 13:01:20,458 | INFO | END | stays=50 fallback=5 total_t=277.90s
+2026-01-29 13:01:20,459 | INFO | BYTES patient=47935 stay=103418

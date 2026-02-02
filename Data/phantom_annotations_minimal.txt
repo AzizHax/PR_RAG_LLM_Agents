@@ -1,0 +1,25 @@
+PATIENT_ID: 0001 | LABEL_BINARY: 1 | COMMENT: PR confirmée (anti-CCP+ à 48 U/mL, RF+ à 120 UI/mL, synovite échographique, début de MTX, évaluation clinique cohérente avec PR).
+PATIENT_ID: 0002 | LABEL_BINARY: 1 | COMMENT: PR confirmée (anti-CCP+ à 48 U/mL, RF+ à 120 UI/mL, traitement par biothérapie, évolution clinique cohérente).
+PATIENT_ID: 0003 | LABEL_BINARY: 0 | COMMENT: PR écartée (arthrose évidente à l’IRM, pas de signe inflammatoire, RF- et anti-CCP-).
+PATIENT_ID: 0004 | LABEL_BINARY: 0 | COMMENT: PR écartée (diagnostic de diverticulite compliquée, pas de signes articulaires persistants, pas de sérologies répétées, traitement non lié à PR).
+PATIENT_ID: 0005 | LABEL_BINARY: 0 | COMMENT: PR écartée (symétrie partielle, pas de raideur matinale, RF- et anti-CCP-, échographie sans synovite active).
+PATIENT_ID: 0006 | LABEL_BINARY: 0 | COMMENT: PR écartée (diagnostic d’arthrose, RF- et anti-CCP-, traitement non biologique, pas de progression).
+PATIENT_ID: 0007 | LABEL_BINARY: 1 | COMMENT: PR confirmée (RF+ à 110 UI/mL, anti-CCP+ à 28 U/mL, synovite échographique, début de MTX, évolution progressive).
+PATIENT_ID: 0008 | LABEL_BINARY: 1 | COMMENT: PR confirmée (anti-CCP+ à 55 U/mL, RF+ à 140 UI/mL, synovite, traitement biologique en cours).
+PATIENT_ID: 0009 | LABEL_BINARY: 1 | COMMENT: PR confirmée (anti-CCP+ à 35 U/mL après rétest, RF+ à 105 UI/mL, progression clinique, début de MTX).
+PATIENT_ID: 0010 | LABEL_BINARY: 1 | COMMENT: PR confirmée (anti-CCP+ à 22 U/mL après rétest, RF+ à 95 UI/mL, progression clinique, début de MTX).
+PATIENT_ID: 0011 | LABEL_BINARY: 0 | COMMENT: PR écartée (symétrie partielle, pas de raideur matinale, RF- et anti-CCP-, échographie modérée mais non spécifique).
+PATIENT_ID: 0012 | LABEL_BINARY: 1 | COMMENT: PR confirmée (anti-CCP+ à 40 U/mL, RF+ à 115 UI/mL, synovite, traitement en cours).
+PATIENT_ID: 0013 | LABEL_BINARY: 1 | COMMENT: PR confirmée (anti-CCP+ à 38 U/mL après rétest, RF+ à 100 UI/mL, progression clinique, traitement en cours).
+PATIENT_ID: 0014 | LABEL_BINARY: 0 | COMMENT: PR écartée (symétrie partielle, pas de raideur matinale, RF- et anti-CCP-, échographie modérée mais pas de synovite active).
+PATIENT_ID: 0015 | LABEL_BINARY: 1 | COMMENT: PR confirmée (anti-CCP+ à 50 U/mL, RF+ à 120 UI/mL, synovite, traitement biologique en cours).
+PATIENT_ID: 0016 | LABEL_BINARY: 1 | COMMENT: PR confirmée (anti-CCP+ à 30 U/mL après rétest, RF+ à 100 UI/mL, progression clinique, début de MTX).
+PATIENT_ID: 0017 | LABEL_BINARY: 0 | COMMENT: PR écartée (symétrie partielle, pas de raideur matinale, RF- et anti-CCP-, échographie modérée, diagnostic d’arthrose).
+PATIENT_ID: 0018 | LABEL_BINARY: 1 | COMMENT: PR confirmée (anti-CCP+ à 42 U/mL, RF+ à 110 UI/mL, synovite, traitement en cours).
+PATIENT_ID: 0019 | LABEL_BINARY: 1 | COMMENT: PR confirmée (anti-CCP+ à 36 U/mL après rétest, RF+ à 105 UI/mL, progression clinique, traitement en cours).
+PATIENT_ID: 0020 | LABEL_BINARY: 0 | COMMENT: PR écartée (symétrie partielle, pas de raideur matinale, RF- et anti-CCP-, échographie modérée, diagnostic d’arthrose).
+PATIENT_ID: 0021 | LABEL_BINARY: 1 | COMMENT: PR confirmée (anti-CCP+ à 34 U/mL après rétest, RF+ à 100 UI/mL, progression clinique, début de MTX).
+PATIENT_ID: 0022 | LABEL_BINARY: 0 | COMMENT: PR écartée (symétrie partielle, pas de raideur matinale, RF- et anti-CCP-, échographie modérée, diagnostic d’arthrose).
+PATIENT_ID: 0023 | LABEL_BINARY: 1 | COMMENT: PR confirmée (anti-CCP+ à 45 U/mL, RF+ à 115 UI/mL, synovite, traitement en cours).
+PATIENT_ID: 0024 | LABEL_BINARY: 1 | COMMENT: PR confirmée (anti-CCP+ à 38 U/mL après rétest, RF+ à 100 UI/mL, progression clinique, traitement en cours).
+PATIENT_ID: 0025 | LABEL_BINARY: 0 | COMMENT: PR écartée (symétrie partielle, pas de raideur matinale, RF- et anti-CCP-, échographie modérée, diagnostic d’arthrose).

@@ -1,0 +1,114 @@
+{
+  "component_scores": {
+    "joint_involvement": {
+      "score": 5,
+      "justification": "Patient facts indicate polyarthrite rhumatoïde with multiple joint involvement, including large and small joints. This aligns with Category A scoring of >10 joints."
+    },
+    "serology": {
+      "score": 2,
+      "justification": "RF is positive (positif à 120 UI/mL) and anti-CCP is positive (positif à 50 U/mL). This falls under the category of low-positive RF or ACPA."
+    },
+    "acute_phase": {
+      "score": 0,
+      "justification": "CRP value is unknown. The acute phase response criteria require either CRP or ESR to be documented, neither of which are provided."
+    },
+    "duration": {
+      "score": 1,
+      "justification": "Patient is on methotrexate (csDMARD), which suggests chronic disease and established RA."
+    }
+  },
+  "acr_eular_total": 8,
+  "treatment_context": {
+    "has_dmard": true,
+    "treatment_strength": "strong",
+    "justification": "The presence of methotrexate as a csDMARD provides strong evidence for established rheumatoid arthritis."
+  },
+  "final_label": "RA+",
+  "classification_rationale": "Patient facts strongly support a diagnosis of RA, including multiple joint involvement (Category A), positive RF and anti-CCP (Category B), chronic/long-standing disease indicated by methotrexate treatment (Category D), and moderate serological positivity (Category C). The total score of 8 points aligns with the definition of strong evidence for RA+ under established patterns.",
+  "confidence": "high",
+  "patient_id": "0015",
+  "agent": "Agent2_LLM_Reasoning_BALANCED",
+  "retrieved_guidelines": [
+    {
+      "title": "Clinical Context",
+      "content": "Treatment patterns provide additional evidence:\n- Methotrexate (MTX) = first-line csDMARD\n- Biologic DMARDs (anti-TNF, anti-IL6, etc.) = established RA\n- JAK inhibitors = treatment-refractory RA\n\nIn clinical practice:\n- Score ≥6/10 = definite RA\n- Score 4-5/10 + DMARD treatment = probable established RA\n- Score ≥5/10 without treatment = borderline, likely RA",
+      "text": "Clinical Context Treatment patterns provide additional evidence:\n- Methotrexate (MTX) = first-line csDMARD\n- Biologic DMARDs (anti-TNF, anti-IL6, etc.) = established RA\n- JAK inhibitors = treatment-refractory RA\n\nIn clinical practice:\n- Score ≥6/10 = definite RA\n- Score 4-5/10 + DMARD treatment = probable established RA\n- Score ≥5/10 without treatment = borderline, likely RA",
+      "relevance_score": 4.683000883810066
+    },
+    {
+      "title": "Category B: Serology (0-3 points)",
+      "content": "- Negative RF AND negative ACPA: 0 points\n- Low-positive RF OR low-positive ACPA (≤3× ULN): 2 points\n- High-positive RF OR high-positive ACPA (>3× ULN): 3 points\n\nRF = Rheumatoid Factor\nACPA = Anti-citrullinated protein antibody (anti-CCP)\nULN = Upper limit of normal (typically RF: 20 IU/mL, anti-CCP: 10 U/mL)",
+      "text": "Category B: Serology (0-3 points) - Negative RF AND negative ACPA: 0 points\n- Low-positive RF OR low-positive ACPA (≤3× ULN): 2 points\n- High-positive RF OR high-positive ACPA (>3× ULN): 3 points\n\nRF = Rheumatoid Factor\nACPA = Anti-citrullinated protein antibody (anti-CCP)\nULN = Upper limit of normal (typically RF: 20 IU/mL, anti-CCP: 10 U/mL)",
+      "relevance_score": 3.7519987234196357
+    },
+    {
+      "title": "Category A: Joint Involvement (0-5 points)",
+      "content": "- 1 large joint: 0 points\n- 2-10 large joints: 1 point\n- 1-3 small joints (with or without large joints): 2 points\n- 4-10 small joints (with or without large joints): 3 points\n- >10 joints (at least 1 small joint): 5 points\n\nLarge joints: shoulders, elbows, hips, knees, ankles\nSmall joints: MCPs, PIPs, MTPs (2nd-5th), thumb IPs, wrists",
+      "text": "Category A: Joint Involvement (0-5 points) - 1 large joint: 0 points\n- 2-10 large joints: 1 point\n- 1-3 small joints (with or without large joints): 2 points\n- 4-10 small joints (with or without large joints): 3 points\n- >10 joints (at least 1 small joint): 5 points\n\nLarge joints: shoulders, elbows, hips, knees, ankles\nSmall joints: MCPs, PIPs, MTPs (2nd-5th), thumb IPs, wrists",
+      "relevance_score": 2.188326647736484
+    }
+  ],
+  "guideline_citation": "Aletaha D, et al. Arthritis Rheum. 2010;62(9):2569-2581",
+  "evidence_trace": [
+    {
+      "type": "disease_mention",
+      "stay_id": "005",
+      "line_no": "005",
+      "snippet": "Diagnostic : polyarthrite rhumatoïde confirmée."
+    },
+    {
+      "type": "disease_mention",
+      "stay_id": "S0029",
+      "line_no": 1,
+      "snippet": "Antécédents : traitement par méthotrexate depuis 2022 pour PR."
+    },
+    {
+      "type": "disease_mention",
+      "stay_id": "S0029",
+      "line_no": 5,
+      "snippet": "Diagnostic : polyarthrite rhumatoïde confirmée."
+    },
+    {
+      "type": "lab",
+      "test": "RF",
+      "stay_id": "003",
+      "line_no": "003",
+      "snippet": "Laboratoire (J1) : CRP 40 mg/L, VHS 60 mm/h, RF : positif à 120 UI/mL, anti-CCP : positif à 50 U/mL."
+    },
+    {
+      "type": "lab",
+      "test": "anti-CCP",
+      "stay_id": "003",
+      "line_no": "003",
+      "snippet": "Laboratoire (J1) : CRP 40 mg/L, VHS 60 mm/h, RF : positif à 120 UI/mL, anti-CCP : positif à 50 U/mL."
+    },
+    {
+      "type": "lab",
+      "test": "CRP",
+      "stay_id": "003",
+      "line_no": "003",
+      "snippet": "Laboratoire (J1) : CRP 40 mg/L, VHS 60 mm/h, RF : positif à 120 UI/mL, anti-CCP : positif à 50 U/mL."
+    },
+    {
+      "type": "lab",
+      "test": "VHS",
+      "stay_id": "003",
+      "line_no": "003",
+      "snippet": "Laboratoire (J1) : CRP 40 mg/L, VHS 60 mm/h, RF : positif à 120 UI/mL, anti-CCP : positif à 50 U/mL."
+    },
+    {
+      "type": "drug",
+      "name": "méthotrexate",
+      "stay_id": "001",
+      "line_no": "001",
+      "snippet": "Antécédents : traitement par méthotrexate depuis 2022 pour PR."
+    },
+    {
+      "type": "drug",
+      "name": "methotrexate",
+      "stay_id": "S0029",
+      "line_no": 1,
+      "snippet": "Antécédents : traitement par méthotrexate depuis 2022 pour PR."
+    }
+  ]
+}
