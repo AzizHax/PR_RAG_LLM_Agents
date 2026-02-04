@@ -1,0 +1,25 @@
+{"patient_id": "0001", "gt_label": 1, "agent1_pred": 0, "agent1_score": 1.0, "risk_priority": "HIGH", "notes": "swap? best=0015 score=1.0 self= | agent1_vs_gt_mismatch"}
+{"patient_id": "0002", "gt_label": 1, "agent1_pred": 1, "agent1_score": 11.0, "risk_priority": "HIGH", "notes": "swap? best=0015 score=0.9 self="}
+{"patient_id": "0003", "gt_label": 0, "agent1_pred": 1, "agent1_score": 4.0, "risk_priority": "HIGH", "notes": "agent1_vs_gt_mismatch"}
+{"patient_id": "0004", "gt_label": 0, "agent1_pred": 1, "agent1_score": 10.0, "risk_priority": "HIGH", "notes": "agent1_vs_gt_mismatch"}
+{"patient_id": "0005", "gt_label": 0, "agent1_pred": 1, "agent1_score": 9.0, "risk_priority": "HIGH", "notes": "agent1_vs_gt_mismatch"}
+{"patient_id": "0006", "gt_label": 0, "agent1_pred": 1, "agent1_score": 9.0, "risk_priority": "HIGH", "notes": "swap? best=0005 score=0.775 self= | agent1_vs_gt_mismatch"}
+{"patient_id": "0007", "gt_label": 1, "agent1_pred": 1, "agent1_score": 8.0, "risk_priority": "HIGH", "notes": "swap? best=0012 score=0.875 self="}
+{"patient_id": "0008", "gt_label": 1, "agent1_pred": 1, "agent1_score": 12.0, "risk_priority": "LOW", "notes": ""}
+{"patient_id": "0009", "gt_label": 1, "agent1_pred": 0, "agent1_score": -2.0, "risk_priority": "HIGH", "notes": "swap? best=0012 score=0.9 self= | agent1_vs_gt_mismatch"}
+{"patient_id": "0010", "gt_label": 1, "agent1_pred": 0, "agent1_score": -3.0, "risk_priority": "HIGH", "notes": "agent1_vs_gt_mismatch"}
+{"patient_id": "0011", "gt_label": 0, "agent1_pred": 1, "agent1_score": 4.0, "risk_priority": "HIGH", "notes": "agent1_vs_gt_mismatch"}
+{"patient_id": "0012", "gt_label": 1, "agent1_pred": 1, "agent1_score": 7.0, "risk_priority": "LOW", "notes": ""}
+{"patient_id": "0013", "gt_label": 1, "agent1_pred": 0, "agent1_score": 2.0, "risk_priority": "HIGH", "notes": "swap? best=0012 score=0.85 self= | agent1_vs_gt_mismatch"}
+{"patient_id": "0014", "gt_label": 0, "agent1_pred": 0, "agent1_score": -1.0, "risk_priority": "LOW", "notes": ""}
+{"patient_id": "0015", "gt_label": 1, "agent1_pred": 0, "agent1_score": 1.0, "risk_priority": "HIGH", "notes": "agent1_vs_gt_mismatch"}
+{"patient_id": "0016", "gt_label": 1, "agent1_pred": 1, "agent1_score": 5.0, "risk_priority": "HIGH", "notes": "swap? best=0009 score=0.825 self="}
+{"patient_id": "0017", "gt_label": 0, "agent1_pred": 0, "agent1_score": 2.0, "risk_priority": "HIGH", "notes": "swap? best=0003 score=0.775 self="}
+{"patient_id": "0018", "gt_label": 1, "agent1_pred": 0, "agent1_score": 1.0, "risk_priority": "HIGH", "notes": "agent1_vs_gt_mismatch"}
+{"patient_id": "0019", "gt_label": 1, "agent1_pred": 1, "agent1_score": 10.0, "risk_priority": "HIGH", "notes": "swap? best=0012 score=0.85 self="}
+{"patient_id": "0020", "gt_label": 0, "agent1_pred": 0, "agent1_score": 0.0, "risk_priority": "HIGH", "notes": "swap? best=0003 score=0.775 self="}
+{"patient_id": "0021", "gt_label": 1, "agent1_pred": 1, "agent1_score": 5.0, "risk_priority": "HIGH", "notes": "swap? best=0009 score=0.825 self="}
+{"patient_id": "0022", "gt_label": 0, "agent1_pred": 1, "agent1_score": 4.0, "risk_priority": "HIGH", "notes": "swap? best=0003 score=0.775 self= | agent1_vs_gt_mismatch"}
+{"patient_id": "0023", "gt_label": 1, "agent1_pred": 1, "agent1_score": 9.0, "risk_priority": "HIGH", "notes": "swap? best=0012 score=0.95 self="}
+{"patient_id": "0024", "gt_label": 1, "agent1_pred": 0, "agent1_score": 2.0, "risk_priority": "HIGH", "notes": "swap? best=0012 score=0.85 self= | agent1_vs_gt_mismatch"}
+{"patient_id": "0025", "gt_label": 0, "agent1_pred": 0, "agent1_score": 2.0, "risk_priority": "HIGH", "notes": "swap? best=0003 score=0.775 self="}

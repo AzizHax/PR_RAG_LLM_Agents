@@ -1,0 +1,50 @@
+{
+  "patient_id": "3",
+  "agent1_score": 5.5,
+  "agent2_score": 4,
+  "agent1_label": "RA+",
+  "agent2_label": "RA+",
+  "final_label": "RA+",
+  "decision_score": 1.25,
+  "confidence": "low",
+  "fusion_strategy": "agreement",
+  "conflicts_detected": [
+    "Ev0: no stay_id",
+    "Ev1: no stay_id",
+    "Ev4: no stay_id",
+    "Ev5: no stay_id",
+    "Ev6: no stay_id"
+  ],
+  "evidence_valid": false,
+  "justification": "Both agree, conf: medium",
+  "explicability_score": {
+    "overall_confidence": 72.0,
+    "confidence_level": "MEDIUM",
+    "components": {
+      "agreement": 100.0,
+      "evidence_quality": 20.0,
+      "clinical_consistency": 100.0
+    },
+    "strategy": "agreement"
+  },
+  "llm_critic": {
+    "recommend_label": "RA+",
+    "confidence": 0.95,
+    "key_reasons": [
+      "Patient has both positive RF (87 UI/mL) and positive anti-CCP (67 U/mL). This meets the RA+ signal of serology positivity.",
+      "The patient is currently on biologic therapy with adalimumab, which aligns with the RA+ signal for treatment use.",
+      "An ACR-EULAR score cannot be determined from the provided snippets, but a diagnosis of polyarthrite rhumatoïde (RA) has been confirmed multiple times in notes. This supports the presence of rheumatoid arthritis.",
+      "The patient was diagnosed as having polyarthrite rhumatoïde and is currently being treated for it."
+    ],
+    "red_flags": [
+      "Missing ACR-EULAR score to definitively confirm RA+ status.",
+      "Alternative diagnoses such as osteoarthritis or bursitis should be ruled out, but they are not mentioned in the provided data."
+    ],
+    "questions_for_human": [
+      "Is there any additional information regarding the ACR-EULAR score?",
+      "Were alternative joint diseases like osteoarthritis or bursitis excluded from the diagnosis? If so, how?"
+    ],
+    "override_suggested": false,
+    "latency_ms": 21148
+  }
+}

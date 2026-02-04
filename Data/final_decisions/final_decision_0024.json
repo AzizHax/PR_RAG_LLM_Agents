@@ -1,0 +1,58 @@
+{
+  "patient_id": "0024",
+  "agent1_score": 2.5,
+  "agent2_score": 4,
+  "agent1_label": "RA+",
+  "agent2_label": "RA+",
+  "final_label": "RA+",
+  "decision_score": 1.25,
+  "confidence": "low",
+  "fusion_strategy": "agreement",
+  "conflicts_detected": [
+    "Evidence 1: snippet is empty"
+  ],
+  "evidence_valid": false,
+  "justification": "Both agents agree (RA+), confidence: medium",
+  "explicability_score": {
+    "overall_confidence": 80.8,
+    "components": {
+      "agreement": {
+        "score": 100.0,
+        "agent1_label": "RA+",
+        "agent2_label": "RA+",
+        "interpretation": "Perfect agreement between agents"
+      },
+      "evidence_quality": {
+        "score": 45.0,
+        "issues": [
+          "Missing or invalid evidence IDs (stay_id, line_no)",
+          "Evidence 1: snippet is empty"
+        ],
+        "interpretation": "Poor - Significant evidence quality concerns"
+      },
+      "clinical_consistency": {
+        "score": 100.0,
+        "factors": [
+          "ℹ RA+ despite ACR-EULAR <6 (score 4/10) - likely treatment-based"
+        ],
+        "interpretation": "Excellent - Classification fully consistent with clinical data"
+      }
+    },
+    "reasoning_breakdown": [
+      "1. Agent Agreement: 100% - Perfect agreement between agents",
+      "2. Evidence Quality: 45% - Poor - Significant evidence quality concerns",
+      "3. Clinical Consistency: 100% - Excellent - Classification fully consistent with clinical data",
+      "4. Fusion Strategy: agreement",
+      "5. Final Decision: RA+ with 81% confidence"
+    ],
+    "risk_factors": [
+      "⚠ Evidence traceability issues detected",
+      "⚠ Evidence 1: snippet is empty"
+    ],
+    "strengths": [
+      "✓ Both agents agree on classification"
+    ],
+    "confidence_level": "HIGH",
+    "recommendation": "High confidence - Decision reliable for clinical use"
+  }
+}

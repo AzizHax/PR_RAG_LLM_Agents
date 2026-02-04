@@ -1,0 +1,133 @@
+{
+  "component_scores": {
+    "joint_involvement": {
+      "score": 0,
+      "justification": "No specific joint counts provided in the facts."
+    },
+    "serology": {
+      "score": 1,
+      "justification": "RF: negative (value: 18 UI/mL) → Scored as 1 point. Anti-CCP: negative (value: <5 U/mL) → Scored as 0 points."
+    },
+    "acute_phase": {
+      "score": 0,
+      "justification": "CRP: negative (value: 8 mg/L), VHS: unknown (value: 28 mm/h). Both are considered normal, scored as 0 points."
+    },
+    "duration": {
+      "score": 0,
+      "justification": "No information provided about duration or treatment history."
+    }
+  },
+  "acr_eular_total": 1,
+  "treatment_context": {
+    "has_dmard": false,
+    "treatment_strength": "none",
+    "justification": "No mention of DMARDs in the provided facts."
+  },
+  "final_label": "RA−",
+  "classification_rationale": "Based on ACR/EULAR 2010 criteria, only serology scoring was present. The patient has a negative RF and anti-CCP, which results in a total score of 1 point (Category B). Since there are no clinical signs of joint involvement (joint count or synovitis) according to the guidelines, and neither a DMARD nor biologic therapy is mentioned, the final classification label for this patient is RA− with low confidence.",
+  "confidence": "medium",
+  "patient_id": "19",
+  "agent": "Agent2_v3_RAG_Guidelines",
+  "rag_guidelines": {
+    "query": "serology RF rheumatoid factor thresholds serology anti-CCP ACPA thresholds acute phase CRP inflammation thresholds acute phase ESR VHS inflammation thresholds joint involvement polyarthritis small joints MCPs PIPs ACR EULAR classification criteria interpretation scoring",
+    "sections_retrieved": [
+      "serology",
+      "acute_phase_reactants",
+      "joint_involvement",
+      "overview"
+    ],
+    "relevance_scores": [
+      13.437418455637742,
+      12.564144450970117,
+      8.092676749040749,
+      4.8375670022553905
+    ]
+  },
+  "guideline_citation": "Aletaha D, et al. Arthritis Rheum. 2010;62(9):2569-2581",
+  "evidence_trace": [
+    {
+      "type": "disease_mention",
+      "stay_id": null,
+      "line_no": 0,
+      "snippet": "Diagnostic : arthrose, pas de polyarthrite rhumatoïde."
+    },
+    {
+      "type": "disease_mention",
+      "stay_id": "",
+      "line_no": "001",
+      "snippet": "Aucun argument en faveur d'une polyarthrite rhumatoïde dans le dossier."
+    },
+    {
+      "type": "disease_mention",
+      "stay_id": null,
+      "line_no": 0,
+      "snippet": "Diagnostic : arthrose, pas de polyarthrite rhumatoïde."
+    },
+    {
+      "type": "disease_mention",
+      "stay_id": "S0037",
+      "line_no": 6,
+      "snippet": "Diagnostic : arthrose, pas de polyarthrite rhumatoïde."
+    },
+    {
+      "type": "disease_mention",
+      "stay_id": "S0038",
+      "line_no": 1,
+      "snippet": "Aucun argument en faveur d’une polyarthrite rhumatoïde dans le dossier."
+    },
+    {
+      "type": "lab",
+      "test": "RF",
+      "stay_id": null,
+      "line_no": 3,
+      "snippet": "RF : négatif (18 UI/mL)."
+    },
+    {
+      "type": "lab",
+      "test": "anti-CCP",
+      "stay_id": null,
+      "line_no": 4,
+      "snippet": "anti-CCP : négatif (<5 U/mL)."
+    },
+    {
+      "type": "lab",
+      "test": "CRP",
+      "stay_id": null,
+      "line_no": 2,
+      "snippet": "Laboratoire : CRP 8 mg/L."
+    },
+    {
+      "type": "lab",
+      "test": "VHS",
+      "stay_id": "S0037",
+      "line_no": 2,
+      "snippet": "Laboratoire : CRP 8 mg/L, VHS 28 mm/h, NFS normale."
+    },
+    {
+      "type": "lab",
+      "test": "CRP",
+      "stay_id": "",
+      "line_no": "002",
+      "snippet": "Traitement : prise en charge spécifique de l’épisode, sans DMARD."
+    },
+    {
+      "type": "drug",
+      "name": "CS-DMARD (unspecified)",
+      "stay_id": "",
+      "line_no": "002",
+      "snippet": "Traitement : prise en charge spécifique de l’épisode, sans DMARD."
+    }
+  ],
+  "component_scores_det": {
+    "joint_involvement": 0,
+    "serology": 0,
+    "acute_phase": 1,
+    "duration": 1
+  },
+  "acr_eular_total_det": 2,
+  "det_label": "RA−",
+  "has_dmard_det": true,
+  "has_biologic_or_jak_det": false,
+  "llm_vs_det_disagree": false,
+  "override_applied": false
+}

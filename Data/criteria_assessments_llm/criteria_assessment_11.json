@@ -1,0 +1,147 @@
+{
+  "component_scores": {
+    "joint_involvement": {
+      "score": 5,
+      "justification": "Based on the 'extensive polyarticular involvement' described in the provided facts."
+    },
+    "serology": {
+      "score": 0,
+      "justification": "Negative RF and negative anti-CCP both below threshold."
+    },
+    "acute_phase": {
+      "score": 1,
+      "justification": "CRP is positive (value: 24 mg/L) but VHS value is unknown. Using the guidelines' thresholds for CRP positivity."
+    },
+    "duration": {
+      "score": 0,
+      "justification": "No specific information provided about duration of symptoms."
+    }
+  },
+  "acr_eular_total": 6,
+  "treatment_context": {
+    "has_dmard": true,
+    "treatment_strength": "strong",
+    "justification": "Presence of methotrexate (csDMARD) and abatacept (bDMARD) strongly suggest established RA."
+  },
+  "final_label": "RA+",
+  "classification_rationale": "The patient has a total score of 6 according to ACR/EULAR criteria, with the treatment context providing strong evidence of established rheumatoid arthritis.",
+  "confidence": "high",
+  "patient_id": "11",
+  "agent": "Agent2_v3_RAG_Guidelines",
+  "rag_guidelines": {
+    "query": "serology RF rheumatoid factor thresholds serology anti-CCP ACPA thresholds acute phase CRP inflammation thresholds acute phase ESR VHS inflammation thresholds joint involvement polyarthritis small joints MCPs PIPs treatment DMARD methotrexate ACR EULAR classification criteria interpretation scoring",
+    "sections_retrieved": [
+      "serology",
+      "acute_phase_reactants",
+      "joint_involvement",
+      "treatment_context"
+    ],
+    "relevance_scores": [
+      13.437418455637742,
+      12.564144450970117,
+      8.092676749040749,
+      5.153478439892983
+    ]
+  },
+  "guideline_citation": "Aletaha D, et al. Arthritis Rheum. 2010;62(9):2569-2581",
+  "evidence_trace": [
+    {
+      "type": "disease_mention",
+      "stay_id": "",
+      "line_no": "007",
+      "snippet": "Diagnostic : polyarthrite rhumatoïde confirmée (forme séronégative), synovite à l’imagerie."
+    },
+    {
+      "type": "disease_mention",
+      "stay_id": "",
+      "line_no": "001",
+      "snippet": "Antécédents : polyarthrite rhumatoïde depuis 2021, traitée par abatacept."
+    },
+    {
+      "type": "disease_mention",
+      "stay_id": "S0021",
+      "line_no": 7,
+      "snippet": "Diagnostic : polyarthrite rhumatoïde confirmée (forme séronégative), synovite à l’imagerie."
+    },
+    {
+      "type": "disease_mention",
+      "stay_id": "S0022",
+      "line_no": 1,
+      "snippet": "Antécédents : polyarthrite rhumatoïde depuis 2021, traitée par abatacept."
+    },
+    {
+      "type": "disease_mention",
+      "stay_id": "",
+      "line_no": "001",
+      "snippet": "Antécédents : polyarthrite rhumatoïde depuis 2021, traitée par abatacept."
+    },
+    {
+      "type": "lab",
+      "test": "RF",
+      "stay_id": "",
+      "line_no": "004",
+      "snippet": "RF : négatif (9 UI/mL)."
+    },
+    {
+      "type": "lab",
+      "test": "anti-CCP",
+      "stay_id": "",
+      "line_no": "005",
+      "snippet": "anti-CCP : négatif (<5 U/mL)."
+    },
+    {
+      "type": "lab",
+      "test": "CRP",
+      "stay_id": "",
+      "line_no": "003",
+      "snippet": "Laboratoire (J1) : CRP 24 mg/L, VHS 72 mm/h, NFS normale."
+    },
+    {
+      "type": "lab",
+      "test": "CRP",
+      "stay_id": "",
+      "line_no": "002",
+      "snippet": "Laboratoire (J1) : CRP 82 mg/L, leucocytes 12,5 G/L."
+    },
+    {
+      "type": "lab",
+      "test": "VHS",
+      "stay_id": "S0021",
+      "line_no": 3,
+      "snippet": "Laboratoire (J1) : CRP 24 mg/L, VHS 72 mm/h, NFS normale."
+    },
+    {
+      "type": "lab",
+      "test": "leucocytes",
+      "stay_id": "",
+      "line_no": "002",
+      "snippet": "Laboratoire (J1) : CRP 82 mg/L, leucocytes 12,5 G/L."
+    },
+    {
+      "type": "drug",
+      "name": "methotrexate",
+      "stay_id": "",
+      "line_no": "008",
+      "snippet": "Prise en charge : début de méthotrexate 15 mg/semaine + acide folique 5 mg/j."
+    },
+    {
+      "type": "drug",
+      "name": "abatacept",
+      "stay_id": "",
+      "line_no": "001",
+      "snippet": "Antécédents : polyarthrite rhumatoïde depuis 2021, traitée par abatacept."
+    }
+  ],
+  "component_scores_det": {
+    "joint_involvement": 2,
+    "serology": 0,
+    "acute_phase": 1,
+    "duration": 1
+  },
+  "acr_eular_total_det": 4,
+  "det_label": "RA−",
+  "has_dmard_det": true,
+  "has_biologic_or_jak_det": false,
+  "llm_vs_det_disagree": true,
+  "override_applied": false
+}

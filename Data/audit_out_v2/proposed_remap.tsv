@@ -1,0 +1,16 @@
+ann_patient_id	best_candidate	best_score	comment
+0001	0015	1.0	PR confirmée (anti-CCP+ à 48 U/mL, RF+ à 120 UI/mL, synovite échographique, début de MTX, évaluation clinique cohérente avec PR).
+0002	0015	0.9	PR confirmée (anti-CCP+ à 48 U/mL, RF+ à 120 UI/mL, traitement par biothérapie, évolution clinique cohérente).
+0006	0005	0.775	PR écartée (diagnostic d’arthrose, RF- et anti-CCP-, traitement non biologique, pas de progression).
+0007	0012	0.875	PR confirmée (RF+ à 110 UI/mL, anti-CCP+ à 28 U/mL, synovite échographique, début de MTX, évolution progressive).
+0009	0012	0.9	PR confirmée (anti-CCP+ à 35 U/mL après rétest, RF+ à 105 UI/mL, progression clinique, début de MTX).
+0013	0012	0.85	PR confirmée (anti-CCP+ à 38 U/mL après rétest, RF+ à 100 UI/mL, progression clinique, traitement en cours).
+0016	0009	0.825	PR confirmée (anti-CCP+ à 30 U/mL après rétest, RF+ à 100 UI/mL, progression clinique, début de MTX).
+0017	0003	0.775	PR écartée (symétrie partielle, pas de raideur matinale, RF- et anti-CCP-, échographie modérée, diagnostic d’arthrose).
+0019	0012	0.85	PR confirmée (anti-CCP+ à 36 U/mL après rétest, RF+ à 105 UI/mL, progression clinique, traitement en cours).
+0020	0003	0.775	PR écartée (symétrie partielle, pas de raideur matinale, RF- et anti-CCP-, échographie modérée, diagnostic d’arthrose).
+0021	0009	0.825	PR confirmée (anti-CCP+ à 34 U/mL après rétest, RF+ à 100 UI/mL, progression clinique, début de MTX).
+0022	0003	0.775	PR écartée (symétrie partielle, pas de raideur matinale, RF- et anti-CCP-, échographie modérée, diagnostic d’arthrose).
+0023	0012	0.95	PR confirmée (anti-CCP+ à 45 U/mL, RF+ à 115 UI/mL, synovite, traitement en cours).
+0024	0012	0.85	PR confirmée (anti-CCP+ à 38 U/mL après rétest, RF+ à 100 UI/mL, progression clinique, traitement en cours).
+0025	0003	0.775	PR écartée (symétrie partielle, pas de raideur matinale, RF- et anti-CCP-, échographie modérée, diagnostic d’arthrose).

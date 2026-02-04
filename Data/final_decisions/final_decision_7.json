@@ -1,0 +1,52 @@
+{
+  "patient_id": "7",
+  "agent1_score": 6.5,
+  "agent2_score": 6,
+  "agent1_label": "RA+",
+  "agent2_label": "RA+",
+  "final_label": "RA+",
+  "decision_score": 2.75,
+  "confidence": "low",
+  "fusion_strategy": "agreement",
+  "conflicts_detected": [
+    "Ev1: no stay_id",
+    "Ev7: no stay_id",
+    "Ev9: no stay_id",
+    "Ev11: no stay_id",
+    "rf: positive & negative found"
+  ],
+  "evidence_valid": false,
+  "justification": "Both agree, conf: high",
+  "explicability_score": {
+    "overall_confidence": 72.0,
+    "confidence_level": "MEDIUM",
+    "components": {
+      "agreement": 100.0,
+      "evidence_quality": 20.0,
+      "clinical_consistency": 100.0
+    },
+    "strategy": "agreement"
+  },
+  "llm_critic": {
+    "recommend_label": "RA−",
+    "confidence": 0.65,
+    "key_reasons": [
+      "RF is positive with a value of 87 UI/mL, which is above the cutoff for RF positivity.",
+      "Anti-CCP is negative, meeting the criteria for RA−.",
+      "The patient is on biologic treatment (etanercept) without serology results indicating an ongoing active disease state.",
+      "Multiple mentions of polyarthrite rhumatoïde in clinical notes, but no mention or evidence of anti-CCP positivity."
+    ],
+    "red_flags": [
+      "There is a conflict between the positive RF and negative anti-CCP status.",
+      "The diagnosis 'polyarthrite rhumatoïde confirmée (forme séronégative)' is mentioned multiple times, but no serology results are provided.",
+      "The evidence snippet from agent 2 does not mention the absence of RF or anti-CCP positivity."
+    ],
+    "questions_for_human": [
+      "Is there any available serology result for anti-CCP?",
+      "Are there any clinical notes that indicate ongoing disease activity despite being on biologic treatment?",
+      "Do we have more recent evidence that could resolve the conflict between positive RF and negative anti-CCP?"
+    ],
+    "override_suggested": true,
+    "latency_ms": 21952
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "n_patients": 25,
+  "ra_plus": 15,
+  "ra_minus": 10,
+  "confidence_counts": {
+    "low": 25
+  },
+  "llm_critic_enabled": true,
+  "timestamp": "2026-02-04 12:45:42"
+}

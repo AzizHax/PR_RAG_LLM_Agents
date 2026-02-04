@@ -1,0 +1,157 @@
+{
+  "component_scores": {
+    "joint_involvement": {
+      "score": 5,
+      "justification": "Polyarthrite rhumatoïde mentions multiple large and small joints"
+    },
+    "serology": {
+      "score": 3,
+      "justification": "RF: positive (87 UI/mL) -> High-positive RF, Anti-CCP: positive (67 U/mL) -> High-positive Anti-CCP/ACPA"
+    },
+    "acute_phase": {
+      "score": 1,
+      "justification": "CRP: positive (47 mg/L) -> Abnormal CRP"
+    }
+  },
+  "acr_eular_total": 9,
+  "treatment_context": {
+    "has_dmard": true,
+    "treatment_strength": "strong",
+    "justification": "Presence of methotrexate and rituximab as DMARDs or bDMARDs strongly suggests established RA"
+  },
+  "final_label": "RA+",
+  "classification_rationale": "The total score is 9 (ACR/EULAR 2010), which meets the criteria for RA+. The treatment context also provides strong evidence of established RA.",
+  "confidence": "high",
+  "patient_id": "13",
+  "agent": "Agent2_v3_RAG_Guidelines",
+  "rag_guidelines": {
+    "query": "serology RF rheumatoid factor thresholds serology anti-CCP ACPA thresholds acute phase CRP inflammation thresholds acute phase ESR VHS inflammation thresholds joint involvement polyarthritis small joints MCPs PIPs treatment DMARD methotrexate treatment biologic anti-TNF ACR EULAR classification criteria interpretation scoring",
+    "sections_retrieved": [
+      "serology",
+      "acute_phase_reactants",
+      "treatment_context",
+      "joint_involvement"
+    ],
+    "relevance_scores": [
+      13.437418455637742,
+      12.564144450970117,
+      9.69595904469911,
+      8.092676749040749
+    ]
+  },
+  "guideline_citation": "Aletaha D, et al. Arthritis Rheum. 2010;62(9):2569-2581",
+  "evidence_trace": [
+    {
+      "type": "disease_mention",
+      "stay_id": null,
+      "line_no": "007",
+      "snippet": "Diagnostic : polyarthrite rhumatoïde confirmée."
+    },
+    {
+      "type": "disease_mention",
+      "stay_id": null,
+      "line_no": "001",
+      "snippet": "Antécédents : polyarthrite rhumatoïde depuis 2016, traitée par rituximab."
+    },
+    {
+      "type": "disease_mention",
+      "stay_id": "S0025",
+      "line_no": 7,
+      "snippet": "Diagnostic : polyarthrite rhumatoïde confirmée."
+    },
+    {
+      "type": "disease_mention",
+      "stay_id": "S0026",
+      "line_no": 1,
+      "snippet": "Antécédents : polyarthrite rhumatoïde depuis 2016, traitée par rituximab."
+    },
+    {
+      "type": "disease_mention",
+      "stay_id": null,
+      "line_no": "001",
+      "snippet": "Antécédents : polyarthrite rhumatoïde depuis 2016, traitée par rituximab."
+    },
+    {
+      "type": "lab",
+      "test": "RF",
+      "stay_id": null,
+      "line_no": "004",
+      "snippet": "RF : positif (119 UI/mL)."
+    },
+    {
+      "type": "lab",
+      "test": "anti-CCP",
+      "stay_id": null,
+      "line_no": "005",
+      "snippet": "anti-CCP : positif (36 U/mL)."
+    },
+    {
+      "type": "lab",
+      "test": "CRP",
+      "stay_id": null,
+      "line_no": "003",
+      "snippet": "Laboratoire (J1) : CRP 47 mg/L, VHS 48 mm/h, NFS normale."
+    },
+    {
+      "type": "lab",
+      "test": "CRP",
+      "stay_id": null,
+      "line_no": "002",
+      "snippet": "Laboratoire (J1) : CRP 144 mg/L, leucocytes 17,5 G/L."
+    },
+    {
+      "type": "lab",
+      "test": "VHS",
+      "stay_id": "S0025",
+      "line_no": 3,
+      "snippet": "Laboratoire (J1) : CRP 47 mg/L, VHS 48 mm/h, NFS normale."
+    },
+    {
+      "type": "lab",
+      "test": "RF",
+      "stay_id": null,
+      "line_no": "001",
+      "snippet": "Antécédents : polyarthrite rhumatoïde depuis 2016, traitée par rituximab."
+    },
+    {
+      "type": "lab",
+      "test": "anti-CCP",
+      "stay_id": null,
+      "line_no": "001",
+      "snippet": "Antécédents : polyarthrite rhumatoïde depuis 2016, traitée par rituximab."
+    },
+    {
+      "type": "drug",
+      "name": "méthotrexate",
+      "stay_id": null,
+      "line_no": "008",
+      "snippet": "Prise en charge : continuation de méthotrexate 20 mg/semaine + acide folique 5 mg/j."
+    },
+    {
+      "type": "drug",
+      "name": "methotrexate",
+      "stay_id": "S0025",
+      "line_no": 8,
+      "snippet": "Prise en charge : continuation de méthotrexate 20 mg/semaine + acide folique 5 mg/j."
+    },
+    {
+      "type": "drug",
+      "name": "rituximab",
+      "stay_id": null,
+      "line_no": "001",
+      "snippet": "Antécédents : polyarthrite rhumatoïde depuis 2016, traitée par rituximab."
+    }
+  ],
+  "component_scores_det": {
+    "joint_involvement": 0,
+    "serology": 3,
+    "acute_phase": 1,
+    "duration": 1
+  },
+  "acr_eular_total_det": 5,
+  "det_label": "RA+",
+  "has_dmard_det": true,
+  "has_biologic_or_jak_det": true,
+  "llm_vs_det_disagree": false,
+  "override_applied": false
+}

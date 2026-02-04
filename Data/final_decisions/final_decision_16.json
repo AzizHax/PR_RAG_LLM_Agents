@@ -1,0 +1,46 @@
+{
+  "patient_id": "16",
+  "agent1_score": 0.0,
+  "agent2_score": 1,
+  "agent1_label": "RA−",
+  "agent2_label": "RA−",
+  "final_label": "RA−",
+  "decision_score": 10.0,
+  "confidence": "low",
+  "fusion_strategy": "agreement",
+  "conflicts_detected": [
+    "Ev0: no stay_id",
+    "Ev1: no stay_id",
+    "Ev2: no stay_id",
+    "Ev3: no stay_id",
+    "Ev6: no stay_id"
+  ],
+  "evidence_valid": false,
+  "justification": "Both agree, conf: medium",
+  "explicability_score": {
+    "overall_confidence": 72.0,
+    "confidence_level": "MEDIUM",
+    "components": {
+      "agreement": 100.0,
+      "evidence_quality": 20.0,
+      "clinical_consistency": 100.0
+    },
+    "strategy": "agreement"
+  },
+  "llm_critic": {
+    "recommend_label": "RA−",
+    "confidence": 1.0,
+    "key_reasons": [
+      "Patient's RF and anti-CCP are both negative.",
+      "The patient is on DMARD (DMARD category with count 1).",
+      "There is no alternative diagnosis mentioned in the clinical summary or evidence snippets."
+    ],
+    "red_flags": [],
+    "questions_for_human": [
+      "Is there any other potential sources of information that might support RA+ findings?",
+      "Are there any conflicting reports within the clinical notes (e.g., different mentions about diagnoses)?"
+    ],
+    "override_suggested": false,
+    "latency_ms": 10685
+  }
+}

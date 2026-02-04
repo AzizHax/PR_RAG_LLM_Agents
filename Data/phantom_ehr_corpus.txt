@@ -1,479 +1,438 @@
-PATIENT_ID: 0001
-=== STAY_ID: S0001 | DATE: 2023-05-12 | SERVICE: Rhumatologie ===
-Patient masculin de 58 ans, retraité, consulte pour douleurs diffuses aux membres inférieurs depuis 6 mois, aggravées depuis 3 semaines. Symptômes débutés progressivement sans traumatisme. Douleurs articulaires symétriques aux poignets, métacarpiens, doigts, genoux. Pas de fièvre, pas de perte de poids. Antécédents : HTA contrôlée sous losartan 50 mg/j, hyperlipidémie. Pas d’antécédents de maladie auto-immune. Frère aîné traité pour polyarthrite rhumatoïde.
-Examen clinique : gonflements symétriques des métacarpiens, douleurs à la palpation des poignets, pas de signe inflammatoire systémique. Mobilité réduite aux mains.
-Laboratoire (J1) : CRP 28 mg/L, VHS 42 mm/h, NFS normale, créatinine 88 µmol/L.
+PATIENT_ID: 1
+=== STAY_ID: S0001 | DATE: 2023-02-01 | SERVICE: Rhumatologie ===
+Femme de 42 ans, consulte pour douleurs articulaires symétriques aux poignets, MCP et PIP depuis 12 mois, avec raideur matinale 45 min.
+Pas de fièvre, pas de perte de poids.
+Examen clinique : gonflement des métacarpiens et des phalanges proximales, douleur à la mobilisation.
+Laboratoire (J1) : CRP 24 mg/L, VHS 73 mm/h, NFS normale.
+RF : positif (87 UI/mL).
+anti-CCP : positif (67 U/mL).
+Échographie des mains : synovite active aux doigts II-IV.
+Diagnostic : polyarthrite rhumatoïde confirmée.
+Prise en charge : continuation de méthotrexate 10 mg/semaine + acide folique 5 mg/j.
+
+=== STAY_ID: S0002 | DATE: 2023-08-07 | SERVICE: Immunologie ===
+Suivi à 3-6 mois.
+Examen clinique : amélioration clinique sous traitement.
+Laboratoire : CRP 26 mg/L, VHS 37 mm/h.
+Conclusion : réponse au traitement, maintien du traitement.
+
+PATIENT_ID: 2
+=== STAY_ID: S0003 | DATE: 2023-02-02 | SERVICE: Rhumatologie ===
+Homme de 49 ans, consulte pour douleurs articulaires symétriques aux poignets, MCP et PIP depuis 6 mois, avec raideur matinale 1h.
+Pas de fièvre, pas de perte de poids.
+Examen clinique : gonflement des métacarpiens et des phalanges proximales, douleur à la mobilisation.
+Laboratoire (J1) : CRP 28 mg/L, VHS 74 mm/h, NFS normale.
+RF : positif (70 UI/mL).
+anti-CCP : positif (68 U/mL).
+Échographie des mains : synovite active aux doigts II-IV.
+Diagnostic : polyarthrite rhumatoïde confirmée.
+Prise en charge : continuation de méthotrexate 10 mg/semaine + acide folique 5 mg/j.
+
+=== STAY_ID: S0004 | DATE: 2023-09-15 | SERVICE: Immunologie ===
+Hospitalisation pour infection urinaire sous biothérapie.
+Antécédents : polyarthrite rhumatoïde depuis 2022, traitée par tocilizumab.
+Laboratoire (J1) : CRP 114 mg/L, leucocytes 16,5 G/L.
+Décision : arrêt temporaire de tocilizumab et antibiothérapie adaptée.
+Suivi rhumatologique programmé.
+
+PATIENT_ID: 3
+=== STAY_ID: S0005 | DATE: 2023-02-12 | SERVICE: Rhumatologie ===
+Femme de 71 ans, consulte pour douleurs articulaires symétriques aux poignets, MCP et PIP depuis 6 mois, avec raideur matinale 1h.
+Pas de fièvre, pas de perte de poids.
+Examen clinique : gonflement des métacarpiens et des phalanges proximales, douleur à la mobilisation.
+Laboratoire (J1) : CRP 41 mg/L, VHS 66 mm/h, NFS normale.
+RF : positif (150 UI/mL).
+anti-CCP : positif (59 U/mL).
+Échographie des mains : synovite active aux doigts II-IV.
+Diagnostic : polyarthrite rhumatoïde confirmée.
+Prise en charge : début de méthotrexate 10 mg/semaine + acide folique 5 mg/j.
+
+=== STAY_ID: S0006 | DATE: 2023-05-12 | SERVICE: Urgences ===
+Hospitalisation pour infection urinaire sous biothérapie.
+Antécédents : polyarthrite rhumatoïde depuis 2022, traitée par adalimumab.
+Laboratoire (J1) : CRP 105 mg/L, leucocytes 15,4 G/L.
+Décision : arrêt temporaire de adalimumab et antibiothérapie adaptée.
+Suivi rhumatologique programmé.
+
+PATIENT_ID: 4
+=== STAY_ID: S0007 | DATE: 2023-02-11 | SERVICE: Rhumatologie ===
+Femme de 63 ans, consulte pour gonflements des poignets et des doigts avec douleur à la palpation depuis 12 mois, avec raideur matinale 1h.
+Pas de fièvre, pas de perte de poids.
+Examen clinique : gonflement des métacarpiens et des phalanges proximales, douleur à la mobilisation.
+Laboratoire (J1) : CRP 58 mg/L, VHS 40 mm/h, NFS normale.
+RF : positif (79 UI/mL).
+anti-CCP : négatif (<5 U/mL).
+IRM des mains : synovite et érosions débutantes.
+Diagnostic : polyarthrite rhumatoïde confirmée.
+Prise en charge : début de méthotrexate 10 mg/semaine + acide folique 5 mg/j.
+
+=== STAY_ID: S0008 | DATE: 2023-04-08 | SERVICE: Rhumatologie ===
+Suivi à 3-6 mois.
+Examen clinique : amélioration clinique sous traitement.
+Laboratoire : CRP 17 mg/L, VHS 39 mm/h.
+Conclusion : réponse au traitement, maintien du traitement.
+
+PATIENT_ID: 5
+=== STAY_ID: S0009 | DATE: 2023-02-09 | SERVICE: Rhumatologie ===
+Homme de 54 ans, consulte pour gonflements des poignets et des doigts avec douleur à la palpation depuis 12 mois, avec raideur matinale 45 min.
+Pas de fièvre, pas de perte de poids.
+Examen clinique : gonflement des métacarpiens et des phalanges proximales, douleur à la mobilisation.
+Laboratoire (J1) : CRP 38 mg/L, VHS 43 mm/h, NFS normale.
+RF : positif (142 UI/mL).
+anti-CCP : positif (65 U/mL).
+Échographie des mains : synovite active aux doigts II-IV.
+Diagnostic : polyarthrite rhumatoïde confirmée.
+Prise en charge : continuation de méthotrexate 20 mg/semaine + acide folique 5 mg/j.
+
+=== STAY_ID: S0010 | DATE: 2023-09-19 | SERVICE: Orthopédie ===
+Suivi à 3-6 mois.
+Examen clinique : amélioration clinique sous traitement.
+Laboratoire : CRP 27 mg/L, VHS 35 mm/h.
+Conclusion : réponse au traitement, maintien du traitement.
+
+PATIENT_ID: 6
+=== STAY_ID: S0011 | DATE: 2023-02-09 | SERVICE: Rhumatologie ===
+Homme de 53 ans, consulte pour synovites des mains avec limitation fonctionnelle depuis 6 mois, avec raideur matinale > 1h.
+Pas de fièvre, pas de perte de poids.
+Examen clinique : gonflement des métacarpiens et des phalanges proximales, douleur à la mobilisation.
+Laboratoire (J1) : CRP 23 mg/L, VHS 78 mm/h, NFS normale.
+RF : positif (135 UI/mL).
+anti-CCP : négatif (<5 U/mL).
+IRM des mains : synovite et érosions débutantes.
+Diagnostic : polyarthrite rhumatoïde confirmée.
+Prise en charge : continuation de méthotrexate 10 mg/semaine + acide folique 5 mg/j.
+
+=== STAY_ID: S0012 | DATE: 2023-08-28 | SERVICE: Rhumatologie ===
+Hospitalisation pour infection urinaire sous biothérapie.
+Antécédents : polyarthrite rhumatoïde depuis 2020, traitée par adalimumab.
+Laboratoire (J1) : CRP 146 mg/L, leucocytes 19,5 G/L.
+Décision : arrêt temporaire de adalimumab et antibiothérapie adaptée.
+Suivi rhumatologique programmé.
+
+PATIENT_ID: 7
+=== STAY_ID: S0013 | DATE: 2023-02-27 | SERVICE: Rhumatologie ===
+Femme de 63 ans, consulte pour gonflements des poignets et des doigts avec douleur à la palpation depuis 4 mois, avec raideur matinale > 1h.
+Pas de fièvre, pas de perte de poids.
+Examen clinique : gonflement des métacarpiens et des phalanges proximales, douleur à la mobilisation.
+Laboratoire (J1) : CRP 39 mg/L, VHS 37 mm/h, NFS normale.
+RF : négatif (18 UI/mL).
+anti-CCP : négatif (<5 U/mL).
+IRM des mains : synovite et érosions débutantes.
+Diagnostic : polyarthrite rhumatoïde confirmée (forme séronégative), synovite à l’imagerie.
+Prise en charge : début de méthotrexate 15 mg/semaine + acide folique 5 mg/j.
+
+=== STAY_ID: S0014 | DATE: 2023-09-17 | SERVICE: Immunologie ===
+Hospitalisation pour infection cutanée sous biothérapie.
+Antécédents : polyarthrite rhumatoïde depuis 2018, traitée par etanercept.
+Laboratoire (J1) : CRP 83 mg/L, leucocytes 18,5 G/L.
+Décision : arrêt temporaire de etanercept et antibiothérapie adaptée.
+Suivi rhumatologique programmé.
+
+PATIENT_ID: 8
+=== STAY_ID: S0015 | DATE: 2023-02-24 | SERVICE: Rhumatologie ===
+Femme de 46 ans, consulte pour douleurs articulaires symétriques aux poignets, MCP et PIP depuis 9 mois, avec raideur matinale 45 min.
+Pas de fièvre, pas de perte de poids.
+Examen clinique : gonflement des métacarpiens et des phalanges proximales, douleur à la mobilisation.
+Laboratoire (J1) : CRP 56 mg/L, VHS 50 mm/h, NFS normale.
+RF : positif (137 UI/mL).
+anti-CCP : positif (20 U/mL).
+Échographie des mains : synovite active aux doigts II-IV.
+Diagnostic : polyarthrite rhumatoïde confirmée.
+Prise en charge : début de méthotrexate 15 mg/semaine + acide folique 5 mg/j.
+
+=== STAY_ID: S0016 | DATE: 2023-07-27 | SERVICE: Rhumatologie ===
+Suivi à 3-6 mois.
+Examen clinique : amélioration clinique sous traitement.
+Laboratoire : CRP 12 mg/L, VHS 20 mm/h.
+Conclusion : réponse au traitement, maintien du traitement.
+
+PATIENT_ID: 9
+=== STAY_ID: S0017 | DATE: 2023-02-15 | SERVICE: Rhumatologie ===
+Femme de 46 ans, consulte pour gonflements des poignets et des doigts avec douleur à la palpation depuis 6 mois, avec raideur matinale > 1h.
+Pas de fièvre, pas de perte de poids.
+Examen clinique : gonflement des métacarpiens et des phalanges proximales, douleur à la mobilisation.
+Laboratoire (J1) : CRP 51 mg/L, VHS 85 mm/h, NFS normale.
+RF : positif (91 UI/mL).
+anti-CCP : négatif (<5 U/mL).
+Échographie : épaississement synovial et hypervascularisation au Doppler.
+Diagnostic : polyarthrite rhumatoïde confirmée.
+Prise en charge : début de méthotrexate 20 mg/semaine + acide folique 5 mg/j.
+
+=== STAY_ID: S0018 | DATE: 2023-08-15 | SERVICE: Rhumatologie ===
+Suivi à 3-6 mois.
+Examen clinique : amélioration clinique sous traitement.
+Laboratoire : CRP 30 mg/L, VHS 29 mm/h.
+Conclusion : réponse au traitement, maintien du traitement.
+
+PATIENT_ID: 10
+=== STAY_ID: S0019 | DATE: 2023-02-05 | SERVICE: Rhumatologie ===
+Femme de 49 ans, consulte pour gonflements des poignets et des doigts avec douleur à la palpation depuis 4 mois, avec raideur matinale 45 min.
+Pas de fièvre, pas de perte de poids.
+Examen clinique : gonflement des métacarpiens et des phalanges proximales, douleur à la mobilisation.
+Laboratoire (J1) : CRP 55 mg/L, VHS 44 mm/h, NFS normale.
+RF : positif (140 UI/mL).
+anti-CCP : positif (34 U/mL).
+Échographie des mains : synovite active aux doigts II-IV.
+Diagnostic : polyarthrite rhumatoïde confirmée.
+Prise en charge : début de méthotrexate 10 mg/semaine + acide folique 5 mg/j.
+
+=== STAY_ID: S0020 | DATE: 2023-09-19 | SERVICE: Immunologie ===
+Hospitalisation pour infection urinaire sous biothérapie.
+Antécédents : polyarthrite rhumatoïde depuis 2020, traitée par adalimumab.
+Laboratoire (J1) : CRP 155 mg/L, leucocytes 15,6 G/L.
+Décision : arrêt temporaire de adalimumab et antibiothérapie adaptée.
+Suivi rhumatologique programmé.
+
+PATIENT_ID: 11
+=== STAY_ID: S0021 | DATE: 2023-02-11 | SERVICE: Rhumatologie ===
+Homme de 49 ans, consulte pour douleurs articulaires symétriques aux poignets, MCP et PIP depuis 12 mois, avec raideur matinale > 1h.
+Pas de fièvre, pas de perte de poids.
+Examen clinique : gonflement des métacarpiens et des phalanges proximales, douleur à la mobilisation.
+Laboratoire (J1) : CRP 24 mg/L, VHS 72 mm/h, NFS normale.
+RF : négatif (9 UI/mL).
+anti-CCP : négatif (<5 U/mL).
+IRM des mains : synovite et érosions débutantes.
+Diagnostic : polyarthrite rhumatoïde confirmée (forme séronégative), synovite à l’imagerie.
+Prise en charge : début de méthotrexate 15 mg/semaine + acide folique 5 mg/j.
+
+=== STAY_ID: S0022 | DATE: 2023-04-08 | SERVICE: Médecine interne ===
+Hospitalisation pour infection cutanée sous biothérapie.
+Antécédents : polyarthrite rhumatoïde depuis 2021, traitée par abatacept.
+Laboratoire (J1) : CRP 82 mg/L, leucocytes 12,5 G/L.
+Décision : arrêt temporaire de abatacept et antibiothérapie adaptée.
+Suivi rhumatologique programmé.
+
+PATIENT_ID: 12
+=== STAY_ID: S0023 | DATE: 2023-02-14 | SERVICE: Rhumatologie ===
+Femme de 59 ans, consulte pour douleurs articulaires symétriques aux poignets, MCP et PIP depuis 4 mois, avec raideur matinale 45 min.
+Pas de fièvre, pas de perte de poids.
+Examen clinique : gonflement des métacarpiens et des phalanges proximales, douleur à la mobilisation.
+Laboratoire (J1) : CRP 33 mg/L, VHS 85 mm/h, NFS normale.
+RF : positif (105 UI/mL).
+anti-CCP : positif (49 U/mL).
+Échographie des mains : synovite active aux doigts II-IV.
+Diagnostic : polyarthrite rhumatoïde confirmée.
+Prise en charge : début de méthotrexate 20 mg/semaine + acide folique 5 mg/j.
+
+=== STAY_ID: S0024 | DATE: 2023-07-16 | SERVICE: Médecine interne ===
+Suivi à 3-6 mois.
+Examen clinique : amélioration clinique sous traitement.
+Laboratoire : CRP 17 mg/L, VHS 23 mm/h.
+Conclusion : réponse au traitement, maintien du traitement.
+
+PATIENT_ID: 13
+=== STAY_ID: S0025 | DATE: 2023-02-24 | SERVICE: Rhumatologie ===
+Homme de 70 ans, consulte pour polyarthralgies bilatérales des mains et des poignets depuis 12 mois, avec raideur matinale 45 min.
+Pas de fièvre, pas de perte de poids.
+Examen clinique : gonflement des métacarpiens et des phalanges proximales, douleur à la mobilisation.
+Laboratoire (J1) : CRP 47 mg/L, VHS 48 mm/h, NFS normale.
+RF : positif (119 UI/mL).
+anti-CCP : positif (36 U/mL).
+Échographie : épaississement synovial et hypervascularisation au Doppler.
+Diagnostic : polyarthrite rhumatoïde confirmée.
+Prise en charge : continuation de méthotrexate 20 mg/semaine + acide folique 5 mg/j.
+
+=== STAY_ID: S0026 | DATE: 2023-06-02 | SERVICE: Rhumatologie ===
+Hospitalisation pour infection respiratoire sous biothérapie.
+Antécédents : polyarthrite rhumatoïde depuis 2016, traitée par rituximab.
+Laboratoire (J1) : CRP 144 mg/L, leucocytes 17,5 G/L.
+Décision : arrêt temporaire de rituximab et antibiothérapie adaptée.
+Suivi rhumatologique programmé.
+
+PATIENT_ID: 14
+=== STAY_ID: S0027 | DATE: 2023-02-22 | SERVICE: Rhumatologie ===
+Homme de 58 ans, consulte pour douleurs articulaires symétriques aux poignets, MCP et PIP depuis 6 mois, avec raideur matinale 1h.
+Pas de fièvre, pas de perte de poids.
+Examen clinique : gonflement des métacarpiens et des phalanges proximales, douleur à la mobilisation.
+Laboratoire (J1) : CRP 23 mg/L, VHS 84 mm/h, NFS normale.
+RF : négatif (6 UI/mL).
+anti-CCP : positif (52 U/mL).
+IRM des mains : synovite et érosions débutantes.
+Diagnostic : polyarthrite rhumatoïde confirmée.
+Prise en charge : continuation de méthotrexate 10 mg/semaine + acide folique 5 mg/j.
+
+=== STAY_ID: S0028 | DATE: 2023-08-19 | SERVICE: Immunologie ===
+Hospitalisation pour infection cutanée sous biothérapie.
+Antécédents : polyarthrite rhumatoïde depuis 2019, traitée par rituximab.
+Laboratoire (J1) : CRP 75 mg/L, leucocytes 16,6 G/L.
+Décision : arrêt temporaire de rituximab et antibiothérapie adaptée.
+Suivi rhumatologique programmé.
+
+PATIENT_ID: 15
+=== STAY_ID: S0029 | DATE: 2023-02-17 | SERVICE: Rhumatologie ===
+Homme de 71 ans, consulte pour douleurs articulaires symétriques aux poignets, MCP et PIP depuis 9 mois, avec raideur matinale 45 min.
+Pas de fièvre, pas de perte de poids.
+Examen clinique : gonflement des métacarpiens et des phalanges proximales, douleur à la mobilisation.
+Laboratoire (J1) : CRP 34 mg/L, VHS 55 mm/h, NFS normale.
+RF : positif (110 UI/mL).
+anti-CCP : positif (35 U/mL).
+Échographie : épaississement synovial et hypervascularisation au Doppler.
+Diagnostic : polyarthrite rhumatoïde confirmée.
+Prise en charge : début de méthotrexate 15 mg/semaine + acide folique 5 mg/j.
+
+=== STAY_ID: S0030 | DATE: 2023-06-05 | SERVICE: Urgences ===
+Hospitalisation pour infection cutanée sous biothérapie.
+Antécédents : polyarthrite rhumatoïde depuis 2017, traitée par tocilizumab.
+Laboratoire (J1) : CRP 82 mg/L, leucocytes 12,5 G/L.
+Décision : arrêt temporaire de tocilizumab et antibiothérapie adaptée.
+Suivi rhumatologique programmé.
+
+PATIENT_ID: 16
+=== STAY_ID: S0031 | DATE: 2023-01-22 | SERVICE: Cardiologie ===
+Femme de 60 ans, consulte pour douleurs des épaules depuis 8 mois, mécaniques, aggravées à l’effort.
+Pas de raideur matinale significative, pas de synovite clinique.
+Laboratoire : CRP 10 mg/L, VHS 27 mm/h, NFS normale.
+RF : négatif (17 UI/mL).
+anti-CCP : négatif (<3 U/mL).
+Imagerie : signes compatibles avec bursite, pas d’érosions.
+Diagnostic : bursite, pas de polyarthrite rhumatoïde.
+Prise en charge : antalgiques, kinésithérapie.
+
+=== STAY_ID: S0032 | DATE: 2023-06-22 | SERVICE: Rhumatologie ===
+Hospitalisation pour remplacement prothétique du genou.
+Aucun argument en faveur d’une polyarthrite rhumatoïde dans le dossier.
+Traitement : prise en charge spécifique de l’épisode, sans DMARD.
+
+PATIENT_ID: 17
+=== STAY_ID: S0033 | DATE: 2023-01-07 | SERVICE: Médecine interne ===
+Femme de 61 ans, consulte pour douleurs des genoux depuis 8 mois, mécaniques, aggravées à l’effort.
+Pas de raideur matinale significative, pas de synovite clinique.
+Laboratoire : CRP 7 mg/L, VHS 19 mm/h, NFS normale.
 RF : négatif (15 UI/mL).
+anti-CCP : négatif (<2 U/mL).
+Imagerie : signes compatibles avec arthrose, pas d’érosions.
+Diagnostic : arthrose, pas de polyarthrite rhumatoïde.
+Prise en charge : antalgiques, kinésithérapie.
+
+=== STAY_ID: S0034 | DATE: 2023-08-16 | SERVICE: Médecine interne ===
+Hospitalisation pour chute avec contusion.
+Aucun argument en faveur d’une polyarthrite rhumatoïde dans le dossier.
+Traitement : prise en charge spécifique de l’épisode, sans DMARD.
+
+PATIENT_ID: 18
+=== STAY_ID: S0035 | DATE: 2023-01-06 | SERVICE: Gériatrie ===
+Femme de 50 ans, consulte pour douleurs des épaules depuis 6 mois, mécaniques, aggravées à l’effort.
+Pas de raideur matinale significative, pas de synovite clinique.
+Laboratoire : CRP 3 mg/L, VHS 20 mm/h, NFS normale.
+RF : négatif (18 UI/mL).
+anti-CCP : négatif (<2 U/mL).
+Imagerie : signes compatibles avec lombalgie mécanique, pas d’érosions.
+Diagnostic : lombalgie mécanique, pas de polyarthrite rhumatoïde.
+Prise en charge : antalgiques, kinésithérapie.
+
+=== STAY_ID: S0036 | DATE: 2023-08-23 | SERVICE: Gériatrie ===
+Hospitalisation pour chute avec contusion.
+Aucun argument en faveur d’une polyarthrite rhumatoïde dans le dossier.
+Traitement : prise en charge spécifique de l’épisode, sans DMARD.
+
+PATIENT_ID: 19
+=== STAY_ID: S0037 | DATE: 2023-01-05 | SERVICE: Rhumatologie ===
+Femme de 52 ans, consulte pour douleurs des hanches depuis 6 mois, mécaniques, aggravées à l’effort.
+Pas de raideur matinale significative, pas de synovite clinique.
+Laboratoire : CRP 8 mg/L, VHS 28 mm/h, NFS normale.
+RF : négatif (14 UI/mL).
+anti-CCP : négatif (<2 U/mL).
+Imagerie : signes compatibles avec arthrose, pas d’érosions.
+Diagnostic : arthrose, pas de polyarthrite rhumatoïde.
+Prise en charge : antalgiques, kinésithérapie.
+
+=== STAY_ID: S0038 | DATE: 2023-06-12 | SERVICE: Rhumatologie ===
+Hospitalisation pour décompensation d’insuffisance cardiaque.
+Aucun argument en faveur d’une polyarthrite rhumatoïde dans le dossier.
+Traitement : prise en charge spécifique de l’épisode, sans DMARD.
+
+PATIENT_ID: 20
+=== STAY_ID: S0039 | DATE: 2023-01-08 | SERVICE: Orthopédie ===
+Homme de 58 ans, consulte pour douleurs des genoux depuis 12 mois, mécaniques, aggravées à l’effort.
+Pas de raideur matinale significative, pas de synovite clinique.
+Laboratoire : CRP 15 mg/L, VHS 27 mm/h, NFS normale.
+RF : négatif (12 UI/mL).
 anti-CCP : négatif (<5 U/mL).
-Échographie articulaire des mains : épaississement synovial aux doigts II-III, fluide articulaire modéré.
-Diagnostic évoqué : polyarthrite rhumatoïde probable, mais sérologies négatives.
-Prise en charge : début de méthotrexate 15 mg/semaine per os, avec acide folique 5 mg/j.
-Suivi en consultation en 4 semaines.
+Imagerie : signes compatibles avec tendinopathie, pas d’érosions.
+Diagnostic : tendinopathie, pas de polyarthrite rhumatoïde.
+Prise en charge : antalgiques, kinésithérapie.
 
-=== STAY_ID: S0002 | DATE: 2023-08-03 | SERVICE: Médecine interne ===
-Hospitalisation pour douleurs abdominales diffuses, fièvre à 38,4°C, asthénie. Évolution depuis 2 semaines. Antécédents : polyarthrite rhumatoïde diagnostiquée en 2021, traitée par adalimumab 40 mg toutes les 2 semaines depuis 18 mois. Arrêté depuis 3 semaines pour infection urinaire.
-Examen : douleur à la palpation en hypogastre, tension artérielle 135/85 mmHg, FC 92/min.
-Laboratoire (J1) : CRP 112 mg/L, leucocytes 14,8 G/L, neutrophiles 12,1 G/L, créatinine 112 µmol/L.
-Échographie abdominale : épaississement de la paroi colique, fluide pelvien.
-Scanner abdominal : atteinte de la paroi sigmoïde, aspect de diverticulite compliquée.
-Diagnostic : diverticulite compliquée avec collection.
-Prise en charge : antibiotiques (métronidazole + ceftriaxone), arrêt définitif de l’adalimumab.
-Chirurgie de drainage en urgence (J3).
+=== STAY_ID: S0040 | DATE: 2023-05-14 | SERVICE: Rhumatologie ===
+Hospitalisation pour bilan de lombalgie.
+Aucun argument en faveur d’une polyarthrite rhumatoïde dans le dossier.
+Traitement : prise en charge spécifique de l’épisode, sans DMARD.
 
-PATIENT_ID: 0002
-=== STAY_ID: S0003 | DATE: 2023-01-15 | SERVICE: Rhumatologie ===
-Femme de 63 ans, enseignante, consulte pour douleurs aux mains depuis 10 mois, avec raideur matinale > 1h. Symptômes progressifs, bilatéraux, affectant la fonction manuelle. Pas de fièvre.
-Antécédents : diabète de type 2 sous metformine 1 g/j, dyslipidémie. Mère atteinte de polyarthrite rhumatoïde.
-Examen clinique : gonflement des métacarpiens, des phalanges proximales, douleur à la palpation. Pas de signe de vasculite.
-Laboratoire (J1) : CRP 45 mg/L, VHS 60 mm/h, NFS normale.
-RF : positif à 120 UI/mL.
-anti-CCP : positif à 48 U/mL.
-Échographie des mains : synovite active aux doigts II-IV, épaississement des capsules articulaires.
-Diagnostic : polyarthrite rhumatoïde confirmée.
-Prise en charge : début de méthotrexate 10 mg/semaine, avec acide folique 5 mg/j.
-Évaluation clinique à 3 mois.
+PATIENT_ID: 21
+=== STAY_ID: S0041 | DATE: 2023-01-08 | SERVICE: Orthopédie ===
+Femme de 66 ans, consulte pour douleurs des hanches depuis 12 mois, mécaniques, aggravées à l’effort.
+Pas de raideur matinale significative, pas de synovite clinique.
+Laboratoire : CRP 5 mg/L, VHS 13 mm/h, NFS normale.
+RF : négatif (12 UI/mL).
+anti-CCP : négatif (<1 U/mL).
+Imagerie : signes compatibles avec lombalgie mécanique, pas d’érosions.
+Diagnostic : lombalgie mécanique, pas de polyarthrite rhumatoïde.
+Prise en charge : antalgiques, kinésithérapie.
 
-=== STAY_ID: S0004 | DATE: 2023-04-22 | SERVICE: Médecine interne ===
-Hospitalisation pour syndrome infectieux : fièvre à 39,1°C, douleurs thoraciques, toux sèche depuis 1 semaine. Antécédents : polyarthrite rhumatoïde depuis 2019, traitée par tocilizumab 162 mg toutes les 4 semaines. Arrêté pour infection respiratoire.
-Examen : râles pulmonaires basaux, saturation en O2 à 92 % à l’air ambiant.
-Laboratoire (J1) : CRP 150 mg/L, leucocytes 18,5 G/L, lymphocytes 0,8 G/L.
-TDM thoracique : nodules pulmonaires multiples, zones de consolidation au lobe inférieur gauche.
-Biopsie pulmonaire : infection à Aspergillus fumigatus.
-Diagnostic : aspergillose invasive.
-Prise en charge : amphotéricine B liposomale, arrêt définitif du tocilizumab.
-Suivi en soins intensifs.
+=== STAY_ID: S0042 | DATE: 2023-07-12 | SERVICE: Médecine interne ===
+Hospitalisation pour décompensation d’insuffisance cardiaque.
+Aucun argument en faveur d’une polyarthrite rhumatoïde dans le dossier.
+Traitement : prise en charge spécifique de l’épisode, sans DMARD.
 
-PATIENT_ID: 0003
-=== STAY_ID: S0005 | DATE: 2023-03-08 | SERVICE: Rhumatologie ===
-Homme de 45 ans, technicien, consulte pour douleurs aux genoux et aux hanches depuis 8 mois. Symptômes asymétriques, aggravés par la marche. Pas de raideur matinale.
-Antécédents : HTA, traitement par amlodipine. Pas d’antécédents de maladie auto-immune.
-Examen clinique : douleur à la pression sur les fémurs, mobilité réduite, pas de gonflement articulaire.
-Laboratoire (J1) : CRP 12 mg/L, VHS 25 mm/h, NFS normale.
-RF : négatif (8 UI/mL).
+PATIENT_ID: 22
+=== STAY_ID: S0043 | DATE: 2023-01-21 | SERVICE: Cardiologie ===
+Femme de 59 ans, consulte pour douleurs des hanches depuis 18 mois, mécaniques, aggravées à l’effort.
+Pas de raideur matinale significative, pas de synovite clinique.
+Laboratoire : CRP 8 mg/L, VHS 18 mm/h, NFS normale.
+RF : négatif (7 UI/mL).
+anti-CCP : négatif (<3 U/mL).
+Imagerie : signes compatibles avec arthrose, pas d’érosions.
+Diagnostic : arthrose, pas de polyarthrite rhumatoïde.
+Prise en charge : antalgiques, kinésithérapie.
+
+=== STAY_ID: S0044 | DATE: 2023-07-22 | SERVICE: Cardiologie ===
+Hospitalisation pour chute avec contusion.
+Aucun argument en faveur d’une polyarthrite rhumatoïde dans le dossier.
+Traitement : prise en charge spécifique de l’épisode, sans DMARD.
+
+PATIENT_ID: 23
+=== STAY_ID: S0045 | DATE: 2023-01-12 | SERVICE: Médecine interne ===
+Homme de 46 ans, consulte pour douleurs des épaules depuis 8 mois, mécaniques, aggravées à l’effort.
+Pas de raideur matinale significative, pas de synovite clinique.
+Laboratoire : CRP 12 mg/L, VHS 18 mm/h, NFS normale.
+RF : négatif (6 UI/mL).
+anti-CCP : négatif (<1 U/mL).
+Imagerie : signes compatibles avec arthrose, pas d’érosions.
+Diagnostic : arthrose, pas de polyarthrite rhumatoïde.
+Prise en charge : antalgiques, kinésithérapie.
+
+=== STAY_ID: S0046 | DATE: 2023-07-20 | SERVICE: Cardiologie ===
+Hospitalisation pour décompensation d’insuffisance cardiaque.
+Aucun argument en faveur d’une polyarthrite rhumatoïde dans le dossier.
+Traitement : prise en charge spécifique de l’épisode, sans DMARD.
+
+PATIENT_ID: 24
+=== STAY_ID: S0047 | DATE: 2023-01-12 | SERVICE: Gériatrie ===
+Femme de 69 ans, consulte pour douleurs des épaules depuis 6 mois, mécaniques, aggravées à l’effort.
+Pas de raideur matinale significative, pas de synovite clinique.
+Laboratoire : CRP 14 mg/L, VHS 23 mm/h, NFS normale.
+RF : négatif (6 UI/mL).
 anti-CCP : négatif (<5 U/mL).
-IRM des hanches : signes d’arthrose précoce, pas de synovite.
-Diagnostic évoqué : arthrose, pas de polyarthrite rhumatoïde.
-Prise en charge : kinésithérapie, paracétamol 1 g/j.
+Imagerie : signes compatibles avec tendinopathie, pas d’érosions.
+Diagnostic : tendinopathie, pas de polyarthrite rhumatoïde.
+Prise en charge : antalgiques, kinésithérapie.
 
-=== STAY_ID: S0006 | DATE: 2023-07-11 | SERVICE: Orthopédie ===
-Hospitalisation pour remplacement prothétique du genou droit.
-Antécédents : douleurs chroniques au genou droit depuis 5 ans, échec du traitement conservateur.
-Pas de signes de polyarthrite rhumatoïde.
-Examen préopératoire : RF négatif, anti-CCP négatif.
-Prothèse posée sans complication.
-Postopératoire : douleurs modérées, mobilisation progressive.
+=== STAY_ID: S0048 | DATE: 2023-04-22 | SERVICE: Médecine interne ===
+Hospitalisation pour bilan de lombalgie.
+Aucun argument en faveur d’une polyarthrite rhumatoïde dans le dossier.
+Traitement : prise en charge spécifique de l’épisode, sans DMARD.
 
-PATIENT_ID: 0004
-=== STAY_ID: S0007 | DATE: 2023-06-19 | SERVICE: Rhumatologie ===
-Femme de 52 ans, infirmière, consulte pour douleurs aux poignets et doigts depuis 4 mois. Symétrie des symptômes, raideur matinale de 45 min.
-Antécédents : traitement par méthotrexate depuis 2020 pour polyarthrite rhumatoïde.
-Examen clinique : gonflement des poignets, douleur à la palpation des métacarpiens.
-Laboratoire (J1) : CRP 38 mg/L, VHS 50 mm/h, RF : positif à 85 UI/mL, anti-CCP : positif à 32 U/mL.
-Échographie : synovite active aux poignets.
-Diagnostic : polyarthrite rhumatoïde confirmée.
-Prise en charge : ajustement de la posologie de méthotrexate à 15 mg/semaine.
+PATIENT_ID: 25
+=== STAY_ID: S0049 | DATE: 2023-01-07 | SERVICE: Gériatrie ===
+Homme de 52 ans, consulte pour douleurs des épaules depuis 18 mois, mécaniques, aggravées à l’effort.
+Pas de raideur matinale significative, pas de synovite clinique.
+Laboratoire : CRP 8 mg/L, VHS 22 mm/h, NFS normale.
+RF : négatif (17 UI/mL).
+anti-CCP : négatif (<3 U/mL).
+Imagerie : signes compatibles avec bursite, pas d’érosions.
+Diagnostic : bursite, pas de polyarthrite rhumatoïde.
+Prise en charge : antalgiques, kinésithérapie.
 
-=== STAY_ID: S0008 | DATE: 2023-09-05 | SERVICE: Médecine interne ===
-Hospitalisation pour syndrome de Sjögren secondaire.
-Antécédents : polyarthrite rhumatoïde depuis 2018, traitée par etanercept 50 mg toutes les 2 semaines.
-Symptômes : sécheresse oculaire, bouche sèche, fatigue.
-Examen : kératite sèche, salivation réduite.
-Laboratoire (J1) : CRP 22 mg/L, RF positif à 130 UI/mL, anti-CCP : positif à 45 U/mL.
-Test de Schirmer : <5 mm en 5 min.
-Diagnostic : syndrome de Sjögren associé à PR.
-Prise en charge : ajustement du traitement biologique, début de pilocarpine.
-
-PATIENT_ID: 0005
-=== STAY_ID: S0009 | DATE: 2023-02-10 | SERVICE: Rhumatologie ===
-Homme de 68 ans, retraité, consulte pour douleurs aux genoux et hanches depuis 1 an. Symétrie partielle, pas de raideur matinale.
-Antécédents : arthrose bilatérale, traitement par paracétamol.
-Examen clinique : douleurs à la mobilité, craquements articulaires.
-Laboratoire (J1) : CRP 8 mg/L, VHS 18 mm/h, RF : négatif (10 UI/mL), anti-CCP : négatif (<5 U/mL).
-Échographie : épaississement synovial modéré, pas de fluide.
-Diagnostic évoqué : arthrose, pas de PR.
-Prise en charge : rééducation, ajustement du traitement analgésique.
-
-=== STAY_ID: S0010 | DATE: 2023-05-21 | SERVICE: Médecine interne ===
-Hospitalisation pour insuffisance cardiaque aiguë.
-Antécédents : PR diagnostiquée en 2020, traitée par abatacept 100 mg toutes les 4 semaines.
-Symptômes : dyspnée, œdèmes des membres inférieurs.
-Examen : FC 110/min, tension 145/90 mmHg, râles pulmonaires basaux.
-Échocardiographie : fraction d’éjection 40 %, dilatation ventriculaire gauche.
-Laboratoire (J1) : NT-proBNP 1250 pg/mL, CRP 30 mg/L.
-Diagnostic : insuffisance cardiaque avec fraction d’éjection conservée (HFpEF), probable effet indésirable du traitement biologique.
-Prise en charge : arrêt d’abatacept, traitement cardiaque adapté.
-
-PATIENT_ID: 0006
-=== STAY_ID: S0011 | DATE: 2023-04-05 | SERVICE: Rhumatologie ===
-Femme de 49 ans, secrétaire, consulte pour douleurs aux mains depuis 3 mois. Symétrie, raideur matinale de 30 min.
-Antécédents : pas de maladie chronique.
-Examen clinique : gonflement des doigts, douleur à la palpation.
-Laboratoire (J1) : CRP 15 mg/L, VHS 30 mm/h, RF : négatif (12 UI/mL), anti-CCP : négatif (<5 U/mL).
-Échographie : synovite modérée aux doigts II-III.
-Diagnostic évoqué : polyarthrite rhumatoïde possible, mais sérologies négatives.
-Prise en charge : début de méthotrexate 10 mg/semaine.
-Suivi à 3 mois.
-
-=== STAY_ID: S0012 | DATE: 2023-07-18 | SERVICE: Rhumatologie ===
-Suivi de la patiente.
-Examen clinique : amélioration partielle, douleurs persistantes aux poignets.
-Laboratoire (J1) : CRP 25 mg/L, VHS 45 mm/h.
-anti-CCP : rétesté à 18 U/mL (positif).
-RF : positif à 90 UI/mL.
-Diagnostic : polyarthrite rhumatoïde confirmée.
-Prise en charge : continuation du méthotrexate, ajout de corticoïdes à faible dose.
-
-PATIENT_ID: 0007
-=== STAY_ID: S0013 | DATE: 2023-01-20 | SERVICE: Rhumatologie ===
-Homme de 55 ans, cadre, consulte pour douleurs aux poignets et genoux depuis 6 mois. Symétrie, raideur matinale de 1h.
-Antécédents : HTA, traitement par perindopril.
-Examen clinique : gonflements aux poignets, douleur à la palpation.
-Laboratoire (J1) : CRP 32 mg/L, VHS 55 mm/h, RF : positif à 110 UI/mL, anti-CCP : négatif (<5 U/mL).
-Échographie : synovite aux poignets.
-Diagnostic évoqué : polyarthrite rhumatoïde probable, mais anti-CCP négatif.
-Prise en charge : début de méthotrexate 15 mg/semaine.
-Suivi à 3 mois.
-
-=== STAY_ID: S0014 | DATE: 2023-04-10 | SERVICE: Rhumatologie ===
-Reconsultation.
-Examen clinique : progression des signes articulaires.
-Laboratoire (J1) : CRP 58 mg/L, VHS 70 mm/h.
-anti-CCP : rétesté à 28 U/mL (positif).
-Diagnostic : polyarthrite rhumatoïde confirmée.
-Prise en charge : ajustement du traitement, évaluation de l’efficacité.
-
-PATIENT_ID: 0008
-=== STAY_ID: S0015 | DATE: 2023-03-14 | SERVICE: Rhumatologie ===
-Femme de 61 ans, retraitée, consulte pour douleurs aux mains depuis 2 mois. Symétrie, raideur matinale de 1h.
-Antécédents : traitement par méthotrexate pour PR depuis 2019.
-Examen clinique : gonflements des métacarpiens, douleurs à la palpation.
-Laboratoire (J1) : CRP 40 mg/L, VHS 65 mm/h, RF : positif à 140 UI/mL, anti-CCP : positif à 55 U/mL.
-Échographie : synovite active aux mains.
-Diagnostic : polyarthrite rhumatoïde confirmée.
-Prise en charge : continuation du méthotrexate, évaluation de la réponse.
-
-=== STAY_ID: S0016 | DATE: 2023-06-20 | SERVICE: Médecine interne ===
-Hospitalisation pour infection cutanée généralisée.
-Antécédents : PR traitée par rituximab 1000 mg toutes les 6 mois.
-Symptômes : fièvre, éruption cutanée, douleurs articulaires.
-Examen : plaques érythémateuses, température 38,6°C.
-Laboratoire (J1) : CRP 95 mg/L, leucocytes 16,2 G/L, plaquettes 85 G/L.
-Biopsie cutanée : infiltration lymphocytaire, pas d’aspect infectieux.
-Diagnostic : réaction immunitaire liée au rituximab, possible hypogammaglobulinémie.
-Prise en charge : immunoglobulines IV, arrêt temporaire du rituximab.
-
-PATIENT_ID: 0009
-=== STAY_ID: S0017 | DATE: 2023-05-05 | SERVICE: Rhumatologie ===
-Homme de 47 ans, ouvrier, consulte pour douleurs aux doigts depuis 1 an. Symétrie, raideur matinale de 45 min.
-Antécédents : traitement par méthotrexate depuis 2022 pour PR.
-Examen clinique : gonflement des phalanges proximales, douleur à la palpation.
-Laboratoire (J1) : CRP 20 mg/L, VHS 35 mm/h, RF : négatif (10 UI/mL), anti-CCP : négatif (<5 U/mL).
-Échographie : synovite modérée.
-Diagnostic évoqué : PR probable, mais sérologies négatives.
-Prise en charge : continuation du méthotrexate, surveillance.
-
-=== STAY_ID: S0018 | DATE: 2023-08-12 | SERVICE: Rhumatologie ===
-Reconsultation.
-Examen clinique : aggravation des symptômes.
-Laboratoire (J1) : CRP 60 mg/L, VHS 75 mm/h.
-anti-CCP : rétesté à 35 U/mL (positif).
-RF : positif à 105 UI/mL.
-Diagnostic : polyarthrite rhumatoïde confirmée.
-Prise en charge : ajout de corticoïdes.
-
-PATIENT_ID: 0010
-=== STAY_ID: S0019 | DATE: 2023-02-28 | SERVICE: Rhumatologie ===
-Femme de 54 ans, artiste, consulte pour douleurs aux mains depuis 5 mois. Symétrie, raideur matinale de 1h.
-Antécédents : pas de maladie chronique.
-Examen clinique : gonflement des doigts, douleur à la palpation.
-Laboratoire (J1) : CRP 18 mg/L, VHS 30 mm/h, RF : négatif (14 UI/mL), anti-CCP : négatif (<5 U/mL).
-Échographie : synovite modérée.
-Diagnostic évoqué : PR possible, mais sérologies négatives.
-Prise en charge : début de méthotrexate 10 mg/semaine.
-
-=== STAY_ID: S0020 | DATE: 2023-06-15 | SERVICE: Rhumatologie ===
-Suivi.
-Examen clinique : progression des signes.
-Laboratoire (J1) : CRP 45 mg/L, VHS 55 mm/h.
-anti-CCP : rétesté à 22 U/mL (positif).
-RF : positif à 95 UI/mL.
-Diagnostic : polyarthrite rhumatoïde confirmée.
-Prise en charge : ajustement du traitement.
-
-PATIENT_ID: 0011
-=== STAY_ID: S0021 | DATE: 2023-04-10 | SERVICE: Rhumatologie ===
-Homme de 60 ans, retraité, consulte pour douleurs aux genoux depuis 6 mois. Symétrie, pas de raideur matinale.
-Antécédents : arthrose, traitement par paracétamol.
-Examen clinique : douleurs à la mobilité, pas de gonflement.
-Laboratoire (J1) : CRP 10 mg/L, VHS 20 mm/h, RF : négatif (8 UI/mL), anti-CCP : négatif (<5 U/mL).
-Échographie : épaississement synovial modéré.
-Diagnostic évoqué : arthrose, pas de PR.
-Prise en charge : rééducation.
-
-=== STAY_ID: S0022 | DATE: 2023-07-03 | SERVICE: Médecine interne ===
-Hospitalisation pour infection urinaire compliquée.
-Antécédents : PR diagnostiquée en 2021, traitée par adalimumab.
-Symptômes : douleurs lombaires, fièvre, dysurie.
-Examen : douleur à la palpation lombaire, FC 95/min.
-Laboratoire (J1) : CRP 85 mg/L, leucocytes 14,3 G/L.
-Culture urinaire : E. coli sensible à l’ampicilline.
-Diagnostic : pyélonéphrite.
-Prise en charge : antibiotiques, arrêt temporaire de l’adalimumab.
-
-PATIENT_ID: 0012
-=== STAY_ID: S0023 | DATE: 2023-01-18 | SERVICE: Rhumatologie ===
-Femme de 59 ans, consulte pour douleurs aux mains depuis 4 mois. Symétrie, raideur matinale de 40 min.
-Antécédents : traitement par méthotrexate pour PR depuis 2020.
-Examen clinique : gonflement des métacarpiens, douleur à la palpation.
-Laboratoire (J1) : CRP 35 mg/L, VHS 50 mm/h, RF : positif à 115 UI/mL, anti-CCP : positif à 40 U/mL.
-Échographie : synovite active.
-Diagnostic : polyarthrite rhumatoïde confirmée.
-Prise en charge : continuation du traitement.
-
-=== STAY_ID: S0024 | DATE: 2023-05-20 | SERVICE: Rhumatologie ===
-Suivi.
-Examen clinique : amélioration des symptômes.
-Laboratoire (J1) : CRP 12 mg/L, VHS 25 mm/h.
-Diagnostic : réponse au traitement.
-Prise en charge : maintien du traitement.
-
-PATIENT_ID: 0013
-=== STAY_ID: S0025 | DATE: 2023-03-05 | SERVICE: Rhumatologie ===
-Homme de 56 ans, cadre, consulte pour douleurs aux doigts depuis 3 mois. Symétrie, raideur matinale de 30 min.
-Antécédents : traitement par méthotrexate depuis 2021 pour PR.
-Examen clinique : gonflement des phalanges proximales.
-Laboratoire (J1) : CRP 25 mg/L, VHS 40 mm/h, RF : négatif (12 UI/mL), anti-CCP : négatif (<5 U/mL).
-Échographie : synovite modérée.
-Diagnostic évoqué : PR probable, mais sérologies négatives.
-Prise en charge : continuation du méthotrexate, surveillance.
-
-=== STAY_ID: S0026 | DATE: 2023-06-12 | SERVICE: Rhumatologie ===
-Reconsultation.
-Examen clinique : aggravation.
-Laboratoire (J1) : CRP 65 mg/L, VHS 75 mm/h.
-anti-CCP : rétesté à 38 U/mL (positif).
-RF : positif à 100 UI/mL.
-Diagnostic : polyarthrite rhumatoïde confirmée.
-Prise en charge : ajustement du traitement.
-
-PATIENT_ID: 0014
-=== STAY_ID: S0027 | DATE: 2023-02-10 | SERVICE: Rhumatologie ===
-Femme de 62 ans, retraitée, consulte pour douleurs aux genoux depuis 1 an. Symétrie, pas de raideur matinale.
-Antécédents : arthrose, traitement par paracétamol.
-Examen clinique : douleurs à la mobilité, pas de gonflement.
-Laboratoire (J1) : CRP 10 mg/L, VHS 20 mm/h, RF : négatif (10 UI/mL), anti-CCP : négatif (<5 U/mL).
-Échographie : épaississement synovial modéré.
-Diagnostic évoqué : arthrose, pas de PR.
-Prise en charge : rééducation.
-
-=== STAY_ID: S0028 | DATE: 2023-05-15 | SERVICE: Médecine interne ===
-Hospitalisation pour infection respiratoire.
-Antécédents : PR traitée par etanercept.
-Symptômes : toux, fièvre, dyspnée.
-Examen : râles pulmonaires.
-TDM thoracique : infiltrats pulmonaires.
-Diagnostic : pneumonie.
-Prise en charge : antibiotiques, arrêt temporaire de l’etanercept.
-
-PATIENT_ID: 0015
-=== STAY_ID: S0029 | DATE: 2023-04-20 | SERVICE: Rhumatologie ===
-Homme de 50 ans, consulte pour douleurs aux poignets depuis 5 mois. Symétrie, raideur matinale de 1h.
-Antécédents : traitement par méthotrexate depuis 2022 pour PR.
-Examen clinique : gonflement des poignets, douleur à la palpation.
-Laboratoire (J1) : CRP 40 mg/L, VHS 60 mm/h, RF : positif à 120 UI/mL, anti-CCP : positif à 50 U/mL.
-Échographie : synovite active.
-Diagnostic : polyarthrite rhumatoïde confirmée.
-Prise en charge : continuation du traitement.
-
-=== STAY_ID: S0030 | DATE: 2023-07-25 | SERVICE: Rhumatologie ===
-Suivi.
-Examen clinique : amélioration.
-Laboratoire (J1) : CRP 15 mg/L, VHS 30 mm/h.
-Diagnostic : réponse au traitement.
-Prise en charge : maintien du traitement.
-
-PATIENT_ID: 0016
-=== STAY_ID: S0031 | DATE: 2023-01-12 | SERVICE: Rhumatologie ===
-Femme de 53 ans, consulte pour douleurs aux mains depuis 6 mois. Symétrie, raideur matinale de 1h.
-Antécédents : pas de maladie chronique.
-Examen clinique : gonflement des doigts, douleur à la palpation.
-Laboratoire (J1) : CRP 22 mg/L, VHS 35 mm/h, RF : négatif (14 UI/mL), anti-CCP : négatif (<5 U/mL).
-Échographie : synovite modérée.
-Diagnostic évoqué : PR possible, mais sérologies négatives.
-Prise en charge : début de méthotrexate 10 mg/semaine.
-
-=== STAY_ID: S0032 | DATE: 2023-05-08 | SERVICE: Rhumatologie ===
-Suivi.
-Examen clinique : progression.
-Laboratoire (J1) : CRP 55 mg/L, VHS 70 mm/h.
-anti-CCP : rétesté à 30 U/mL (positif).
-RF : positif à 100 UI/mL.
-Diagnostic : polyarthrite rhumatoïde confirmée.
-Prise en charge : ajustement du traitement.
-
-PATIENT_ID: 0017
-=== STAY_ID: S0033 | DATE: 2023-03-15 | SERVICE: Rhumatologie ===
-Homme de 65 ans, retraité, consulte pour douleurs aux genoux depuis 1 an. Symétrie, pas de raideur matinale.
-Antécédents : arthrose, traitement par paracétamol.
-Examen clinique : douleurs à la mobilité, pas de gonflement.
-Laboratoire (J1) : CRP 8 mg/L, VHS 18 mm/h, RF : négatif (9 UI/mL), anti-CCP : négatif (<5 U/mL).
-Échographie : épaississement synovial modéré.
-Diagnostic évoqué : arthrose, pas de PR.
-Prise en charge : rééducation.
-
-=== STAY_ID: S0034 | DATE: 2023-06-20 | SERVICE: Médecine interne ===
-Hospitalisation pour infection cutanée.
-Antécédents : PR traitée par rituximab.
-Symptômes : fièvre, éruption, douleurs articulaires.
-Examen : plaques érythémateuses.
-Laboratoire (J1) : CRP 90 mg/L, leucocytes 15,8 G/L.
-Diagnostic : réaction immunitaire liée au rituximab.
-Prise en charge : immunoglobulines IV, arrêt temporaire du rituximab.
-
-PATIENT_ID: 0018
-=== STAY_ID: S0035 | DATE: 2023-02-20 | SERVICE: Rhumatologie ===
-Femme de 57 ans, consulte pour douleurs aux mains depuis 4 mois. Symétrie, raideur matinale de 45 min.
-Antécédents : traitement par méthotrexate pour PR depuis 2021.
-Examen clinique : gonflement des métacarpiens.
-Laboratoire (J1) : CRP 30 mg/L, VHS 45 mm/h, RF : positif à 110 UI/mL, anti-CCP : positif à 42 U/mL.
-Échographie : synovite active.
-Diagnostic : polyarthrite rhumatoïde confirmée.
-Prise en charge : continuation du traitement.
-
-=== STAY_ID: S0036 | DATE: 2023-05-30 | SERVICE: Rhumatologie ===
-Suivi.
-Examen clinique : amélioration.
-Laboratoire (J1) : CRP 18 mg/L, VHS 30 mm/h.
-Diagnostic : réponse au traitement.
-Prise en charge : maintien du traitement.
-
-PATIENT_ID: 0019
-=== STAY_ID: S0037 | DATE: 2023-04-08 | SERVICE: Rhumatologie ===
-Homme de 51 ans, consulte pour douleurs aux doigts depuis 3 mois. Symétrie, raideur matinale de 30 min.
-Antécédents : traitement par méthotrexate depuis 2022 pour PR.
-Examen clinique : gonflement des phalanges proximales.
-Laboratoire (J1) : CRP 25 mg/L, VHS 40 mm/h, RF : négatif (12 UI/mL), anti-CCP : négatif (<5 U/mL).
-Échographie : synovite modérée.
-Diagnostic évoqué : PR probable, mais sérologies négatives.
-Prise en charge : continuation du méthotrexate, surveillance.
-
-=== STAY_ID: S0038 | DATE: 2023-07-10 | SERVICE: Rhumatologie ===
-Reconsultation.
-Examen clinique : aggravation.
-Laboratoire (J1) : CRP 60 mg/L, VHS 75 mm/h.
-anti-CCP : rétesté à 36 U/mL (positif).
-RF : positif à 105 UI/mL.
-Diagnostic : polyarthrite rhumatoïde confirmée.
-Prise en charge : ajustement du traitement.
-
-PATIENT_ID: 0020
-=== STAY_ID: S0039 | DATE: 2023-01-25 | SERVICE: Rhumatologie ===
-Femme de 64 ans, retraitée, consulte pour douleurs aux genoux depuis 1 an. Symétrie, pas de raideur matinale.
-Antécédents : arthrose, traitement par paracétamol.
-Examen clinique : douleurs à la mobilité, pas de gonflement.
-Laboratoire (J1) : CRP 10 mg/L, VHS 20 mm/h, RF : négatif (10 UI/mL), anti-CCP : négatif (<5 U/mL).
-Échographie : épaississement synovial modéré.
-Diagnostic évoqué : arthrose, pas de PR.
-Prise en charge : rééducation.
-
-=== STAY_ID: S0040 | DATE: 2023-04-18 | SERVICE: Médecine interne ===
-Hospitalisation pour infection urinaire.
-Antécédents : PR traitée par adalimumab.
-Symptômes : fièvre, douleurs lombaires.
-Examen : douleur à la palpation lombaire.
-Laboratoire (J1) : CRP 80 mg/L, leucocytes 14,5 G/L.
-Diagnostic : pyélonéphrite.
-Prise en charge : antibiotiques, arrêt temporaire de l’adalimumab.
-
-PATIENT_ID: 0021
-=== STAY_ID: S0041 | DATE: 2023-03-10 | SERVICE: Rhumatologie ===
-Homme de 48 ans, consulte pour douleurs aux mains depuis 5 mois. Symétrie, raideur matinale de 1h.
-Antécédents : pas de maladie chronique.
-Examen clinique : gonflement des doigts, douleur à la palpation.
-Laboratoire (J1) : CRP 20 mg/L, VHS 35 mm/h, RF : négatif (14 UI/mL), anti-CCP : négatif (<5 U/mL).
-Échographie : synovite modérée.
-Diagnostic évoqué : PR possible, mais sérologies négatives.
-Prise en charge : début de méthotrexate 10 mg/semaine.
-
-=== STAY_ID: S0042 | DATE: 2023-06-18 | SERVICE: Rhumatologie ===
-Suivi.
-Examen clinique : progression.
-Laboratoire (J1) : CRP 58 mg/L, VHS 70 mm/h.
-anti-CCP : rétesté à 34 U/mL (positif).
-RF : positif à 100 UI/mL.
-Diagnostic : polyarthrite rhumatoïde confirmée.
-Prise en charge : ajustement du traitement.
-
-PATIENT_ID: 0022
-=== STAY_ID: S0043 | DATE: 2023-02-14 | SERVICE: Rhumatologie ===
-Femme de 56 ans, consulte pour douleurs aux genoux depuis 6 mois. Symétrie, pas de raideur matinale.
-Antécédents : arthrose, traitement par paracétamol.
-Examen clinique : douleurs à la mobilité, pas de gonflement.
-Laboratoire (J1) : CRP 12 mg/L, VHS 22 mm/h, RF : négatif (10 UI/mL), anti-CCP : négatif (<5 U/mL).
-Échographie : épaississement synovial modéré.
-Diagnostic évoqué : arthrose, pas de PR.
-Prise en charge : rééducation.
-
-=== STAY_ID: S0044 | DATE: 2023-05-22 | SERVICE: Médecine interne ===
-Hospitalisation pour infection cutanée.
-Antécédents : PR traitée par rituximab.
-Symptômes : fièvre, éruption, douleurs articulaires.
-Examen : plaques érythémateuses.
-Laboratoire (J1) : CRP 95 mg/L, leucocytes 15,2 G/L.
-Diagnostic : réaction immunitaire liée au rituximab.
-Prise en charge : immunoglobulines IV, arrêt temporaire du rituximab.
-
-PATIENT_ID: 0023
-=== STAY_ID: S0045 | DATE: 2023-04-05 | SERVICE: Rhumatologie ===
-Homme de 53 ans, consulte pour douleurs aux doigts depuis 4 mois. Symétrie, raideur matinale de 30 min.
-Antécédents : traitement par méthotrexate pour PR depuis 2021.
-Examen clinique : gonflement des phalanges proximales.
-Laboratoire (J1) : CRP 35 mg/L, VHS 50 mm/h, RF : positif à 115 UI/mL, anti-CCP : positif à 45 U/mL.
-Échographie : synovite active.
-Diagnostic : polyarthrite rhumatoïde confirmée.
-Prise en charge : continuation du traitement.
-
-=== STAY_ID: S0046 | DATE: 2023-07-10 | SERVICE: Rhumatologie ===
-Suivi.
-Examen clinique : amélioration.
-Laboratoire (J1) : CRP 18 mg/L, VHS 30 mm/h.
-Diagnostic : réponse au traitement.
-Prise en charge : maintien du traitement.
-
-PATIENT_ID: 0024
-=== STAY_ID: S0047 | DATE: 2023-01-30 | SERVICE: Rhumatologie ===
-Femme de 60 ans, consulte pour douleurs aux mains depuis 3 mois. Symétrie, raideur matinale de 45 min.
-Antécédents : traitement par méthotrexate depuis 2020 pour PR.
-Examen clinique : gonflement des métacarpiens.
-Laboratoire (J1) : CRP 28 mg/L, VHS 45 mm/h, RF : négatif (12 UI/mL), anti-CCP : négatif (<5 U/mL).
-Échographie : synovite modérée.
-Diagnostic évoqué : PR probable, mais sérologies négatives.
-Prise en charge : continuation du méthotrexate, surveillance.
-
-=== STAY_ID: S0048 | DATE: 2023-05-15 | SERVICE: Rhumatologie ===
-Reconsultation.
-Examen clinique : aggravation.
-Laboratoire (J1) : CRP 62 mg/L, VHS 75 mm/h.
-anti-CCP : rétesté à 38 U/mL (positif).
-RF : positif à 100 UI/mL.
-Diagnostic : polyarthrite rhumatoïde confirmée.
-Prise en charge : ajustement du traitement.
-
-PATIENT_ID: 0025
-=== STAY_ID: S0049 | DATE: 2023-03-05 | SERVICE: Rhumatologie ===
-Homme de 58 ans, consulte pour douleurs aux genoux depuis 1 an. Symétrie, pas de raideur matinale.
-Antécédents : arthrose, traitement par paracétamol.
-Examen clinique : douleurs à la mobilité, pas de gonflement.
-Laboratoire (J1) : CRP 10 mg/L, VHS 20 mm/h, RF : négatif (9 UI/mL), anti-CCP : négatif (<5 U/mL).
-Échographie : épaississement synovial modéré.
-Diagnostic évoqué : arthrose, pas de PR.
-Prise en charge : rééducation.
-
-=== STAY_ID: S0050 | DATE: 2023-06-20 | SERVICE: Médecine interne ===
-Hospitalisation pour infection respiratoire.
-Antécédents : PR traitée par etanercept.
-Symptômes : toux, fièvre, dyspnée.
-Examen : râles pulmonaires.
-TDM thoracique : infiltrats pulmonaires.
-Diagnostic : pneumonie.
-Prise en charge : antibiotiques, arrêt temporaire de l’etanercept.
+=== STAY_ID: S0050 | DATE: 2023-09-13 | SERVICE: Orthopédie ===
+Hospitalisation pour bilan de lombalgie.
+Aucun argument en faveur d’une polyarthrite rhumatoïde dans le dossier.
+Traitement : prise en charge spécifique de l’épisode, sans DMARD.

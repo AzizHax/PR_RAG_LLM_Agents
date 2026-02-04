@@ -1,0 +1,127 @@
+{
+  "component_scores": {
+    "joint_involvement": {
+      "score": 3,
+      "justification": "2 small joints (MCPs, PIPs) and 1 large joint (hip) involved."
+    },
+    "serology": {
+      "score": 3,
+      "justification": "anti-CCP_high_positive with RF_high_positive"
+    },
+    "acute_phase": {
+      "score": 0,
+      "justification": "Both CRP and VHS are normal. However, ESR is not provided. As per guideline thresholds, if an alternative inflammatory marker like VHS is given as unknown, it would be considered normal."
+    },
+    "duration": {
+      "score": 0,
+      "justification": "No mention of duration, so minimum plausible score"
+    }
+  },
+  "acr_eular_total": 6,
+  "treatment_context": {
+    "has_dmard": true,
+    "treatment_strength": "strong",
+    "justification": "Métahépatate (metahepatate) is mentioned as a csDMARD, providing strong evidence of established RA."
+  },
+  "final_label": "RA+",
+  "classification_rationale": "The patient has a serology score of 3 (RF_high_positive and anti-CCP_high_positive), an acute-phase score of 0 (both CRP and VHS are normal), and a treatment strength indicating established RA. The joint involvement score is moderate, but the strong evidence from DMARD use overrides this.",
+  "confidence": "high",
+  "patient_id": "12",
+  "agent": "Agent2_v3_RAG_Guidelines",
+  "rag_guidelines": {
+    "query": "serology RF rheumatoid factor thresholds serology anti-CCP ACPA thresholds acute phase CRP inflammation thresholds acute phase ESR VHS inflammation thresholds joint involvement polyarthritis small joints MCPs PIPs treatment DMARD methotrexate ACR EULAR classification criteria interpretation scoring",
+    "sections_retrieved": [
+      "serology",
+      "acute_phase_reactants",
+      "joint_involvement",
+      "treatment_context"
+    ],
+    "relevance_scores": [
+      13.437418455637742,
+      12.564144450970117,
+      8.092676749040749,
+      5.153478439892983
+    ]
+  },
+  "guideline_citation": "Aletaha D, et al. Arthritis Rheum. 2010;62(9):2569-2581",
+  "evidence_trace": [
+    {
+      "type": "disease_mention",
+      "stay_id": null,
+      "line_no": "007",
+      "snippet": "Diagnostic : polyarthrite rhumatoïde confirmée."
+    },
+    {
+      "type": "disease_mention",
+      "stay_id": null,
+      "line_no": "007",
+      "snippet": "Diagnostic : polyarthrite rhumatoïde confirmée."
+    },
+    {
+      "type": "disease_mention",
+      "stay_id": null,
+      "line_no": "007",
+      "snippet": "Diagnostic : polyarthrite rhumatoïde confirmée."
+    },
+    {
+      "type": "disease_mention",
+      "stay_id": "S0023",
+      "line_no": 7,
+      "snippet": "Diagnostic : polyarthrite rhumatoïde confirmée."
+    },
+    {
+      "type": "lab",
+      "test": "RF",
+      "stay_id": null,
+      "line_no": "004",
+      "snippet": "RF : positif (87 UI/mL)."
+    },
+    {
+      "type": "lab",
+      "test": "anti-CCP",
+      "stay_id": null,
+      "line_no": "004",
+      "snippet": "anti-CCP : positif (67 U/mL)."
+    },
+    {
+      "type": "lab",
+      "test": "CRP",
+      "stay_id": null,
+      "line_no": "003",
+      "snippet": "Laboratoire (J1) : CRP 114 mg/L, VHS 85 mm/h, NFS normale."
+    },
+    {
+      "type": "lab",
+      "test": "VHS",
+      "stay_id": "S0023",
+      "line_no": 3,
+      "snippet": "Laboratoire (J1) : CRP 33 mg/L, VHS 85 mm/h, NFS normale."
+    },
+    {
+      "type": "drug",
+      "name": "métahépatate",
+      "stay_id": null,
+      "line_no": "008",
+      "snippet": "Prise en charge : début de méthotrexate 20 mg/semaine + acide folique 5 mg/j."
+    },
+    {
+      "type": "drug",
+      "name": "methotrexate",
+      "stay_id": "S0023",
+      "line_no": 8,
+      "snippet": "Prise en charge : début de méthotrexate 20 mg/semaine + acide folique 5 mg/j."
+    }
+  ],
+  "component_scores_det": {
+    "joint_involvement": 0,
+    "serology": 3,
+    "acute_phase": 1,
+    "duration": 1
+  },
+  "acr_eular_total_det": 5,
+  "det_label": "RA−",
+  "has_dmard_det": true,
+  "has_biologic_or_jak_det": false,
+  "llm_vs_det_disagree": true,
+  "override_applied": false
+}

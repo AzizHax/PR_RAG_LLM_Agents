@@ -1,0 +1,31 @@
+{
+  "patient_id": "5",
+  "agent1_score": 6.5,
+  "agent2_score": 7,
+  "agent1_label": "RA+",
+  "agent2_label": "RA+",
+  "final_label": "RA+",
+  "decision_score": 3.35,
+  "confidence": "low",
+  "fusion_strategy": "agent2_strong",
+  "conflicts_detected": [
+    "Ev0: no stay_id",
+    "Ev1: no stay_id",
+    "Ev3: no stay_id",
+    "Ev4: no stay_id",
+    "Ev5: no stay_id"
+  ],
+  "evidence_valid": false,
+  "justification": "Agent 2 confident (7/10)",
+  "explicability_score": {
+    "overall_confidence": 72.0,
+    "confidence_level": "MEDIUM",
+    "components": {
+      "agreement": 100.0,
+      "evidence_quality": 20.0,
+      "clinical_consistency": 100.0
+    },
+    "strategy": "agent2_strong"
+  },
+  "llm_critic": null
+}

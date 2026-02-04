@@ -1,0 +1,153 @@
+{
+  "component_scores": {
+    "joint_involvement": {
+      "score": 0,
+      "justification": "No specific joint involvement mentioned in the provided facts."
+    },
+    "serology": {
+      "score": 3,
+      "justification": "Both RF and anti-CCP are positive. According to thresholds, this is a high-positive for both markers."
+    },
+    "acute_phase": {
+      "score": 1,
+      "justification": "CRP is positive (value: 55 mg/L) which is above the threshold of >10 mg/L."
+    },
+    "duration": {
+      "score": 0,
+      "justification": "No specific duration information provided in the provided facts."
+    }
+  },
+  "acr_eular_total": 4,
+  "treatment_context": {
+    "has_dmard": true,
+    "treatment_strength": "strong",
+    "justification": "The presence of methotrexate (csDMARD) is strong evidence of established RA."
+  },
+  "final_label": "RA+",
+  "classification_rationale": "Based on the ACR/EULAR criteria, the patient has a total score of 4. Given the positive serology markers and the presence of methotrexate as a conventional synthetic DMARD, this is considered strong evidence for established RA.",
+  "confidence": "high",
+  "patient_id": "10",
+  "agent": "Agent2_v3_RAG_Guidelines",
+  "rag_guidelines": {
+    "query": "serology RF rheumatoid factor thresholds serology anti-CCP ACPA thresholds acute phase CRP inflammation thresholds acute phase ESR VHS inflammation thresholds joint involvement polyarthritis small joints MCPs PIPs treatment DMARD methotrexate treatment biologic anti-TNF ACR EULAR classification criteria interpretation scoring",
+    "sections_retrieved": [
+      "serology",
+      "acute_phase_reactants",
+      "treatment_context",
+      "joint_involvement"
+    ],
+    "relevance_scores": [
+      13.437418455637742,
+      12.564144450970117,
+      9.69595904469911,
+      8.092676749040749
+    ]
+  },
+  "guideline_citation": "Aletaha D, et al. Arthritis Rheum. 2010;62(9):2569-2581",
+  "evidence_trace": [
+    {
+      "type": "disease_mention",
+      "stay_id": "S0019",
+      "line_no": 7,
+      "snippet": "Diagnostic : polyarthrite rhumatoïde confirmée."
+    },
+    {
+      "type": "disease_mention",
+      "stay_id": null,
+      "line_no": 1,
+      "snippet": "Antécédents : polyarthrite rhumatoïde depuis 2020, traitée par adalimumab."
+    },
+    {
+      "type": "disease_mention",
+      "stay_id": "S0019",
+      "line_no": 7,
+      "snippet": "Diagnostic : polyarthrite rhumatoïde confirmée."
+    },
+    {
+      "type": "disease_mention",
+      "stay_id": "S0020",
+      "line_no": 1,
+      "snippet": "Antécédents : polyarthrite rhumatoïde depuis 2020, traitée par adalimumab."
+    },
+    {
+      "type": "disease_mention",
+      "stay_id": null,
+      "line_no": 1,
+      "snippet": "Antécédents : polyarthrite rhumatoïde depuis 2020, traitée par adalimumab."
+    },
+    {
+      "type": "disease_mention",
+      "stay_id": null,
+      "line_no": 1,
+      "snippet": "Antécédents : polyarthrite rhumatoïde depuis 2020, traitée par adalimumab."
+    },
+    {
+      "type": "lab",
+      "test": "CRP",
+      "stay_id": "S0019",
+      "line_no": 3,
+      "snippet": "Laboratoire (J1) : CRP 55 mg/L, VHS 44 mm/h, NFS normale."
+    },
+    {
+      "type": "lab",
+      "test": "CRP",
+      "stay_id": null,
+      "line_no": 2,
+      "snippet": "Laboratoire (J1) : CRP 155 mg/L, leucocytes 15,6 G/L."
+    },
+    {
+      "type": "lab",
+      "test": "VHS",
+      "stay_id": "S0019",
+      "line_no": 3,
+      "snippet": "Laboratoire (J1) : CRP 55 mg/L, VHS 44 mm/h, NFS normale."
+    },
+    {
+      "type": "lab",
+      "test": "RF",
+      "stay_id": "S0019",
+      "line_no": 4,
+      "snippet": "RF : positif (140 UI/mL)."
+    },
+    {
+      "type": "lab",
+      "test": "anti-CCP",
+      "stay_id": "S0019",
+      "line_no": 5,
+      "snippet": "anti-CCP : positif (34 U/mL)."
+    },
+    {
+      "type": "lab",
+      "test": "leucocytes",
+      "stay_id": null,
+      "line_no": 2,
+      "snippet": "Laboratoire (J1) : CRP 155 mg/L, leucocytes 15,6 G/L."
+    },
+    {
+      "type": "drug",
+      "name": "methotrexate",
+      "stay_id": "S0019",
+      "line_no": 8,
+      "snippet": "Prise en charge : début de méthotrexate 10 mg/semaine + acide folique 5 mg/j."
+    },
+    {
+      "type": "drug",
+      "name": "adalimumab",
+      "stay_id": null,
+      "line_no": 1,
+      "snippet": "Antécédents : polyarthrite rhumatoïde depuis 2020, traitée par adalimumab."
+    }
+  ],
+  "component_scores_det": {
+    "joint_involvement": 0,
+    "serology": 2,
+    "acute_phase": 1,
+    "duration": 1
+  },
+  "acr_eular_total_det": 4,
+  "det_label": "RA−",
+  "has_dmard_det": true,
+  "has_biologic_or_jak_det": true,
+  "llm_vs_det_disagree": true,
+  "override_applied": false
+}

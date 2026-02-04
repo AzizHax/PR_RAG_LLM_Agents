@@ -1,0 +1,49 @@
+{
+  "patient_id": "17",
+  "agent1_score": 0.0,
+  "agent2_score": 0,
+  "agent1_label": "RA−",
+  "agent2_label": "RA−",
+  "final_label": "RA−",
+  "decision_score": 10.0,
+  "confidence": "low",
+  "fusion_strategy": "agreement",
+  "conflicts_detected": [
+    "Ev0: no stay_id",
+    "Ev1: no stay_id",
+    "Ev2: no stay_id",
+    "Ev5: no stay_id",
+    "Ev6: no stay_id"
+  ],
+  "evidence_valid": false,
+  "justification": "Both agree, conf: medium",
+  "explicability_score": {
+    "overall_confidence": 72.0,
+    "confidence_level": "MEDIUM",
+    "components": {
+      "agreement": 100.0,
+      "evidence_quality": 20.0,
+      "clinical_consistency": 100.0
+    },
+    "strategy": "agreement"
+  },
+  "llm_critic": {
+    "recommend_label": "abstain",
+    "confidence": 0.45,
+    "key_reasons": [
+      "Serology results (RF and anti-CCP) are negative, which is consistent with RA−.",
+      "No mention of polyarthrite rhumatoïde or rheumatoid arthritis in the mentions section.",
+      "DMARD treatment status is not provided, which could be crucial for a definitive classification."
+    ],
+    "red_flags": [
+      "The clinical summary states 'pas de polyarthrite rhumatoïde' (no polyarthritis), but this does not contradict the serology results as it may indicate an alternative diagnosis like osteoarthritis.",
+      "The evidence snippets suggest a negative RF and anti-CCP, which is consistent with RA−. However, further investigation of the treatment status is needed to make a definitive recommendation."
+    ],
+    "questions_for_human": [
+      "Is there any information about the DMARD or biologic therapy in the notes?",
+      "Are there any alternative diagnoses that could explain the patient's symptoms besides rheumatoid arthritis?"
+    ],
+    "override_suggested": false,
+    "latency_ms": 18141
+  }
+}

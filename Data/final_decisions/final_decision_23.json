@@ -1,0 +1,50 @@
+{
+  "patient_id": "23",
+  "agent1_score": 0.0,
+  "agent2_score": 3,
+  "agent1_label": "RA−",
+  "agent2_label": "RA−",
+  "final_label": "RA−",
+  "decision_score": 10.0,
+  "confidence": "low",
+  "fusion_strategy": "agreement",
+  "conflicts_detected": [
+    "Ev0: no stay_id",
+    "Ev1: no stay_id",
+    "Ev4: no stay_id",
+    "Ev5: no stay_id",
+    "Ev6: no stay_id"
+  ],
+  "evidence_valid": false,
+  "justification": "Both agree, conf: medium",
+  "explicability_score": {
+    "overall_confidence": 67.0,
+    "confidence_level": "MEDIUM",
+    "components": {
+      "agreement": 100.0,
+      "evidence_quality": 20.0,
+      "clinical_consistency": 80.0
+    },
+    "strategy": "agreement"
+  },
+  "llm_critic": {
+    "recommend_label": "RA−",
+    "confidence": 0.43,
+    "key_reasons": [
+      "RF and CCP are both negative (RF: negative, CRP: 12 mg/L, VHS: 18 mm/h).",
+      "Patient has no serological markers of RA.",
+      "Patient is not on DMARD or biologic treatments.",
+      "Diagnosis mentions have ruled out polyarthrite rhumatoïde (RA) in the notes."
+    ],
+    "red_flags": [
+      "Presence of RF and CCP can be inconsistent, but given negative results here, it does not raise significant concern.",
+      "No treatment information provided regarding DMARD or biologics."
+    ],
+    "questions_for_human": [
+      "Is there any additional clinical evidence that could support a diagnosis of RA?",
+      "Are the serological test results reliable and up-to-date?"
+    ],
+    "override_suggested": false,
+    "latency_ms": 15488
+  }
+}

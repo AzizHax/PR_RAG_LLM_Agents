@@ -1,0 +1,49 @@
+{
+  "patient_id": "24",
+  "agent1_score": 0.0,
+  "agent2_score": 4,
+  "agent1_label": "RA−",
+  "agent2_label": "RA−",
+  "final_label": "RA−",
+  "decision_score": 10.0,
+  "confidence": "low",
+  "fusion_strategy": "agreement",
+  "conflicts_detected": [
+    "Ev0: no stay_id",
+    "Ev1: no stay_id",
+    "Ev2: no stay_id",
+    "Ev3: no stay_id",
+    "Ev6: no stay_id",
+    "crp: positive & negative found"
+  ],
+  "evidence_valid": false,
+  "justification": "Both agree, conf: medium",
+  "explicability_score": {
+    "overall_confidence": 67.0,
+    "confidence_level": "MEDIUM",
+    "components": {
+      "agreement": 100.0,
+      "evidence_quality": 20.0,
+      "clinical_consistency": 80.0
+    },
+    "strategy": "agreement"
+  },
+  "llm_critic": {
+    "recommend_label": "RA−",
+    "confidence": 1.0,
+    "key_reasons": [
+      "Patient's RF and anti-CCP tests are both negative.",
+      "The patient is not on any DMARD or biologic therapy.",
+      "The ACR-EULAR score does not meet the criteria for RA+ (6 points or more with clinical support).",
+      "The final diagnosis mentions 'tendinopathie' which excludes a polyarthrite rhumatoïde."
+    ],
+    "red_flags": [
+      "The patient's treatment notes state 'Traitement : prise en charge spécifique de l'épisode, sans DMARD.' This suggests no current use of Disease-Modifying Antirheumatic Drugs (DMARDs)."
+    ],
+    "questions_for_human": [
+      "Is there any additional clinical evidence that would support a diagnosis of RA+? "
+    ],
+    "override_suggested": false,
+    "latency_ms": 15964
+  }
+}

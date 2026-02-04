@@ -1,0 +1,181 @@
+{
+  "component_scores": {
+    "joint_involvement": {
+      "score": 0,
+      "justification": "No data provided on joint counts."
+    },
+    "serology": {
+      "score": 3,
+      "justification": "Anti-CCP positive (3 points) and RF negative (0 points)."
+    },
+    "acute_phase": {
+      "score": 1,
+      "justification": "C-Reactive Protein positive (1 point)."
+    },
+    "duration": {
+      "score": 0,
+      "justification": "No data provided on disease duration."
+    }
+  },
+  "acr_eular_total": 4,
+  "treatment_context": {
+    "has_dmard": true,
+    "treatment_strength": "strong",
+    "justification": "Methotrexate and rituximab are csDMARDs and bDMARDs, respectively."
+  },
+  "final_label": "RA+",
+  "classification_rationale": "The patient has anti-CCP positive (3 points) and RF negative (0 points). Additionally, the presence of serological markers along with a treatment context involving DMARDs suggests established rheumatoid arthritis.",
+  "confidence": "high",
+  "patient_id": "14",
+  "agent": "Agent2_v3_RAG_Guidelines",
+  "rag_guidelines": {
+    "query": "serology RF rheumatoid factor thresholds serology anti-CCP ACPA thresholds acute phase CRP inflammation thresholds acute phase ESR VHS inflammation thresholds joint involvement polyarthritis small joints MCPs PIPs treatment DMARD methotrexate treatment biologic anti-TNF ACR EULAR classification criteria interpretation scoring",
+    "sections_retrieved": [
+      "serology",
+      "acute_phase_reactants",
+      "treatment_context",
+      "joint_involvement"
+    ],
+    "relevance_scores": [
+      13.437418455637742,
+      12.564144450970117,
+      9.69595904469911,
+      8.092676749040749
+    ]
+  },
+  "guideline_citation": "Aletaha D, et al. Arthritis Rheum. 2010;62(9):2569-2581",
+  "evidence_trace": [
+    {
+      "type": "disease_mention",
+      "stay_id": "007",
+      "line_no": "007",
+      "snippet": "Diagnostic : polyarthrite rhumatoïde confirmée."
+    },
+    {
+      "type": "disease_mention",
+      "stay_id": "",
+      "line_no": "001",
+      "snippet": "Antécédents : polyarthrite rhumatoïde depuis 2019, traitée par rituximab."
+    },
+    {
+      "type": "disease_mention",
+      "stay_id": "007",
+      "line_no": "007",
+      "snippet": "Diagnostic : polyarthrite rhumatoïde confirmée."
+    },
+    {
+      "type": "disease_mention",
+      "stay_id": "",
+      "line_no": "001",
+      "snippet": "Antécédents : polyarthrite rhumatoïde depuis 2019, traitée par rituximab."
+    },
+    {
+      "type": "disease_mention",
+      "stay_id": "S0027",
+      "line_no": 7,
+      "snippet": "Diagnostic : polyarthrite rhumatoïde confirmée."
+    },
+    {
+      "type": "disease_mention",
+      "stay_id": "S0028",
+      "line_no": 1,
+      "snippet": "Antécédents : polyarthrite rhumatoïde depuis 2019, traitée par rituximab."
+    },
+    {
+      "type": "lab",
+      "test": "RF (Rheumatoid Factor)",
+      "stay_id": "003",
+      "line_no": "004",
+      "snippet": "RF : négatif (6 UI/mL)."
+    },
+    {
+      "type": "lab",
+      "test": "anti-CCP / ACPA",
+      "stay_id": "004",
+      "line_no": "005",
+      "snippet": "anti-CCP : positif (52 U/mL)."
+    },
+    {
+      "type": "lab",
+      "test": "CRP (C-Reactive Protein)",
+      "stay_id": "003",
+      "line_no": "003",
+      "snippet": "Laboratoire (J1) : CRP 23 mg/L, VHS 84 mm/h, NFS normale."
+    },
+    {
+      "type": "lab",
+      "test": "CRP",
+      "stay_id": "S0027",
+      "line_no": 3,
+      "snippet": "Laboratoire (J1) : CRP 23 mg/L, VHS 84 mm/h, NFS normale."
+    },
+    {
+      "type": "lab",
+      "test": "CRP",
+      "stay_id": "",
+      "line_no": "002",
+      "snippet": "Laboratoire (J1) : CRP 75 mg/L, leucocytes 16,6 G/L."
+    },
+    {
+      "type": "lab",
+      "test": "VHS",
+      "stay_id": "S0027",
+      "line_no": 3,
+      "snippet": "Laboratoire (J1) : CRP 23 mg/L, VHS 84 mm/h, NFS normale."
+    },
+    {
+      "type": "lab",
+      "test": "RF",
+      "stay_id": "S0027",
+      "line_no": 4,
+      "snippet": "RF : négatif (6 UI/mL)."
+    },
+    {
+      "type": "lab",
+      "test": "anti-CCP",
+      "stay_id": "S0027",
+      "line_no": 5,
+      "snippet": "anti-CCP : positif (52 U/mL)."
+    },
+    {
+      "type": "lab",
+      "test": "leucocytes",
+      "stay_id": "",
+      "line_no": "002",
+      "snippet": "Laboratoire (J1) : CRP 75 mg/L, leucocytes 16,6 G/L."
+    },
+    {
+      "type": "drug",
+      "name": "methotrexate",
+      "stay_id": "008",
+      "line_no": "006",
+      "snippet": "Prise en charge : continuation de méthotrexate 10 mg/semaine + acide folique 5 mg/j."
+    },
+    {
+      "type": "drug",
+      "name": "acide folique",
+      "stay_id": "008",
+      "line_no": "006",
+      "snippet": "Prise en charge : continuation de méthotrexate 10 mg/semaine + acide folique 5 mg/j."
+    },
+    {
+      "type": "drug",
+      "name": "rituximab",
+      "stay_id": "",
+      "line_no": "001",
+      "snippet": "Antécédents : polyarthrite rhumatoïde depuis 2019, traitée par rituximab."
+    }
+  ],
+  "component_scores_det": {
+    "joint_involvement": 0,
+    "serology": 3,
+    "acute_phase": 1,
+    "duration": 1
+  },
+  "acr_eular_total_det": 5,
+  "det_label": "RA+",
+  "has_dmard_det": true,
+  "has_biologic_or_jak_det": true,
+  "llm_vs_det_disagree": false,
+  "override_applied": false
+}

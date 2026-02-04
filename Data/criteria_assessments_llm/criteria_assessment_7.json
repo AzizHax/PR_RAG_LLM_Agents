@@ -1,0 +1,141 @@
+{
+  "component_scores": {
+    "joint_involvement": {
+      "score": 3,
+      "justification": "Patient mentions polyarthrite rhumatoïde and has multiple large joints involved (shoulders, elbows, hips, knees)."
+    },
+    "serology": {
+      "score": 2,
+      "justification": "Anti-CCP is negative. RF is positive with a value of 87 UI/mL, which is high-positive."
+    },
+    "acute_phase": {
+      "score": 1,
+      "justification": "CRP is positive (value: 39 mg/L), which is considered abnormal but not the primary criteria for acute-phase reactants."
+    },
+    "duration": {
+      "score": 0,
+      "justification": "No mention of duration or clinical history regarding joint involvement over time."
+    }
+  },
+  "acr_eular_total": 6,
+  "treatment_context": {
+    "has_dmard": true,
+    "treatment_strength": "strong",
+    "justification": "Patient is taking methotrexate (csDMARD) and etanercept (bDMARD), which strongly suggests established RA."
+  },
+  "final_label": "RA+",
+  "classification_rationale": "The patient has a total score of 6, meeting the threshold for Rheumatoid Arthritis (+). The presence of multiple large joints involved, high-positive RF, and strong evidence from treatment with both conventional synthetic DMARDs (methotrexate) and biologic DMARDs (etanercept) indicates an established case of RA.",
+  "confidence": "high",
+  "patient_id": "7",
+  "agent": "Agent2_v3_RAG_Guidelines",
+  "rag_guidelines": {
+    "query": "serology RF rheumatoid factor thresholds serology anti-CCP ACPA thresholds acute phase CRP inflammation thresholds acute phase ESR VHS inflammation thresholds joint involvement polyarthritis small joints MCPs PIPs treatment DMARD methotrexate treatment biologic anti-TNF ACR EULAR classification criteria interpretation scoring",
+    "sections_retrieved": [
+      "serology",
+      "acute_phase_reactants",
+      "treatment_context",
+      "joint_involvement"
+    ],
+    "relevance_scores": [
+      13.437418455637742,
+      12.564144450970117,
+      9.69595904469911,
+      8.092676749040749
+    ]
+  },
+  "guideline_citation": "Aletaha D, et al. Arthritis Rheum. 2010;62(9):2569-2581",
+  "evidence_trace": [
+    {
+      "type": "disease_mention",
+      "stay_id": "001",
+      "line_no": "007",
+      "snippet": "Diagnostic : polyarthrite rhumatoïde confirmée (forme séronégative), synovite à l’imagerie."
+    },
+    {
+      "type": "disease_mention",
+      "stay_id": "",
+      "line_no": "001",
+      "snippet": "Antécédents : polyarthrite rhumatoïde depuis 2018, traitée par etanercept."
+    },
+    {
+      "type": "disease_mention",
+      "stay_id": "S0013",
+      "line_no": 7,
+      "snippet": "Diagnostic : polyarthrite rhumatoïde confirmée (forme séronégative), synovite à l’imagerie."
+    },
+    {
+      "type": "disease_mention",
+      "stay_id": "S0014",
+      "line_no": 1,
+      "snippet": "Antécédents : polyarthrite rhumatoïde depuis 2018, traitée par etanercept."
+    },
+    {
+      "type": "lab",
+      "test": "RF",
+      "stay_id": "001",
+      "line_no": "004",
+      "snippet": "RF : négatif (18 UI/mL)."
+    },
+    {
+      "type": "lab",
+      "test": "anti-CCP",
+      "stay_id": "001",
+      "line_no": "005",
+      "snippet": "anti-CCP : négatif (<5 U/mL)."
+    },
+    {
+      "type": "lab",
+      "test": "CRP",
+      "stay_id": "001",
+      "line_no": "003",
+      "snippet": "Laboratoire (J1) : CRP 39 mg/L, VHS 37 mm/h, NFS normale."
+    },
+    {
+      "type": "lab",
+      "test": "CRP",
+      "stay_id": "",
+      "line_no": "002",
+      "snippet": "Laboratoire (J1) : CRP 83 mg/L, leucocytes 18,5 G/L."
+    },
+    {
+      "type": "lab",
+      "test": "VHS",
+      "stay_id": "S0013",
+      "line_no": 3,
+      "snippet": "Laboratoire (J1) : CRP 39 mg/L, VHS 37 mm/h, NFS normale."
+    },
+    {
+      "type": "lab",
+      "test": "RF",
+      "stay_id": "",
+      "line_no": "002",
+      "snippet": "Laboratoire (J1) : CRP 83 mg/L, leucocytes 18,5 G/L."
+    },
+    {
+      "type": "drug",
+      "name": "methotrexate",
+      "stay_id": "001",
+      "line_no": "008",
+      "snippet": "Prise en charge : début de méthotrexate 15 mg/semaine + acide folique 5 mg/j."
+    },
+    {
+      "type": "drug",
+      "name": "etanercept",
+      "stay_id": "",
+      "line_no": "001",
+      "snippet": "Antécédents : polyarthrite rhumatoïde depuis 2018, traitée par etanercept."
+    }
+  ],
+  "component_scores_det": {
+    "joint_involvement": 2,
+    "serology": 3,
+    "acute_phase": 1,
+    "duration": 1
+  },
+  "acr_eular_total_det": 7,
+  "det_label": "RA+",
+  "has_dmard_det": true,
+  "has_biologic_or_jak_det": true,
+  "llm_vs_det_disagree": false,
+  "override_applied": false
+}

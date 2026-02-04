@@ -1,0 +1,49 @@
+{
+  "patient_id": "11",
+  "agent1_score": 2.5,
+  "agent2_score": 6,
+  "agent1_label": "RA−",
+  "agent2_label": "RA+",
+  "final_label": "RA+",
+  "decision_score": 1.45,
+  "confidence": "low",
+  "fusion_strategy": "agent2_dmard",
+  "conflicts_detected": [
+    "Ev0: no stay_id",
+    "Ev1: no stay_id",
+    "Ev4: no stay_id",
+    "Ev5: no stay_id",
+    "Ev6: no stay_id"
+  ],
+  "evidence_valid": false,
+  "justification": "Agent 2 borderline + DMARD",
+  "explicability_score": {
+    "overall_confidence": 51.0,
+    "confidence_level": "LOW",
+    "components": {
+      "agreement": 47.5,
+      "evidence_quality": 20.0,
+      "clinical_consistency": 100.0
+    },
+    "strategy": "agent2_dmard"
+  },
+  "llm_critic": {
+    "recommend_label": "RA+",
+    "confidence": 0.8,
+    "key_reasons": [
+      "The patient has a confirmed diagnosis of polyarthrite rhumatoïde, which is equivalent to rheumatoid arthritis (RA). This was stated in multiple clinical notes by Agent 2.",
+      "RF and anti-CCP are both negative, matching the criteria for RA−. However, due to conflicting evidence from other sources that may not be fully clear or consistent.",
+      "The patient has been on DMARD therapy with abatacept since 2021, which is a strong indicator of having rheumatoid arthritis."
+    ],
+    "red_flags": [
+      "There are multiple mentions of polyarthrite rhumatoïde in the notes by different agents. However, one diagnosis (rheumatoid arthritis) has been explicitly negated.",
+      "The conflicting evidence from other sources makes it difficult to fully conclude that this is a case of RA+."
+    ],
+    "questions_for_human": [
+      "Can you clarify if there are any alternative diagnoses for the polyarthrite rhumatoïde? Are there any more recent clinical notes that might provide clearer information?",
+      "Are all serology tests clear and consistent in their results (RF, anti-CCP)?"
+    ],
+    "override_suggested": false,
+    "latency_ms": 19428
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "patient_id": "0012",
+  "agent1_score": 4.5,
+  "agent2_score": 6,
+  "agent1_label": "RA−",
+  "agent2_label": "RA+",
+  "final_label": "RA+",
+  "decision_score": 3.55,
+  "confidence": "low",
+  "fusion_strategy": "agent2_dmard",
+  "conflicts_detected": [
+    "Evidence 9: snippet is empty"
+  ],
+  "evidence_valid": false,
+  "justification": "Agent 2 borderline (6/10) but strong DMARD evidence",
+  "explicability_score": {
+    "overall_confidence": 71.8,
+    "components": {
+      "agreement": {
+        "score": 77.5,
+        "agent1_label": "RA−",
+        "agent2_label": "RA+",
+        "interpretation": "Good agreement with minor differences"
+      },
+      "evidence_quality": {
+        "score": 45.0,
+        "issues": [
+          "Missing or invalid evidence IDs (stay_id, line_no)",
+          "Evidence 9: snippet is empty"
+        ],
+        "interpretation": "Poor - Significant evidence quality concerns"
+      },
+      "clinical_consistency": {
+        "score": 100.0,
+        "factors": [
+          "✓ Strong clinical picture: Positive serology + DMARD treatment"
+        ],
+        "interpretation": "Excellent - Classification fully consistent with clinical data"
+      }
+    },
+    "reasoning_breakdown": [
+      "1. Agent Agreement: 78% - Good agreement with minor differences",
+      "2. Evidence Quality: 45% - Poor - Significant evidence quality concerns",
+      "3. Clinical Consistency: 100% - Excellent - Classification fully consistent with clinical data",
+      "4. Fusion Strategy: agent2_dmard",
+      "5. Final Decision: RA+ with 72% confidence"
+    ],
+    "risk_factors": [
+      "⚠ Agents disagree: RA− vs RA+",
+      "⚠ Evidence traceability issues detected",
+      "⚠ Evidence 9: snippet is empty"
+    ],
+    "strengths": [
+      "✓ Clinical coherence: serology + treatment align"
+    ],
+    "confidence_level": "MEDIUM",
+    "recommendation": "Medium confidence - Consider additional clinical review"
+  }
+}

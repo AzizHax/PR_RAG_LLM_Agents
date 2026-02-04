@@ -1,0 +1,52 @@
+{
+  "patient_id": "19",
+  "agent1_score": 0.0,
+  "agent2_score": 1,
+  "agent1_label": "RA−",
+  "agent2_label": "RA−",
+  "final_label": "RA−",
+  "decision_score": 10.0,
+  "confidence": "low",
+  "fusion_strategy": "agreement",
+  "conflicts_detected": [
+    "Ev0: no stay_id",
+    "Ev0: no line_no",
+    "Ev1: no stay_id",
+    "Ev2: no stay_id",
+    "Ev2: no line_no",
+    "crp: positive & negative found"
+  ],
+  "evidence_valid": false,
+  "justification": "Both agree, conf: medium",
+  "explicability_score": {
+    "overall_confidence": 67.0,
+    "confidence_level": "MEDIUM",
+    "components": {
+      "agreement": 100.0,
+      "evidence_quality": 20.0,
+      "clinical_consistency": 80.0
+    },
+    "strategy": "agreement"
+  },
+  "llm_critic": {
+    "recommend_label": "RA−",
+    "confidence": 0.85,
+    "key_reasons": [
+      "The patient has a negative RF (18 UI/mL) and anti-CCP (≤5 U/mL), which are the primary RA+ signals.",
+      "There is no mention of polyarthrite rhumatoïde or rheumatoid arthritis in any clinical notes, only reference to arthrose.",
+      "The treatment information provided indicates the use of a CS-DMARD (unspecified), which is consistent with patients on DMARD therapy for RA. However, since there are no serology results and the diagnosis has been ruled out multiple times by other sources, this weakens the clinical support.",
+      "The ACR-EULAR score or any clinical criteria related to rheumatoid arthritis are not provided in the given information."
+    ],
+    "red_flags": [
+      "Lack of confirmatory serological tests (RF and anti-CCP).",
+      "Conflicting evidence from other mentions that polyarthrite rhumatoïde is negated.",
+      "Unclear diagnosis with a borderline score (ACR-EULAR 5-6) without additional context."
+    ],
+    "questions_for_human": [
+      "Is there any additional serological data available for RF and anti-CCP?",
+      "Can we rule out alternative diagnoses such as osteoarthritis or bursitis based on the clinical summary and other mentions?"
+    ],
+    "override_suggested": false,
+    "latency_ms": 21686
+  }
+}

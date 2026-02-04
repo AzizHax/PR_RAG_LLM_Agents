@@ -1,0 +1,161 @@
+{
+  "component_scores": {
+    "joint_involvement": {
+      "score": 3,
+      "justification": "Based on the patient having multiple large and small joints involved"
+    },
+    "serology": {
+      "score": 1,
+      "justification": "Low positive RF (87 UI/mL) which corresponds to 2 points under Category B criteria"
+    },
+    "acute_phase": {
+      "score": 0,
+      "justification": "CRP is normal (5 mg/L) and ESR is unknown but not specified as abnormal. Hence, no acute phase score"
+    },
+    "duration": {
+      "score": 0,
+      "justification": "No mention of disease duration"
+    }
+  },
+  "acr_eular_total": 4,
+  "treatment_context": {
+    "has_dmard": false,
+    "treatment_strength": "none",
+    "justification": "There are no mentions or indications of DMARDs"
+  },
+  "final_label": "RA−",
+  "classification_rationale": "The patient has a total score of 4 under ACR/EULAR criteria, which does not meet the threshold for RA+. The low serology score (1 point) and normal CRP do not support classification as RA+ despite joint involvement. The absence of DMARD or other strong evidence of established RA leads to a negative classification.",
+  "confidence": "medium",
+  "patient_id": "21",
+  "agent": "Agent2_v3_RAG_Guidelines",
+  "rag_guidelines": {
+    "query": "serology RF rheumatoid factor thresholds serology anti-CCP ACPA thresholds acute phase CRP inflammation thresholds acute phase ESR VHS inflammation thresholds joint involvement polyarthritis small joints MCPs PIPs ACR EULAR classification criteria interpretation scoring",
+    "sections_retrieved": [
+      "serology",
+      "acute_phase_reactants",
+      "joint_involvement",
+      "overview"
+    ],
+    "relevance_scores": [
+      13.437418455637742,
+      12.564144450970117,
+      8.092676749040749,
+      4.8375670022553905
+    ]
+  },
+  "guideline_citation": "Aletaha D, et al. Arthritis Rheum. 2010;62(9):2569-2581",
+  "evidence_trace": [
+    {
+      "type": "disease_mention",
+      "stay_id": null,
+      "line_no": "006",
+      "snippet": "Diagnostic : lombalgie mécanique, pas de polyarthrite rhumatoïde."
+    },
+    {
+      "type": "disease_mention",
+      "stay_id": "",
+      "line_no": "001",
+      "snippet": "Aucun argument en faveur d’une polyarthrite rhumatoïde dans le dossier."
+    },
+    {
+      "type": "disease_mention",
+      "stay_id": null,
+      "line_no": "006",
+      "snippet": "Diagnostic : lombalgie mécanique, pas de polyarthrite rhumatoïde."
+    },
+    {
+      "type": "disease_mention",
+      "stay_id": "S0041",
+      "line_no": 6,
+      "snippet": "Diagnostic : lombalgie mécanique, pas de polyarthrite rhumatoïde."
+    },
+    {
+      "type": "disease_mention",
+      "stay_id": "S0042",
+      "line_no": 1,
+      "snippet": "Aucun argument en faveur d’une polyarthrite rhumatoïde dans le dossier."
+    },
+    {
+      "type": "lab",
+      "test": "CRP",
+      "stay_id": null,
+      "line_no": "002",
+      "snippet": "Laboratoire : CRP 5 mg/L, VHS 13 mm/h, NFS normale."
+    },
+    {
+      "type": "lab",
+      "test": "CRP",
+      "stay_id": "",
+      "line_no": "002",
+      "snippet": "Traitement : prise en charge spécifique de l’épisode, sans DMARD."
+    },
+    {
+      "type": "lab",
+      "test": "RF",
+      "stay_id": null,
+      "line_no": "003",
+      "snippet": "RF : négatif (12 UI/mL)."
+    },
+    {
+      "type": "lab",
+      "test": "anti-CCP",
+      "stay_id": null,
+      "line_no": "004",
+      "snippet": "anti-CCP : négatif (<1 U/mL)."
+    },
+    {
+      "type": "lab",
+      "test": "anti-CCP",
+      "stay_id": "",
+      "line_no": "002",
+      "snippet": "Traitement : prise en charge spécifique de l’épisode, sans DMARD."
+    },
+    {
+      "type": "lab",
+      "test": "CRP",
+      "stay_id": null,
+      "line_no": "002",
+      "snippet": "Laboratoire : CRP 5 mg/L, VHS 13 mm/h, NFS normale."
+    },
+    {
+      "type": "lab",
+      "test": "VHS",
+      "stay_id": "S0041",
+      "line_no": 2,
+      "snippet": "Laboratoire : CRP 5 mg/L, VHS 13 mm/h, NFS normale."
+    },
+    {
+      "type": "lab",
+      "test": "RF",
+      "stay_id": "",
+      "line_no": "002",
+      "snippet": "Traitement : prise en charge spécifique de l’épisode, sans DMARD."
+    },
+    {
+      "type": "drug",
+      "name": "antalgiques",
+      "stay_id": null,
+      "line_no": "007",
+      "snippet": "Prise en charge : antalgiques, kinésithérapie."
+    },
+    {
+      "type": "drug",
+      "name": "DMARD (sans mention)",
+      "stay_id": "",
+      "line_no": "002",
+      "snippet": "Traitement : prise en charge spécifique de l’épisode, sans DMARD."
+    }
+  ],
+  "component_scores_det": {
+    "joint_involvement": 0,
+    "serology": 3,
+    "acute_phase": 1,
+    "duration": 1
+  },
+  "acr_eular_total_det": 5,
+  "det_label": "RA−",
+  "has_dmard_det": true,
+  "has_biologic_or_jak_det": false,
+  "llm_vs_det_disagree": false,
+  "override_applied": false
+}

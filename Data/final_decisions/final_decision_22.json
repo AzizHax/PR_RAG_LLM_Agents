@@ -1,0 +1,52 @@
+{
+  "patient_id": "22",
+  "agent1_score": 2.5,
+  "agent2_score": 4,
+  "agent1_label": "RA−",
+  "agent2_label": "RA+",
+  "final_label": "RA−",
+  "decision_score": 10.0,
+  "confidence": "low",
+  "fusion_strategy": "agent1_default",
+  "conflicts_detected": [
+    "Ev0: no stay_id",
+    "Ev0: no line_no",
+    "Ev4: no stay_id",
+    "Ev5: no stay_id",
+    "Ev6: no stay_id",
+    "rf: positive & negative found"
+  ],
+  "evidence_valid": false,
+  "justification": "Default to Agent 1",
+  "explicability_score": {
+    "overall_confidence": 58.0,
+    "confidence_level": "LOW",
+    "components": {
+      "agreement": 77.5,
+      "evidence_quality": 20.0,
+      "clinical_consistency": 80.0
+    },
+    "strategy": "agent1_default"
+  },
+  "llm_critic": {
+    "recommend_label": "abstain",
+    "confidence": 0.67,
+    "key_reasons": [
+      "Missing key serological information (RF and CCP results are mixed: positive and negative).",
+      "No clear mention or exclusion of RA in the clinical summary.",
+      "Treatment information (DMARD) is present but not used for labelling.",
+      "Alternative diagnoses mentioned (arthrose, pas de polyarthrite rhumatoïde), suggesting a need for more context to rule out or confirm RA."
+    ],
+    "red_flags": [
+      "Inconsistent RF results: positive and negative.",
+      "Mixed clinical mentions about ARD (arthrose vs. pas de polyarthrite rhumatoïde)."
+    ],
+    "questions_for_human": [
+      "Is there any additional serological or clinical evidence to clarify the diagnosis?",
+      "Can we confirm if anti-CCP is indeed negative based on the provided snippet?",
+      "Is DMARD treatment sufficient for RA+ labeling, considering the mixed RF results?"
+    ],
+    "override_suggested": false,
+    "latency_ms": 19696
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "patient_id": "6",
+  "agent1_score": 4.5,
+  "agent2_score": 6,
+  "agent1_label": "RA+",
+  "agent2_label": "RA+",
+  "final_label": "RA+",
+  "decision_score": 1.75,
+  "confidence": "low",
+  "fusion_strategy": "agreement",
+  "conflicts_detected": [
+    "Ev0: no stay_id",
+    "Ev1: no stay_id",
+    "Ev2: no stay_id",
+    "Ev3: no stay_id",
+    "Ev6: no stay_id"
+  ],
+  "evidence_valid": false,
+  "justification": "Both agree, conf: high",
+  "explicability_score": {
+    "overall_confidence": 72.0,
+    "confidence_level": "MEDIUM",
+    "components": {
+      "agreement": 100.0,
+      "evidence_quality": 20.0,
+      "clinical_consistency": 100.0
+    },
+    "strategy": "agreement"
+  },
+  "llm_critic": {
+    "recommend_label": "RA+",
+    "confidence": 0.8,
+    "key_reasons": [
+      "Patient has positive RF (135 UI/mL).",
+      "Patient is on a biologic DMARD (adalimumab).",
+      "ACR-EULAR score cannot be determined from the provided data, but given the positive RF and the fact that the patient is on a biologic DMARD, it can be reasonably concluded.",
+      "The diagnosis was confirmed in the clinical notes."
+    ],
+    "red_flags": [
+      "RF only test result is provided, which may not fully reflect the full picture. However, no alternative explanations were found for this case.",
+      "ACR-EULAR score is missing from the data provided.",
+      "Alternative diagnoses are mentioned but lack supporting evidence (osteoarthritis or bursitis)."
+    ],
+    "questions_for_human": [
+      "Is there any other serological test result besides RF? If negative anti-CCP, it might support RA−."
+    ],
+    "override_suggested": false,
+    "latency_ms": 15962
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "patient_id": "0009",
+  "agent1_score": 2.0,
+  "agent2_score": 7,
+  "agent1_label": "RA−",
+  "agent2_label": "RA+",
+  "final_label": "RA+",
+  "decision_score": 5.5,
+  "confidence": "medium",
+  "fusion_strategy": "agent2_strong",
+  "conflicts_detected": [],
+  "evidence_valid": true,
+  "justification": "Agent 2 highly confident (ACR-EULAR score 7/10)",
+  "explicability_score": {
+    "overall_confidence": 70.0,
+    "components": {
+      "agreement": {
+        "score": 25.0,
+        "agent1_label": "RA−",
+        "agent2_label": "RA+",
+        "interpretation": "Significant disagreement - conflicting assessments"
+      },
+      "evidence_quality": {
+        "score": 100.0,
+        "issues": [],
+        "interpretation": "Excellent - All evidence fully traced and validated"
+      },
+      "clinical_consistency": {
+        "score": 100.0,
+        "factors": [],
+        "interpretation": "Excellent - Classification fully consistent with clinical data"
+      }
+    },
+    "reasoning_breakdown": [
+      "1. Agent Agreement: 25% - Significant disagreement - conflicting assessments",
+      "2. Evidence Quality: 100% - Excellent - All evidence fully traced and validated",
+      "3. Clinical Consistency: 100% - Excellent - Classification fully consistent with clinical data",
+      "4. Fusion Strategy: agent2_strong",
+      "5. Final Decision: RA+ with 70% confidence"
+    ],
+    "risk_factors": [
+      "⚠ Agents disagree: RA− vs RA+"
+    ],
+    "strengths": [
+      "✓ All evidence properly traced and validated"
+    ],
+    "confidence_level": "MEDIUM",
+    "recommendation": "Medium confidence - Consider additional clinical review"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "patient_id": "0008",
+  "agent1_score": 7.5,
+  "agent2_score": 10,
+  "agent1_label": "RA+",
+  "agent2_label": "RA+",
+  "final_label": "RA+",
+  "decision_score": 5.75,
+  "confidence": "low",
+  "fusion_strategy": "agent2_strong",
+  "conflicts_detected": [
+    "Evidence 0: stay_id is empty",
+    "Evidence 2: stay_id is empty",
+    "Evidence 7: stay_id is empty",
+    "Evidence 8: stay_id is empty",
+    "Evidence 9: stay_id is empty",
+    "Evidence 11: stay_id is empty",
+    "Evidence 12: stay_id is empty"
+  ],
+  "evidence_valid": false,
+  "justification": "Agent 2 highly confident (ACR-EULAR score 10/10)",
+  "explicability_score": {
+    "overall_confidence": 72.0,
+    "components": {
+      "agreement": {
+        "score": 100.0,
+        "agent1_label": "RA+",
+        "agent2_label": "RA+",
+        "interpretation": "Perfect agreement between agents"
+      },
+      "evidence_quality": {
+        "score": 20.0,
+        "issues": [
+          "Missing or invalid evidence IDs (stay_id, line_no)",
+          "Evidence 0: stay_id is empty",
+          "Evidence 2: stay_id is empty",
+          "Evidence 7: stay_id is empty"
+        ],
+        "interpretation": "Poor - Significant evidence quality concerns"
+      },
+      "clinical_consistency": {
+        "score": 100.0,
+        "factors": [
+          "✓ Strong clinical picture: Positive serology + DMARD treatment"
+        ],
+        "interpretation": "Excellent - Classification fully consistent with clinical data"
+      }
+    },
+    "reasoning_breakdown": [
+      "1. Agent Agreement: 100% - Perfect agreement between agents",
+      "2. Evidence Quality: 20% - Poor - Significant evidence quality concerns",
+      "3. Clinical Consistency: 100% - Excellent - Classification fully consistent with clinical data",
+      "4. Fusion Strategy: agent2_strong",
+      "5. Final Decision: RA+ with 72% confidence"
+    ],
+    "risk_factors": [
+      "⚠ Evidence traceability issues detected",
+      "⚠ Evidence 0: stay_id is empty",
+      "⚠ Evidence 2: stay_id is empty",
+      "⚠ Evidence 7: stay_id is empty"
+    ],
+    "strengths": [
+      "✓ Both agents agree on classification",
+      "✓ Both agents highly confident",
+      "✓ Clinical coherence: serology + treatment align"
+    ],
+    "confidence_level": "MEDIUM",
+    "recommendation": "Medium confidence - Consider additional clinical review"
+  }
+}

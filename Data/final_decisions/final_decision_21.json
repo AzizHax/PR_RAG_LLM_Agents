@@ -1,0 +1,50 @@
+{
+  "patient_id": "21",
+  "agent1_score": 0.0,
+  "agent2_score": 4,
+  "agent1_label": "RA−",
+  "agent2_label": "RA−",
+  "final_label": "RA−",
+  "decision_score": 10.0,
+  "confidence": "low",
+  "fusion_strategy": "agreement",
+  "conflicts_detected": [
+    "Ev0: no stay_id",
+    "Ev1: no stay_id",
+    "Ev2: no stay_id",
+    "Ev5: no stay_id",
+    "Ev6: no stay_id",
+    "crp: positive & negative found",
+    "rf: positive & negative found"
+  ],
+  "evidence_valid": false,
+  "justification": "Both agree, conf: medium",
+  "explicability_score": {
+    "overall_confidence": 67.0,
+    "confidence_level": "MEDIUM",
+    "components": {
+      "agreement": 100.0,
+      "evidence_quality": 20.0,
+      "clinical_consistency": 80.0
+    },
+    "strategy": "agreement"
+  },
+  "llm_critic": {
+    "recommend_label": "RA−",
+    "confidence": 0.45,
+    "key_reasons": [
+      "RF positive (87 UI/mL) but not consistently positive across visits.",
+      "Anti-CCP negative and no history of DMARD use.",
+      "Diagnosis negated or excluded in the clinical summary."
+    ],
+    "red_flags": [
+      "Missing key serology data and treatment information from multiple visits."
+    ],
+    "questions_for_human": [
+      "Is there any additional serology result available for consistent RF positivity?",
+      "Are there clear exclusion criteria mentioned that might indicate a negative RA diagnosis?"
+    ],
+    "override_suggested": false,
+    "latency_ms": 13100
+  }
+}

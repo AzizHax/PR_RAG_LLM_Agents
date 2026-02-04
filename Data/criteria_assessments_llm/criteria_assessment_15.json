@@ -1,0 +1,188 @@
+{
+  "component_scores": {
+    "joint_involvement": {
+      "score": 3,
+      "justification": "Based on the mention of multiple small joints (PIPs, MTPs, thumb IPs) and large joint involvement (elbows, knees)."
+    },
+    "serology": {
+      "score": 3,
+      "justification": "Both RF and anti-CCP are positive with high-positive values."
+    },
+    "acute_phase": {
+      "score": 1,
+      "justification": "CRP is abnormal with a value of 114 mg/L which is >10 mg/L threshold."
+    },
+    "duration": {
+      "score": 0,
+      "justification": "No mention of duration or chronicity issues."
+    }
+  },
+  "acr_eular_total": 7,
+  "treatment_context": {
+    "has_dmard": true,
+    "treatment_strength": "strong",
+    "justification": "Presence of methotrexate (csDMARD) and tocilizumab (bDMARD) provide strong evidence for established RA."
+  },
+  "final_label": "RA+",
+  "classification_rationale": "The patient meets the ACR/EULAR criteria for Rheumatoid Arthritis as evidenced by high-positive serology scores, a positive acute-phase reactant (CRP), and presence of DMARDs. The total score of 7 corresponds to RA+, with treatment providing strong evidence.",
+  "confidence": "high",
+  "patient_id": "15",
+  "agent": "Agent2_v3_RAG_Guidelines",
+  "rag_guidelines": {
+    "query": "serology RF rheumatoid factor thresholds serology anti-CCP ACPA thresholds acute phase CRP inflammation thresholds acute phase ESR VHS inflammation thresholds joint involvement polyarthritis small joints MCPs PIPs treatment DMARD methotrexate treatment biologic anti-TNF ACR EULAR classification criteria interpretation scoring",
+    "sections_retrieved": [
+      "serology",
+      "acute_phase_reactants",
+      "treatment_context",
+      "joint_involvement"
+    ],
+    "relevance_scores": [
+      13.437418455637742,
+      12.564144450970117,
+      9.69595904469911,
+      8.092676749040749
+    ]
+  },
+  "guideline_citation": "Aletaha D, et al. Arthritis Rheum. 2010;62(9):2569-2581",
+  "evidence_trace": [
+    {
+      "type": "disease_mention",
+      "stay_id": "007",
+      "line_no": "007",
+      "snippet": "Diagnostic : polyarthrite rhumatoïde confirmée."
+    },
+    {
+      "type": "disease_mention",
+      "stay_id": null,
+      "line_no": 0,
+      "snippet": "Antécédents : polyarthrite rhumatoïde depuis 2017, traitée par tocilizumab."
+    },
+    {
+      "type": "disease_mention",
+      "stay_id": "007",
+      "line_no": "007",
+      "snippet": "Diagnostic : polyarthrite rhumatoïde confirmée."
+    },
+    {
+      "type": "disease_mention",
+      "stay_id": null,
+      "line_no": 0,
+      "snippet": "Antécédents : polyarthrite rhumatoïde depuis 2017, traitée par tocilizumab."
+    },
+    {
+      "type": "disease_mention",
+      "stay_id": "S0029",
+      "line_no": 7,
+      "snippet": "Diagnostic : polyarthrite rhumatoïde confirmée."
+    },
+    {
+      "type": "disease_mention",
+      "stay_id": "S0030",
+      "line_no": 1,
+      "snippet": "Antécédents : polyarthrite rhumatoïde depuis 2017, traitée par tocilizumab."
+    },
+    {
+      "type": "lab",
+      "test": "RF (Rheumatoid Factor)",
+      "stay_id": "004",
+      "line_no": "004",
+      "snippet": "RF : positif (110 UI/mL)."
+    },
+    {
+      "type": "lab",
+      "test": "anti-CCP / ACPA (Anti-Citrullin Antibodies)",
+      "stay_id": "005",
+      "line_no": "005",
+      "snippet": "anti-CCP : positif (35 U/mL)."
+    },
+    {
+      "type": "lab",
+      "test": "CRP (C-Reactive Protein)",
+      "stay_id": "003",
+      "line_no": "003",
+      "snippet": "Laboratoire (J1) : CRP 34 mg/L, VHS 55 mm/h, NFS normale."
+    },
+    {
+      "type": "lab",
+      "test": "CRP",
+      "stay_id": "S0029",
+      "line_no": 3,
+      "snippet": "Laboratoire (J1) : CRP 34 mg/L, VHS 55 mm/h, NFS normale."
+    },
+    {
+      "type": "lab",
+      "test": "CRP",
+      "stay_id": null,
+      "line_no": 0,
+      "snippet": "Laboratoire (J1) : CRP 82 mg/L"
+    },
+    {
+      "type": "lab",
+      "test": "VHS",
+      "stay_id": "S0029",
+      "line_no": 3,
+      "snippet": "Laboratoire (J1) : CRP 34 mg/L, VHS 55 mm/h, NFS normale."
+    },
+    {
+      "type": "lab",
+      "test": "RF",
+      "stay_id": "S0029",
+      "line_no": 4,
+      "snippet": "RF : positif (110 UI/mL)."
+    },
+    {
+      "type": "lab",
+      "test": "RF",
+      "stay_id": null,
+      "line_no": 0,
+      "snippet": "Laboratoire (J1) : CRP 82 mg/L"
+    },
+    {
+      "type": "lab",
+      "test": "anti-CCP",
+      "stay_id": "S0029",
+      "line_no": 5,
+      "snippet": "anti-CCP : positif (35 U/mL)."
+    },
+    {
+      "type": "lab",
+      "test": "anti-CCP",
+      "stay_id": null,
+      "line_no": 0,
+      "snippet": "Laboratoire (J1) : CRP 82 mg/L"
+    },
+    {
+      "type": "lab",
+      "test": "leucocytes",
+      "stay_id": null,
+      "line_no": 0,
+      "snippet": "Laboratoire (J1) : CRP 82 mg/L"
+    },
+    {
+      "type": "drug",
+      "name": "methotrexate",
+      "stay_id": "008",
+      "line_no": "008",
+      "snippet": "Prise en charge : début de méthotrexate 15 mg/semaine + acide folique 5 mg/j."
+    },
+    {
+      "type": "drug",
+      "name": "tocilizumab",
+      "stay_id": null,
+      "line_no": 0,
+      "snippet": "Antécédents : polyarthrite rhumatoïde depuis 2017, traitée par tocilizumab."
+    }
+  ],
+  "component_scores_det": {
+    "joint_involvement": 0,
+    "serology": 3,
+    "acute_phase": 1,
+    "duration": 1
+  },
+  "acr_eular_total_det": 5,
+  "det_label": "RA+",
+  "has_dmard_det": true,
+  "has_biologic_or_jak_det": true,
+  "llm_vs_det_disagree": false,
+  "override_applied": false
+}

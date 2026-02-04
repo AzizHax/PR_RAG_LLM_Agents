@@ -1,0 +1,26 @@
+patient_id,annotation_label,corpus_evidence_label,evidence_tags,evidence_confidence,status,comment
+1,1,1,"ra_confirmed,rf+_and_ccp+",high,ok,PR confirmée (diagnostic explicite et traitement csDMARD avec évolution cohérente).
+10,1,1,"ra_confirmed,biologic_or_jak,rf+_and_ccp+",high,ok,"PR confirmée (biothérapie adalimumab, contexte clinique et/ou sérologies compatibles)."
+11,1,1,"ra_confirmed,biologic_or_jak",high,ok,"PR confirmée (biothérapie abatacept, contexte clinique et/ou sérologies compatibles)."
+12,1,1,"ra_confirmed,rf+_and_ccp+",high,ok,PR confirmée (diagnostic explicite et traitement csDMARD avec évolution cohérente).
+13,1,1,"ra_confirmed,biologic_or_jak,rf+_and_ccp+",high,ok,"PR confirmée (biothérapie rituximab, contexte clinique et/ou sérologies compatibles)."
+14,1,1,"ra_confirmed,biologic_or_jak",high,ok,"PR confirmée (biothérapie rituximab, contexte clinique et/ou sérologies compatibles)."
+15,1,1,"ra_confirmed,biologic_or_jak,rf+_and_ccp+",high,ok,"PR confirmée (biothérapie tocilizumab, contexte clinique et/ou sérologies compatibles)."
+16,0,0,ra_negated,high,ok,"PR écartée (bursite dominant, sérologies négatives, pas de synovite persistante)."
+17,0,0,ra_negated,high,ok,"PR écartée (arthrose dominant, sérologies négatives, pas de synovite persistante)."
+18,0,0,ra_negated,high,ok,"PR écartée (lombalgie mécanique dominant, sérologies négatives, pas de synovite persistante)."
+19,0,0,ra_negated,high,ok,"PR écartée (arthrose dominant, sérologies négatives, pas de synovite persistante)."
+2,1,1,"ra_confirmed,biologic_or_jak,rf+_and_ccp+",high,ok,"PR confirmée (biothérapie tocilizumab, contexte clinique et/ou sérologies compatibles)."
+20,0,0,ra_negated,high,ok,"PR écartée (tendinopathie dominant, sérologies négatives, pas de synovite persistante)."
+21,0,0,ra_negated,high,ok,"PR écartée (lombalgie mécanique dominant, sérologies négatives, pas de synovite persistante)."
+22,0,0,ra_negated,high,ok,"PR écartée (arthrose dominant, sérologies négatives, pas de synovite persistante)."
+23,0,0,ra_negated,high,ok,"PR écartée (arthrose dominant, sérologies négatives, pas de synovite persistante)."
+24,0,0,ra_negated,high,ok,"PR écartée (tendinopathie dominant, sérologies négatives, pas de synovite persistante)."
+25,0,0,ra_negated,high,ok,"PR écartée (bursite dominant, sérologies négatives, pas de synovite persistante)."
+3,1,1,"ra_confirmed,biologic_or_jak,rf+_and_ccp+",high,ok,"PR confirmée (biothérapie adalimumab, contexte clinique et/ou sérologies compatibles)."
+4,1,1,ra_confirmed,high,ok,PR confirmée (diagnostic explicite et traitement csDMARD avec évolution cohérente).
+5,1,1,"ra_confirmed,rf+_and_ccp+",high,ok,PR confirmée (diagnostic explicite et traitement csDMARD avec évolution cohérente).
+6,1,1,"ra_confirmed,biologic_or_jak",high,ok,"PR confirmée (biothérapie adalimumab, contexte clinique et/ou sérologies compatibles)."
+7,1,1,"ra_confirmed,biologic_or_jak",high,ok,"PR confirmée (biothérapie etanercept, contexte clinique et/ou sérologies compatibles)."
+8,1,1,"ra_confirmed,rf+_and_ccp+",high,ok,PR confirmée (diagnostic explicite et traitement csDMARD avec évolution cohérente).
+9,1,1,ra_confirmed,high,ok,PR confirmée (diagnostic explicite et traitement csDMARD avec évolution cohérente).

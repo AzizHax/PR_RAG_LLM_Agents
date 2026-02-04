@@ -1,0 +1,26 @@
+patient_id,gt_label,agent1_pred,agent1_score,risk_priority,notes
+0001,1,0,1.0,HIGH,swap? best=0015 score=1.0 self= | agent1_vs_gt_mismatch
+0002,1,1,11.0,HIGH,swap? best=0015 score=0.9 self=
+0003,0,1,4.0,HIGH,agent1_vs_gt_mismatch
+0004,0,1,10.0,HIGH,agent1_vs_gt_mismatch
+0005,0,1,9.0,HIGH,agent1_vs_gt_mismatch
+0006,0,1,9.0,HIGH,swap? best=0005 score=0.775 self= | agent1_vs_gt_mismatch
+0007,1,1,8.0,HIGH,swap? best=0012 score=0.875 self=
+0008,1,1,12.0,LOW,
+0009,1,0,-2.0,HIGH,swap? best=0012 score=0.9 self= | agent1_vs_gt_mismatch
+0010,1,0,-3.0,HIGH,agent1_vs_gt_mismatch
+0011,0,1,4.0,HIGH,agent1_vs_gt_mismatch
+0012,1,1,7.0,LOW,
+0013,1,0,2.0,HIGH,swap? best=0012 score=0.85 self= | agent1_vs_gt_mismatch
+0014,0,0,-1.0,LOW,
+0015,1,0,1.0,HIGH,agent1_vs_gt_mismatch
+0016,1,1,5.0,HIGH,swap? best=0009 score=0.825 self=
+0017,0,0,2.0,HIGH,swap? best=0003 score=0.775 self=
+0018,1,0,1.0,HIGH,agent1_vs_gt_mismatch
+0019,1,1,10.0,HIGH,swap? best=0012 score=0.85 self=
+0020,0,0,0.0,HIGH,swap? best=0003 score=0.775 self=
+0021,1,1,5.0,HIGH,swap? best=0009 score=0.825 self=
+0022,0,1,4.0,HIGH,swap? best=0003 score=0.775 self= | agent1_vs_gt_mismatch
+0023,1,1,9.0,HIGH,swap? best=0012 score=0.95 self=
+0024,1,0,2.0,HIGH,swap? best=0012 score=0.85 self= | agent1_vs_gt_mismatch
+0025,0,0,2.0,HIGH,swap? best=0003 score=0.775 self=

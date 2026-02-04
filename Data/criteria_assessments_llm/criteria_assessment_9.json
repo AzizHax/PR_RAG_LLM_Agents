@@ -1,0 +1,108 @@
+{
+  "component_scores": {
+    "joint_involvement": {
+      "score": 5,
+      "justification": "10 large joints and at least 3 small joints (MCPs, PIPs, 2nd-5th MTPs) involved"
+    },
+    "serology": {
+      "score": 2,
+      "justification": "High-positive RF: >60 UI/mL (>3× ULN)"
+    },
+    "acute_phase": {
+      "score": 1,
+      "justification": "CRP abnormal: CRP value is positive and above the threshold of 10 mg/L"
+    },
+    "duration": {
+      "score": 0,
+      "justification": "No specific duration criteria mentioned"
+    }
+  },
+  "acr_eular_total": 8,
+  "treatment_context": {
+    "has_dmard": true,
+    "treatment_strength": "strong",
+    "justification": "Presence of methotrexate (csDMARD)"
+  },
+  "final_label": "RA+",
+  "classification_rationale": "Based on the provided facts, the patient has a total score of 8 out of 9 under ACR/EULAR criteria. The presence of high-positive RF and positive CRP indicate active inflammation. Additionally, methotrexate is a conventional synthetic DMARD (csDMARD) which provides strong evidence for RA. Therefore, the final label is 'RA+' with moderate confidence.",
+  "confidence": "high",
+  "patient_id": "9",
+  "agent": "Agent2_v3_RAG_Guidelines",
+  "rag_guidelines": {
+    "query": "serology RF rheumatoid factor thresholds serology anti-CCP ACPA thresholds acute phase CRP inflammation thresholds acute phase ESR VHS inflammation thresholds joint involvement polyarthritis small joints MCPs PIPs treatment DMARD methotrexate ACR EULAR classification criteria interpretation scoring",
+    "sections_retrieved": [
+      "serology",
+      "acute_phase_reactants",
+      "joint_involvement",
+      "treatment_context"
+    ],
+    "relevance_scores": [
+      13.437418455637742,
+      12.564144450970117,
+      8.092676749040749,
+      5.153478439892983
+    ]
+  },
+  "guideline_citation": "Aletaha D, et al. Arthritis Rheum. 2010;62(9):2569-2581",
+  "evidence_trace": [
+    {
+      "type": "disease_mention",
+      "stay_id": "S0017",
+      "line_no": 7,
+      "snippet": "Diagnostic : polyarthrite rhumatoïde confirmée."
+    },
+    {
+      "type": "disease_mention",
+      "stay_id": "S0017",
+      "line_no": 7,
+      "snippet": "Diagnostic : polyarthrite rhumatoïde confirmée."
+    },
+    {
+      "type": "lab",
+      "test": "CRP",
+      "stay_id": "S0017",
+      "line_no": 3,
+      "snippet": "Laboratoire (J1) : CRP 51 mg/L, VHS 85 mm/h, NFS normale."
+    },
+    {
+      "type": "lab",
+      "test": "VHS",
+      "stay_id": "S0017",
+      "line_no": 3,
+      "snippet": "Laboratoire (J1) : CRP 51 mg/L, VHS 85 mm/h, NFS normale."
+    },
+    {
+      "type": "lab",
+      "test": "RF",
+      "stay_id": "S0017",
+      "line_no": 4,
+      "snippet": "RF : positif (91 UI/mL)."
+    },
+    {
+      "type": "lab",
+      "test": "anti-CCP",
+      "stay_id": "S0017",
+      "line_no": 5,
+      "snippet": "anti-CCP : négatif (<5 U/mL)."
+    },
+    {
+      "type": "drug",
+      "name": "methotrexate",
+      "stay_id": "S0017",
+      "line_no": 8,
+      "snippet": "Prise en charge : début de méthotrexate 20 mg/semaine + acide folique 5 mg/j."
+    }
+  ],
+  "component_scores_det": {
+    "joint_involvement": 0,
+    "serology": 2,
+    "acute_phase": 1,
+    "duration": 1
+  },
+  "acr_eular_total_det": 4,
+  "det_label": "RA−",
+  "has_dmard_det": true,
+  "has_biologic_or_jak_det": false,
+  "llm_vs_det_disagree": true,
+  "override_applied": false
+}

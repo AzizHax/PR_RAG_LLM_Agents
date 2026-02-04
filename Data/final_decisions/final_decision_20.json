@@ -1,0 +1,48 @@
+{
+  "patient_id": "20",
+  "agent1_score": 0.0,
+  "agent2_score": 1,
+  "agent1_label": "RA−",
+  "agent2_label": "RA−",
+  "final_label": "RA−",
+  "decision_score": 10.0,
+  "confidence": "low",
+  "fusion_strategy": "agreement",
+  "conflicts_detected": [
+    "Ev0: no stay_id",
+    "Ev1: no stay_id",
+    "Ev2: no stay_id",
+    "Ev3: no stay_id",
+    "Ev6: no stay_id"
+  ],
+  "evidence_valid": false,
+  "justification": "Both agree, conf: medium",
+  "explicability_score": {
+    "overall_confidence": 67.0,
+    "confidence_level": "MEDIUM",
+    "components": {
+      "agreement": 100.0,
+      "evidence_quality": 20.0,
+      "clinical_consistency": 80.0
+    },
+    "strategy": "agreement"
+  },
+  "llm_critic": {
+    "recommend_label": "RA−",
+    "confidence": 0.95,
+    "key_reasons": [
+      "RF and anti-CCP are both negative (RF: negative, CCP: negative).",
+      "The patient is not on any DMARD or biologic treatment.",
+      "The ACR-EULAR score could not be calculated as there is no information about the clinical support for an EULAR score.",
+      "The clinical mentions in the case notes state that polyarthrite rhumatoïde is negated, and the alternative diagnosis of tendinopathy was mentioned."
+    ],
+    "red_flags": [
+      "Conflicting evidence within the patient's current stay but not across all stays (e.g., RF negative vs. positive in different notes)."
+    ],
+    "questions_for_human": [
+      "Is there any missing clinical data that could clarify the situation?"
+    ],
+    "override_suggested": false,
+    "latency_ms": 14890
+  }
+}

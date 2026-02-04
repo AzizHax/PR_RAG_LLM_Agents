@@ -1,0 +1,50 @@
+{
+  "patient_id": "0018",
+  "agent1_score": 3.5,
+  "agent2_score": 6,
+  "agent1_label": "RA−",
+  "agent2_label": "RA+",
+  "final_label": "RA+",
+  "decision_score": 5.25,
+  "confidence": "low",
+  "fusion_strategy": "agent2_dmard",
+  "conflicts_detected": [],
+  "evidence_valid": true,
+  "justification": "Agent 2 borderline (6/10) but strong DMARD evidence",
+  "explicability_score": {
+    "overall_confidence": 85.0,
+    "components": {
+      "agreement": {
+        "score": 62.5,
+        "agent1_label": "RA−",
+        "agent2_label": "RA+",
+        "interpretation": "Moderate disagreement between agents"
+      },
+      "evidence_quality": {
+        "score": 100.0,
+        "issues": [],
+        "interpretation": "Excellent - All evidence fully traced and validated"
+      },
+      "clinical_consistency": {
+        "score": 100.0,
+        "factors": [],
+        "interpretation": "Excellent - Classification fully consistent with clinical data"
+      }
+    },
+    "reasoning_breakdown": [
+      "1. Agent Agreement: 62% - Moderate disagreement between agents",
+      "2. Evidence Quality: 100% - Excellent - All evidence fully traced and validated",
+      "3. Clinical Consistency: 100% - Excellent - Classification fully consistent with clinical data",
+      "4. Fusion Strategy: agent2_dmard",
+      "5. Final Decision: RA+ with 85% confidence"
+    ],
+    "risk_factors": [
+      "⚠ Agents disagree: RA− vs RA+"
+    ],
+    "strengths": [
+      "✓ All evidence properly traced and validated"
+    ],
+    "confidence_level": "HIGH",
+    "recommendation": "High confidence - Decision reliable for clinical use"
+  }
+}

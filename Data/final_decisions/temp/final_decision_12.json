@@ -1,0 +1,31 @@
+{
+  "patient_id": "12",
+  "agent1_score": 4.5,
+  "agent2_score": 6,
+  "agent1_label": "RA−",
+  "agent2_label": "RA+",
+  "final_label": "RA+",
+  "decision_score": 2.05,
+  "confidence": "low",
+  "fusion_strategy": "agent2_dmard",
+  "conflicts_detected": [
+    "Ev0: no stay_id",
+    "Ev1: no stay_id",
+    "Ev2: no stay_id",
+    "Ev4: no stay_id",
+    "Ev5: no stay_id"
+  ],
+  "evidence_valid": false,
+  "justification": "Agent 2 borderline + DMARD",
+  "explicability_score": {
+    "overall_confidence": 63.0,
+    "confidence_level": "MEDIUM",
+    "components": {
+      "agreement": 77.5,
+      "evidence_quality": 20.0,
+      "clinical_consistency": 100.0
+    },
+    "strategy": "agent2_dmard"
+  },
+  "llm_critic": null
+}

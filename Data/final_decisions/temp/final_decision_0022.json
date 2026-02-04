@@ -1,0 +1,71 @@
+{
+  "patient_id": "0022",
+  "agent1_score": 2.5,
+  "agent2_score": 9,
+  "agent1_label": "RA−",
+  "agent2_label": "RA+",
+  "final_label": "RA+",
+  "decision_score": 3.55,
+  "confidence": "low",
+  "fusion_strategy": "agent2_strong",
+  "conflicts_detected": [
+    "Evidence 0: stay_id is empty",
+    "Evidence 1: stay_id is empty",
+    "Evidence 4: stay_id is empty",
+    "Evidence 5: stay_id is empty",
+    "Evidence 6: stay_id is empty",
+    "Evidence 7: stay_id is empty",
+    "Evidence 8: stay_id is empty",
+    "Evidence 9: stay_id is empty",
+    "Evidence 10: stay_id is empty"
+  ],
+  "evidence_valid": false,
+  "justification": "Agent 2 highly confident (ACR-EULAR score 9/10)",
+  "explicability_score": {
+    "overall_confidence": 33.0,
+    "components": {
+      "agreement": {
+        "score": 2.5,
+        "agent1_label": "RA−",
+        "agent2_label": "RA+",
+        "interpretation": "Significant disagreement - conflicting assessments"
+      },
+      "evidence_quality": {
+        "score": 20.0,
+        "issues": [
+          "Missing or invalid evidence IDs (stay_id, line_no)",
+          "Evidence 0: stay_id is empty",
+          "Evidence 1: stay_id is empty",
+          "Evidence 4: stay_id is empty"
+        ],
+        "interpretation": "Poor - Significant evidence quality concerns"
+      },
+      "clinical_consistency": {
+        "score": 100.0,
+        "factors": [
+          "✓ Strong clinical picture: Positive serology + DMARD treatment"
+        ],
+        "interpretation": "Excellent - Classification fully consistent with clinical data"
+      }
+    },
+    "reasoning_breakdown": [
+      "1. Agent Agreement: 2% - Significant disagreement - conflicting assessments",
+      "2. Evidence Quality: 20% - Poor - Significant evidence quality concerns",
+      "3. Clinical Consistency: 100% - Excellent - Classification fully consistent with clinical data",
+      "4. Fusion Strategy: agent2_strong",
+      "5. Final Decision: RA+ with 33% confidence"
+    ],
+    "risk_factors": [
+      "⚠ Agents disagree: RA− vs RA+",
+      "⚠ Evidence traceability issues detected",
+      "⚠ Evidence 0: stay_id is empty",
+      "⚠ Evidence 1: stay_id is empty",
+      "⚠ Evidence 4: stay_id is empty"
+    ],
+    "strengths": [
+      "✓ Clinical coherence: serology + treatment align"
+    ],
+    "confidence_level": "LOW",
+    "recommendation": "Low confidence - Manual clinical validation recommended"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "patient_id": "18",
+  "agent1_score": 0.0,
+  "agent2_score": 3,
+  "agent1_label": "RA−",
+  "agent2_label": "RA−",
+  "final_label": "RA−",
+  "decision_score": 10.0,
+  "confidence": "low",
+  "fusion_strategy": "agreement",
+  "conflicts_detected": [
+    "Ev0: no stay_id",
+    "Ev1: no stay_id",
+    "Ev2: no stay_id",
+    "Ev5: no stay_id",
+    "Ev6: no stay_id",
+    "crp: positive & negative found"
+  ],
+  "evidence_valid": false,
+  "justification": "Both agree, conf: medium",
+  "explicability_score": {
+    "overall_confidence": 67.0,
+    "confidence_level": "MEDIUM",
+    "components": {
+      "agreement": 100.0,
+      "evidence_quality": 20.0,
+      "clinical_consistency": 80.0
+    },
+    "strategy": "agreement"
+  },
+  "llm_critic": {
+    "recommend_label": "abstain",
+    "confidence": 0.4,
+    "key_reasons": [
+      "No serology (RF and CCP-ACPA) is provided in the evidence snippets.",
+      "The patient mentions a negative RF and anti-CCP test result but no DMARD or biologic treatment information.",
+      "The diagnosis has been ruled out with no alternative diagnoses mentioned."
+    ],
+    "red_flags": [
+      "There are conflicting statements (e.g., mentions of lombalgie mécanique versus negated polyarthrite rhumatoïde).",
+      "Alternative diagnoses such as osteoarthritis or bursitis have not been ruled out.",
+      "The ACR-EULAR score and clinical support criteria are missing."
+    ],
+    "questions_for_human": [
+      "Is there any additional evidence regarding serology (RF, CCP-ACPA) from other sources?",
+      "Does the patient's history of alternative diagnoses need to be reviewed further?",
+      "Are there any recent radiological or imaging findings that could help in ruling out conditions like osteoarthritis?"
+    ],
+    "override_suggested": false,
+    "latency_ms": 16763
+  }
+}

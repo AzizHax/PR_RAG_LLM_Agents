@@ -1,0 +1,47 @@
+{
+  "patient_id": "12",
+  "agent1_score": 4.5,
+  "agent2_score": 6,
+  "agent1_label": "RA+",
+  "agent2_label": "RA+",
+  "final_label": "RA+",
+  "decision_score": 1.75,
+  "confidence": "low",
+  "fusion_strategy": "agreement",
+  "conflicts_detected": [
+    "Ev0: no stay_id",
+    "Ev1: no stay_id",
+    "Ev2: no stay_id",
+    "Ev4: no stay_id",
+    "Ev5: no stay_id"
+  ],
+  "evidence_valid": false,
+  "justification": "Both agree, conf: high",
+  "explicability_score": {
+    "overall_confidence": 72.0,
+    "confidence_level": "MEDIUM",
+    "components": {
+      "agreement": 100.0,
+      "evidence_quality": 20.0,
+      "clinical_consistency": 100.0
+    },
+    "strategy": "agreement"
+  },
+  "llm_critic": {
+    "recommend_label": "RA+",
+    "confidence": 0.95,
+    "key_reasons": [
+      "The patient has RF (positive) and CCP/ACPA (positive), which are both RA+ signals.",
+      "Patient is on DMARD therapy with methotrexate, another RA+ signal.",
+      "There is a confirmed diagnosis of polyarthrite rhumatoïde in the clinical summary."
+    ],
+    "red_flags": [
+      "The alternative diagnosis 'osteoarthritis' or 'bursitis' is not mentioned in the provided evidence snippets. "
+    ],
+    "questions_for_human": [
+      "Is there any conflicting information regarding the diagnosis of polyarthrite rhumatoïde? (e.g., any mention of osteoarthritis/bursitis)"
+    ],
+    "override_suggested": false,
+    "latency_ms": 13666
+  }
+}

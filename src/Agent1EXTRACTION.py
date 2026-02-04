@@ -455,10 +455,31 @@ Extract the following information in strict JSON format:
 
 2. **labs**: Array of lab results with:
    - test: test name (e.g., "RF", "anti-CCP", "CRP")
-   - value: numeric value or "positive"/"negative"
+   - value: numeric value (e.g., "87 UI/mL")
    - unit: if applicable
    - polarity: "positive" | "negative" | "unknown"
    - evidence: {{ stay_id, line_no, snippet }}
+
+   **IMPORTANT - Polarity extraction:**
+   
+   For EACH lab test, extract the polarity carefully:
+   
+   - **RF (Rheumatoid Factor):**
+     - "RF : positif (87 UI/mL)" → polarity: "positive"
+     - "RF : négatif (18 UI/mL)" → polarity: "negative"
+     - Threshold: > 20 UI/mL = positive
+   
+   - **Anti-CCP / ACPA:**
+     - "anti-CCP : positif (67 U/mL)" → polarity: "positive"
+     - "anti-CCP : négatif (<5 U/mL)" → polarity: "negative"
+     - Threshold: > 10 U/mL = positive
+   
+   - **CRP:**
+     - "CRP 114 mg/L" → polarity: "positive" (if > 10 mg/L)
+     - "CRP 2 mg/L" → polarity: "negative" (if ≤ 10 mg/L)
+   
+   - Look for keywords: "positif", "négatif", "positive", "negative", "+", "−"
+   - Extract numeric value and use thresholds if polarity not explicit
 
 3. **drugs**: Array of medications with:
    - name: generic drug name
@@ -468,6 +489,7 @@ Extract the following information in strict JSON format:
 # CRITICAL RULES
 - snippet MUST be exact text from the numbered lines above
 - line_no MUST match the line number (001, 002, etc.)
+- For labs, ALWAYS try to extract polarity (don't use "unknown" unless really no info)
 - If no information found, return empty arrays []
 - DO NOT hallucinate or invent information
 
@@ -590,10 +612,21 @@ class RegexFallback:
     ]
     
     LAB_PATTERNS = [
-        (r'\b(RF|facteur\s+rhumatoïde)\s*(positif|positive|\+)', 'RF', 'positive'),
-        (r'\b(RF|facteur\s+rhumatoïde)\s*(négatif|negative|-)', 'RF', 'negative'),
-        (r'\banti[- ]?CCP\s*(positif|positive|\+)', 'anti-CCP', 'positive'),
-        (r'\banti[- ]?CCP\s*(négatif|negative|-)', 'anti-CCP', 'negative'),
+        # RF patterns - avec et sans deux-points, avec et sans espaces
+        (r'\b(RF|facteur\s+rhumatoïde)\s*:?\s*(positif|positive|\+|élevé)', 'RF', 'positive'),
+        (r'\b(RF|facteur\s+rhumatoïde)\s*:?\s*(négatif|negative|−|-|<)', 'RF', 'negative'),
+        
+        # Anti-CCP patterns - améliorés
+        (r'\banti[- ]?CCP\s*:?\s*(positif|positive|\+|>?\s*\d+)', 'anti-CCP', 'positive'),
+        (r'\banti[- ]?CCP\s*:?\s*(négatif|negative|−|-|<\s*\d+)', 'anti-CCP', 'negative'),
+        
+        # ACPA patterns
+        (r'\bACPA\s*:?\s*(positif|positive|\+)', 'anti-CCP', 'positive'),
+        (r'\bACPA\s*:?\s*(négatif|negative|−)', 'anti-CCP', 'negative'),
+        
+        # CRP patterns
+        (r'\bCRP\s*:?\s*(élevée?|augmentée?)', 'CRP', 'positive'),
+        (r'\bCRP\s*:?\s*(normale?|négative?)', 'CRP', 'negative'),
     ]
     
     DRUG_PATTERNS = [
@@ -629,7 +662,7 @@ class RegexFallback:
                         }
                     })
             
-            # Labs
+            # Labs - patterns with explicit polarity
             for pattern, test, polarity in cls.LAB_PATTERNS:
                 if re.search(pattern, text, re.IGNORECASE):
                     result['labs'].append({
@@ -641,6 +674,36 @@ class RegexFallback:
                             'snippet': text[:100]
                         }
                     })
+            
+            # Labs - CRP/VHS with numeric values (for later inference)
+            # Pattern: "CRP 24 mg/L" or "VHS 73 mm/h"
+            crp_match = re.search(r'\bCRP\s+(\d+\.?\d*)\s*mg/L', text, re.IGNORECASE)
+            if crp_match:
+                value = crp_match.group(1)
+                result['labs'].append({
+                    'test': 'CRP',
+                    'value': f"{value} mg/L",
+                    'polarity': 'unknown',  # Will be inferred in backfill
+                    'evidence': {
+                        'stay_id': stay_id,
+                        'line_no': line_no,
+                        'snippet': text[:100]
+                    }
+                })
+            
+            vhs_match = re.search(r'\bVHS\s+(\d+\.?\d*)\s*mm/h', text, re.IGNORECASE)
+            if vhs_match:
+                value = vhs_match.group(1)
+                result['labs'].append({
+                    'test': 'VHS',
+                    'value': f"{value} mm/h",
+                    'polarity': 'unknown',  # Will be inferred in backfill
+                    'evidence': {
+                        'stay_id': stay_id,
+                        'line_no': line_no,
+                        'snippet': text[:100]
+                    }
+                })
             
             # Drugs
             for pattern, drug, category in cls.DRUG_PATTERNS:
@@ -663,11 +726,69 @@ class RegexFallback:
 # ============================================================================
 
 class BackfillV3:
-    """Backfill extraction results with additional regex patterns"""
+    """Backfill extraction results with additional regex patterns + polarity inference"""
+    
+    @staticmethod
+    def _infer_polarity_from_value(test: str, value: Any, snippet: str) -> str:
+        """Infer polarity from numeric value or snippet context"""
+        
+        if not value and not snippet:
+            return "unknown"
+        
+        test_lower = test.lower()
+        
+        # RF: positive if > 20 UI/mL (standard threshold)
+        if 'rf' in test_lower or 'facteur rhumatoïde' in test_lower:
+            if value:
+                try:
+                    val_num = float(re.sub(r'[^\d.]', '', str(value)))
+                    return "positive" if val_num > 20 else "negative"
+                except:
+                    pass
+            # Check in snippet
+            if snippet:
+                if re.search(r'positif|positive|\+|élevé', snippet, re.I):
+                    return "positive"
+                if re.search(r'négatif|negative|−|<\s*20', snippet, re.I):
+                    return "negative"
+        
+        # Anti-CCP: positive if > 10 U/mL
+        if 'ccp' in test_lower or 'acpa' in test_lower:
+            if value:
+                try:
+                    val_num = float(re.sub(r'[^\d.]', '', str(value)))
+                    return "positive" if val_num > 10 else "negative"
+                except:
+                    pass
+            if snippet:
+                if re.search(r'positif|positive|\+|>?\s*\d+\s*U/mL', snippet, re.I):
+                    return "positive"
+                if re.search(r'négatif|negative|−|<\s*\d+', snippet, re.I):
+                    return "negative"
+        
+        # CRP: elevated if > 10 mg/L
+        if 'crp' in test_lower:
+            if value:
+                try:
+                    val_num = float(re.sub(r'[^\d.]', '', str(value)))
+                    return "positive" if val_num > 10 else "negative"
+                except:
+                    pass
+        
+        # VS/ESR: elevated if > 20 mm/h
+        if 'vs' in test_lower or 'esr' in test_lower or 'sédimentation' in test_lower:
+            if value:
+                try:
+                    val_num = float(re.sub(r'[^\d.]', '', str(value)))
+                    return "positive" if val_num > 20 else "negative"
+                except:
+                    pass
+        
+        return "unknown"
     
     @classmethod
     def backfill(cls, extracted: Dict[str, Any], numbered_lines: List[Tuple[int, str]], stay_id: str) -> Dict[str, Any]:
-        """Add missing entities via regex on numbered lines"""
+        """Add missing entities via regex + infer missing polarities"""
         
         # Get regex extraction
         regex_result = RegexFallback.extract_from_lines(numbered_lines, stay_id)
@@ -688,10 +809,30 @@ class BackfillV3:
                 result.setdefault('labs', []).append(lab)
         
         # Merge drugs
-        existing_drugs = {drug['name'].lower() for drug in result.get('drugs', [])}
+        existing_drugs = {(drug.get('name') or '').lower() for drug in result.get('drugs', [])}
         for drug in regex_result.get('drugs', []):
             if drug['name'].lower() not in existing_drugs:
                 result.setdefault('drugs', []).append(drug)
+        
+        # POST-PROCESS: Infer missing polarities
+        for lab in result.get('labs', []):
+            if lab.get('polarity') in ['unknown', None, '']:
+                # Try to infer from value or snippet
+                test = lab.get('test', '')
+                value = lab.get('value')
+                
+                # Get snippet from evidence
+                evidence = lab.get('evidence')
+                snippet = ""
+                if isinstance(evidence, dict):
+                    snippet = evidence.get('snippet', '')
+                elif isinstance(evidence, list) and evidence:
+                    snippet = evidence[0].get('snippet', '') if isinstance(evidence[0], dict) else ''
+                
+                inferred = cls._infer_polarity_from_value(test, value, snippet)
+                if inferred != "unknown":
+                    lab['polarity'] = inferred
+                    lab['_polarity_inferred'] = True  # Flag for traceability
         
         return result
 
@@ -895,6 +1036,85 @@ class PatientAggregator:
     """Aggregate stay-level facts to patient-level"""
     
     @staticmethod
+    @staticmethod
+    def _deduplicate_with_evidence_merge(entities: List[Dict], key_field: str) -> List[Dict]:
+        """
+        Deduplicate entities while preserving ALL evidences from multiple stays
+        
+        Args:
+            entities: List of entities (diseases, labs, or drugs)
+            key_field: Field to use as deduplication key ('entity', 'test', or 'name')
+        
+        Returns:
+            Deduplicated list with merged evidences
+        
+        IMPORTANT: For labs, we keep RF+ and RF− as SEPARATE entities
+        to preserve contradictory results across stays
+        """
+        seen = {}
+        deduplicated = []
+        
+        for entity in entities:
+            # Get the deduplication key
+            key_value = entity.get(key_field, '')
+            
+            # Create a unique key that includes key attributes
+            # For labs: include test + polarity to keep RF+ and RF− separate
+            if key_field == 'test':
+                polarity = entity.get('polarity') or ''  # Fix: handle None
+                polarity = polarity.lower()
+                # Unique key: test_polarity (e.g., "RF_positive", "RF_negative")
+                if polarity in ['positive', 'positif', 'negative', 'négatif', 'negatif']:
+                    unique_key = f"{key_value}_{polarity}"
+                else:
+                    unique_key = f"{key_value}_unknown"
+            else:
+                # For diseases and drugs, use just the key field
+                unique_key = key_value
+            
+            if not unique_key or unique_key in ['_unknown', '']:
+                # Don't skip! Keep with unique fallback ID to preserve all entities
+                unique_key = f"{key_field}_unknown_{id(entity)}"
+            
+            if unique_key not in seen:
+                # First occurrence - add to list
+                entity_copy = entity.copy()
+                
+                # Convert evidence to list format for consistency
+                if 'evidence' in entity_copy:
+                    if isinstance(entity_copy['evidence'], dict):
+                        entity_copy['evidence'] = [entity_copy['evidence']]
+                    elif not isinstance(entity_copy['evidence'], list):
+                        entity_copy['evidence'] = []
+                else:
+                    entity_copy['evidence'] = []
+                
+                deduplicated.append(entity_copy)
+                seen[unique_key] = entity_copy
+            else:
+                # Duplicate found - merge evidence
+                existing = seen[unique_key]
+                new_evidence = entity.get('evidence')
+                
+                if new_evidence:
+                    # Ensure evidence is a list in existing entity
+                    if 'evidence' not in existing:
+                        existing['evidence'] = []
+                    elif not isinstance(existing['evidence'], list):
+                        existing['evidence'] = [existing['evidence']]
+                    
+                    # Add new evidence (avoid true duplicates)
+                    if isinstance(new_evidence, dict):
+                        # Only add if not already present
+                        if new_evidence not in existing['evidence']:
+                            existing['evidence'].append(new_evidence)
+                    elif isinstance(new_evidence, list):
+                        for ev in new_evidence:
+                            if ev not in existing['evidence']:
+                                existing['evidence'].append(ev)
+        
+        return deduplicated
+    
     def aggregate(stay_facts_path: str, output_path: str):
         """Aggregate stays by patient"""
         
@@ -930,10 +1150,16 @@ class PatientAggregator:
                 rag_scores_max.append(rag_meta.get('rag_score_max', 0.0))
                 rag_scores_sum.append(rag_meta.get('rag_score_sum_top3', 0.0))
             
-            # Deduplicate entities
-            unique_disease = list({json.dumps(d, sort_keys=True): d for d in all_disease}.values())
-            unique_labs = list({json.dumps(l, sort_keys=True): l for l in all_labs}.values())
-            unique_drugs = list({json.dumps(d, sort_keys=True): d for d in all_drugs}.values())
+            # Deduplicate entities while preserving ALL evidences (FIXED)
+            unique_disease = PatientAggregator._deduplicate_with_evidence_merge(
+                all_disease, key_field='entity'
+            )
+            unique_labs = PatientAggregator._deduplicate_with_evidence_merge(
+                all_labs, key_field='test'
+            )
+            unique_drugs = PatientAggregator._deduplicate_with_evidence_merge(
+                all_drugs, key_field='name'
+            )
             
             patient_facts.append({
                 'patient_id': patient_id,
@@ -954,6 +1180,7 @@ class PatientAggregator:
                 f.write(json.dumps(patient, ensure_ascii=False) + '\n')
         
         print(f"✓ Aggregated {len(patient_facts)} patients to {output_path}")
+        print(f"✓ Evidence preservation: RF+/RF− kept separate, all stay IDs preserved")
 
 
 # ============================================================================
